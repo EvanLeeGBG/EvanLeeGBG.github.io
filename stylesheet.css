@@ -1104,6 +1104,17 @@ p {
 	margin-top: .7em;
     margin-bottom: .7em;
 	}
+
+@media screen and (max-width: 750px){
+p {
+	font-family:Georgia,Book Antiqua,Palatino,times new roman,times,serif;
+	font-size: 1.2em;
+	line-height:1.5;
+	margin-top: .7em;
+    margin-bottom: .7em;
+	}
+	
+}
 	
 .lowerheader p {
 	font-family:Georgia,Book Antiqua,Palatino,times new roman,times,serif;
@@ -1127,6 +1138,13 @@ div.sans p {
 	line-height:1.3;
 	margin-top: .9em;
     margin-bottom: .9em;
+}
+@media screen and (max-width: 750px){
+	
+div.sans p {
+	font-size:1.1em;
+}	
+
 }
 
 p.georgia {
