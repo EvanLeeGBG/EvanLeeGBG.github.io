@@ -2337,13 +2337,13 @@ div.hideAbovemobile {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 380px) {
 div.hidemobile2 {
   display: none;
   }
 }
 
-@media screen and (min-width: 421px) {
+@media screen and (min-width: 381px) {
 div.hidemobile3 {
   display: none;
   }
