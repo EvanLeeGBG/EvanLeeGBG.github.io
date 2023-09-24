@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+My very first published work
+Also the beginning of the alliterative title gag
+
+The Gatepost
+Portfolio Page 
+Op/Ed Section
+
+Framingham State University
+-->
+
+<!-- Filepath ../../../ -->
+
+<head>
+
+	<title>Counterpoint Columbus - Op/Ed | The Gatepost - Oct. 19, 2018</title>
+
+	<!--CSS for website-->
+	<link rel="stylesheet" href="../../../stylesheet.css"/>
+	<!--Tab image-->
+	<link rel="shortcut icon" href="../../../images/logos/gbg/GBG_logo_MS.png" type="image/x-icon">
+	<!--Meta Structure-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Details-->
+	<meta name="description" content="Christopher Columbus has his own federal holiday, but should he? Originally published in The Gatepost, Op/Ed by Evan Lee, staff writer - October 19, 2018">
+	<meta name="author" content="Evan Lee">
+	<!--Meta OG Link Display-->
+	<meta property="og:title" content="Counterpoint Columbus - Op/Ed | The Gatepost - Oct. 19, 2018"/>
+	<meta property="og:url" content="#"/>
+	<meta property="og:type" content="blog"/>
+	<meta property="og:image" content="../../../images/folder_gatepost/img_op-ed/columbus_wrath.jpeg"/>
+	<meta property="og:description" content="Christopher Columbus has his own federal holiday, but should he? Originally published in The Gatepost, Op/Ed by Evan Lee, staff writer - October 19, 2018"/>
+	<meta property="og:site_name" content="The Greater Boston Graphite">
+	<meta name="twitter:card" content="summary_image_large">
+	<meta name="theme-color" content="#ffff8f">
+	
+	
+</head>
+
+<body onLoad="renderTime();"> 
+
+<!-- HEADER & PRIMARY NAVIGATION --> 
+
+<header>
+
+<!--Title-->
+
+	<table align ="center" width="95%">
+		<tr>
+			<td class="header"  align="left"> 
+				
+				<img class="header" src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; transform: rotate(270deg);">
+				
+			</td>
+		
+			<td class="header"  align="center">
+			
+			<img class="main" src="../../../images/logos/gbg/GBG_Title.png" alt="The Greater Boston Graphite"> </td>
+		
+			<td class="header"  align="right">
+		
+				<img  class="header"  src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; padding: 0; transform: rotate(90deg);">
+			
+			</td>
+		</tr>
+	</table>
+
+<!--DESKTOP NAV -->
+
+<nav class="horizontal">
+
+<a href="../../../index.html">
+<div class="dropdown">
+   <button class="dropbtn">Front Page</button>
+   <div class="dropdown-content">
+     <a style="display:none" class="drop" href="#"></a>
+   </div>
+</div>
+</a>
+
+<a href="../../../blog.html">
+<div class="dropdown">
+   <button class="dropbtn">Blog Posts</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../blogs/topics.html">By Topic</a>
+	 <a class="drop" href="../../../blogs/archive.html">Archive</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../about.html">
+<div class="dropdown">
+   <button class="dropbtn">About</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../about/contact.html">Contact</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../portfolio.html">
+<div class="dropdown">
+   <button class="dropbtn">Portfolio</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../portfolio/metrowest.html">MetroWest Daily</a>
+     <a class="drop" href="../../../portfolio/gatepost.html">The Gatepost</a>
+	 <a class="drop" href="../../../portfolio/academic.html">Academic</a>
+   </div>
+</div>
+</a>
+
+</nav>
+
+<!-- MOBILE NAV -->
+
+<div style="margin: auto;">
+<button  class="accordian"><h1>&#9776;</h1></button>
+	<div class="accordian_content">
+
+
+<nav>  
+
+    <ul class="menu">
+        <a href="../../../index.html"><li class="menu">Front Page</li></a>
+        <a href="../../../blog.html"><li class="menu">Blog Posts</li></a>
+		<a href="../../../about.html"><li class="menu">About</li></a>
+		<a href="../../../portfolio.html"><li class="menu_active">Portfolio</li></a>
+		<a href="../../../about/contact.html"><li class="menu">Contact</li></a>
+    </ul>
+
+</nav>
+		
+	</div>
+</div>
+
+
+<!-- LESSER HEADER -->
+
+<div class="lowerheader">
+
+    <div class="lhside">
+
+        <hr>
+		<div class="lhside2">
+		
+		<a href="../../../about/contact.html">
+		<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan Lee" title="hi" style="float:right;">
+		</a>
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Author:</b>
+		<br>
+		Evan Lee
+		<br>
+		<b>Contact:</b>
+		<br>
+		<a class="textlink2" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+		</p>
+		
+		</div>
+		<hr>
+		
+    </div>
+
+
+    <div class="lhmid">
+	
+	<div style="text-align:center; margin:0px; padding:18px 0px 0px 0px;" class="hidedesktop2">
+
+    <h3 style="margin:0; padding:0px 0px 5px 0px;"> A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog</h3>
+	<h3 style="margin:0; padding:0px 0px 5px 0px;"><i> =&nbsp;Est.&nbsp;2023&nbsp;= </i></h3>
+	
+	<!--Javascript Date-->
+	<div id="clockDisplay" class="container"></div> 
+    </div>
+		
+	
+	<div style="text-align:center;" class="hidedesktop">
+	
+	<table align ="center" width="100%">
+	<tr>
+	
+	<td class="header"  align="left"> 
+	
+	<div class="hidemobile4">
+	<a href="contact.html">
+	<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan" title="hi :)" style="float:right;">
+	</a>	
+	</td>
+    </div>
+	
+	<td class="header"  align="center">
+	
+	<div class="hidemobile2">
+	<h3 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h3>
+	</div>
+	
+	<div class="hidemobile3">
+	<h4 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h4>
+	</div>
+	
+    
+	</td>
+   
+	<td class="header"  align="right"> <div class="hidemobile"><img class="pfp2" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG" style="float:left;"></div> </td>
+	</tr>
+	</table>
+	
+    </div>
+	
+	
+	</div>
+	
+	
+    <div class="lhside">
+		
+		<hr>
+		<div class="lhside2">
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Follow me on social media:</b>
+		<br>
+		- Twitter:
+		<a class="textlink2" href="https://twitter.com/evanleenews" target="_blank">@EvanLeeNews</a> 
+		<br>
+		- Instagram:
+		<a class="textlink2" href="https://www.instagram.com/evanjslee/" target="_blank">@evanjslee</a> 
+		<br>
+		- YouTube: 
+		<a class="textlink2" href="https://www.youtube.com/@EvanLeeGBG" target="_blank">@EvanLeeGBG</a> 
+	
+		</p>
+	
+		</div>
+		<hr>
+		
+    </div>
+
+</div>
+
+</header>
+
+<!-- Main Body -->
+
+
+
+<section id="content">
+
+	<article>
+	
+	<div class="headline">
+		
+		<div class="headline_title">
+		<h1> Counterpoint Columbus </h1>
+		<p class="byline">
+		<b>By: Evan Lee, Staff Writer</b>
+		<br>
+		<i>Originally published in The Gatepost</i>
+		<br>
+		October 19th, 2018
+		</p>
+		<br>
+		</div>
+	
+		<div class="headline_image">
+		<br>
+		<img class="full3" src="../../../images/folder_gatepost/img_op-ed/columbus.png" 
+		title="Christopher Columbus">
+		<br>
+		</div>
+		
+	</div>	
+	
+	
+<hr class="title">
+</p>
+
+<p>On Oct. 8, we celebrated Columbus Day in honor of the man who discovered America, proved Earth is round, and ushered in a new era for the New World.</p>
+
+<p>And by that, I mean we sat around watching TV on our day off.</p>
+
+<p>It&rsquo;s a bit hard to celebrate old Christopher Columbus these days. Two out of the three things he&rsquo;s most famous for are lies, and the truth is more controversial than both.</p>
+
+<p>He wasn&rsquo;t the first to discover America, some believe Leif Eriksson was here 500 years before him and the ancestors of Native Americans arrived well over 10,000 years prior.</p>
+
+<p>He wasn&rsquo;t the first to demonstrate the world as round. His voyage around the globe, and not off its edge, was already proven by Greek mathematicians centuries ago.</p>
+
+<p>That&rsquo;s two strikes against Columbus &ndash; three and he&rsquo;s out. But the last pitch scores a hit, as he undeniably takes first in opening up the New World.</p>
+
+<p>Eriksson may have come before him, but by 1492, when Columbus sailed the ocean blue, the Viking expedition was all but forgotten.</p>
+
+<p>On the contrary, Columbus&rsquo;s accidental landing here marked the dawn of colonization and the Columbian Exchange, which forever altered our planet. The transfer of plants, animals, and technology between the Old World and new was crucial to the formation of societies that exist today.</p>
+
+<p>Unfortunately, not every exchange was as pleasant as turkeys for horses. Try maize for disease.</p>
+
+<p>Great plagues ravaged the Americas in Columbus&rsquo;s wake. By the end of the 17th century, 90 percent of all indigenous people had succumbed to Old-World illness.</p>
+
+<p>Still, this was an unavoidable epidemic. The spread of foreign bacteria would have simply been delayed if not for Columbus &ndash; humanity&rsquo;s determination to explore assures it.</p>
+
+<p>His deliberate mistreatment of the tribes he encountered is a different story.</p>
+
+<p>Countless native people were enslaved by Columbus in his quest for gold, and those who refused to mine it had their hands chopped off. Any retaliation would be met with swift destruction of the tribe.</p>
+
+<p>And that&rsquo;s only a few of the atrocities he and his crew were said to have committed.</p>
+
+<p>These human rights violations have prompted some cities to replace Columbus Day with Indigenous Peoples&rsquo; Day to remember all those who suffered under the wrath of the conquistadors, rather than honor one of their worst.</p>
+
+<p>But was Columbus really one of their worst? His exploits, while atrocious, are a bit pale in comparison to those of Hern&aacute;n Cort&eacute;s &ndash; destroyer of the entire Aztec Empire.</p>
+
+<p>The truth is, he did initiate an era that produced our modern societies, and it was done at the expense of those already living here. The contention lies within which part of these truths we expose, and which we leave out.</p>
+
+<p>For the longest time, only the heroic aspects of Columbus&rsquo;s expedition were displayed. Today, the cruelty is shown too. But in our efforts to expose the other side, we risk falling down the same narrative pit that kept it hidden in the first place.</p>
+
+<p>Columbus, once presented as a courageous visionary, is now presented as nothing more than a murderous moron.</p>
+
+<p>I&rsquo;m not saying we should start praising Columbus again, I certainly won&rsquo;t, but we need to understand both sides of his story lest we allow history to be re-written.</p>
+
+<p>This is the lure of black-and-white symbolism, to frame someone as simply good or evil and fit them into a narrative that supports a certain view. But in reality, the color of truth is gray.</p>
+
+<hr class="dash"> 
+
+<p> &#10097; <a class="textlink" target="_blank" href="https://issuu.com/fsugatepost/docs/oct._19_issue">Read this article in The Gatepost&rsquo;s print edition via Issuu - Page 8</a> &raquo </p>
+
+
+
+</article>
+
+
+<aside>
+	
+	<nav class="vertical">
+	
+	<a class="noline" href="https://www.fsugatepost.com">
+	<li class="vertical2"> 
+	<img class="full" src="../../../images/logos/portfolio/gatepost_round2.png">  
+	</li></a>
+
+<ul class="vertical">GP Section</ul>
+
+	<a class="noline" href="../../../portfolio/gatepost.html#content2"><li class="vertical"> 
+	
+	<b>News</b>
+	
+	</li></a>
+	
+	<a class="noline" href="../../../portfolio/gatepost.html#content3"><li class="vertical"> 
+	
+	<b>Arts & Features</b>
+	
+	</li></a>
+	
+	<a class="noline" href="../../../portfolio/gatepost.html#content4"><li class="vertical_active"> 
+	
+	<b>Op/Ed</b>
+	
+	</li></a>
+
+<ul class="vertical2"><i>The Greater Boston Graphite </i> <hr class="white" style="margin-bottom:0"></ul>
+ 
+</nav>
+
+</aside>
+
+
+
+</section>
+
+
+<!--FOOTER-->
+
+<footer>
+
+
+<div class="footerside">
+
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+
+&nbsp; Contact: <a class="textlink3" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+	
+</div>
+
+<div class="footerside2">
+	
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+	
+</div>
+
+
+<div class="footermid">
+     <p style="margin-bottom:0"> Copyright &copy <span id="currentYear">2023</span> to Evan Lee
+	 <br>The Greater Boston Graphite </p><br>
+</div>
+
+<div class="footerside" style="text-align:right">
+
+	<a href="https://twitter.com/evanleenews" target="_blank">
+	<img src="../../../images/logos/social/twitter.png" alt="Twitter" title="Twitter/X" class="minilogo2">
+	</a>
+
+	<a href="https://www.instagram.com/evanjslee/" target="_blank"><img src="../../../images/logos/social/instagram.png" alt="Instagram" title="Instagram" class="minilogo2"></a>
+	
+	<a href="https://www.youtube.com/@EvanLeeGBG" target="_blank"><img src="../../../images/logos/social/youtube.jpg" alt="YouTube" title="YouTube" class="minilogo2"></a>
+
+	<a href="https://www.linkedin.com/in/evanjslee98" target="_blank"><img src="../../../images/logos/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class="minilogo2"></a>
+	
+	<img src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+
+
+</div>
+
+<div class="footerside2" style="text-align:right">
+
+	<img  src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+	
+</div>
+
+</footer>
+
+
+
+<!--More JavaScript-->
+<script type="text/javascript" src="../../../javascript/clockscript.js"></script>
+<script type="text/javascript" src="../../../javascript/copyright.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian.js"></script>
+
+
+</html>
+

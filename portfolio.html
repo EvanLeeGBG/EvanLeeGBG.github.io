@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+Personal Portfolio Page
+I love a little alliteration
+-->
+
+<head>
+
+	<title>Writing Portfolios - Evan Lee GBG | The Greater Boston Graphite</title>
+
+	<!--CSS for website-->
+	<link rel="stylesheet" href="stylesheet.css"/>
+	<!--Tab image-->
+	<link rel="shortcut icon" href="images/logos/gbg/GBG_logo_MS.png" type="image/x-icon">
+	<!--Meta Structure-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Details-->
+	<meta name="description" content="Portfolios of work from The MetroWest Daily News and The Gatepost. Also includes compositions in Political Science at Framingham State University">
+	<meta name="author" content="Evan Lee">
+	<!--Meta OG Link Display-->
+	<meta property="og:title" content="Writing Portfolios - Evan Lee GBG | The Greater Boston Graphite"/>
+	<meta property="og:url" content="#"/>
+	<meta property="og:type" content="blog"/>
+	<meta property="og:image" content="images/logos/gbg/GBG_round2.png"/>
+	<meta property="og:description" content="Portfolios of work from The MetroWest Daily News and The Gatepost. Also includes compositions in Political Science at Framingham State University"/>
+	<meta property="og:site_name" content="The Greater Boston Graphite">
+	<meta name="twitter:card" content="summary">
+	<meta name="theme-color" content="#ffff8f">
+	
+</head>
+
+<body onLoad="renderTime();"> 
+
+<!-- HEADER & PRIMARY NAVIGATION --> 
+
+<header>
+
+<!--Title-->
+
+	<table align ="center" width="95%">
+		<tr>
+			<td class="header"  align="left"> 
+				
+				<img class="header" src="images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; transform: rotate(270deg);">
+				
+			</td>
+		
+			<td class="header"  align="center">
+			
+			<img class="main" src="images/logos/gbg/GBG_Title.png" alt="The Greater Boston Graphite"> </td>
+		
+			<td class="header"  align="right">
+		
+				<img  class="header"  src="images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; padding: 0; transform: rotate(90deg);">
+			
+			</td>
+		</tr>
+	</table>
+
+<!--DESKTOP NAV -->
+
+<nav class="horizontal">
+
+<a href="index.html">
+<div class="dropdown">
+   <button class="dropbtn">Front Page</button>
+   <div class="dropdown-content">
+     <a style="display:none" class="drop" href="#"></a>
+   </div>
+</div>
+</a>
+
+<a href="blog.html">
+<div class="dropdown">
+   <button class="dropbtn">Blog Posts</button>
+   <div class="dropdown-content">
+     <a class="drop" href="blogs/topics.html">By Topic</a>
+	 <a class="drop" href="blogs/archive.html">Archive</a>
+   </div>
+</div>
+</a>
+
+<a href="about.html">
+<div class="dropdown">
+   <button class="dropbtn">About</button>
+   <div class="dropdown-content">
+     <a class="drop" href="about/contact.html">Contact</a>
+   </div>
+</div>
+</a>
+
+<a href="portfolio.html">
+<div class="dropdown">
+   <button class="dropbtn">Portfolio</button>
+   <div class="dropdown-content">
+     <a class="drop" href="portfolio/metrowest.html">MetroWest Daily</a>
+     <a class="drop" href="portfolio/gatepost.html">The Gatepost</a>
+	 <a class="drop" href="portfolio/academic.html">Academic</a>
+   </div>
+</div>
+</a>
+
+</nav>
+
+<!-- MOBILE NAV -->
+
+<div style="margin: auto;">
+<button  class="accordian"><h1>&#9776;</h1></button>
+	<div class="accordian_content">
+
+
+<nav>  
+
+    <ul class="menu">
+        <a href="index.html"><li class="menu">Front Page</li></a>
+        <a href="blog.html"><li class="menu">Blog Posts</li></a>
+		<a href="about.html"><li class="menu">About</li></a>
+		<a href="portfolio.html"><li class="menu_active">Portfolio</li></a>
+		<a href="about/contact.html"><li class="menu">Contact</li></a>
+    </ul>
+
+</nav>
+		
+	</div>
+</div>
+
+
+<!-- LESSER HEADER -->
+
+<div class="lowerheader">
+
+    <div class="lhside">
+
+        <hr>
+		<div class="lhside2">
+		
+		<a href="about/contact.html">
+		<img class="pfp" src="images/logos/gbg/professional_evan.jpg" alt="Evan Lee" title="hi" style="float:right;">
+		</a>
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Author:</b>
+		<br>
+		Evan Lee
+		<br>
+		<b>Contact:</b>
+		<br>
+		<a class="textlink2" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+		</p>
+		
+		</div>
+		<hr>
+		
+    </div>
+
+
+    <div class="lhmid">
+	
+	<div style="text-align:center; margin:0px; padding:18px 0px 0px 0px;" class="hidedesktop2">
+
+    <h3 style="margin:0; padding:0px 0px 5px 0px;"> A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog</h3>
+	<h3 style="margin:0; padding:0px 0px 5px 0px;"><i> =&nbsp;Est.&nbsp;2023&nbsp;= </i></h3>
+	
+	<!--Javascript Date-->
+	<div id="clockDisplay" class="container"></div> 
+    </div>
+		
+	
+	<div style="text-align:center;" class="hidedesktop">
+	
+	<table align ="center" width="100%">
+	<tr>
+	
+	<td class="header"  align="left"> 
+	
+	<div class="hidemobile4">
+	<a href="contact.html">
+	<img class="pfp" src="images/logos/gbg/professional_evan.jpg" alt="Evan" title="hi :)" style="float:right;">
+	</a>	
+	</td>
+    </div>
+	
+	<td class="header"  align="center">
+	
+	<div class="hidemobile2">
+	<h3 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h3>
+	</div>
+	
+	<div class="hidemobile3">
+	<h4 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h4>
+	</div>
+	
+    
+	</td>
+   
+	<td class="header"  align="right"> <div class="hidemobile"><img class="pfp2" src="images/logos/gbg/GBG_logo_MS.png" alt="GBG" style="float:left;"></div> </td>
+	</tr>
+	</table>
+	
+    </div>
+	
+	
+	</div>
+	
+	
+    <div class="lhside">
+		
+		<hr>
+		<div class="lhside2">
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Follow me on social media:</b>
+		<br>
+		- Twitter:
+		<a class="textlink2" href="https://twitter.com/evanleenews" target="_blank">@EvanLeeNews</a> 
+		<br>
+		- Instagram:
+		<a class="textlink2" href="https://www.instagram.com/evanjslee/" target="_blank">@evanjslee</a> 
+		<br>
+		- YouTube: 
+		<a class="textlink2" href="https://www.youtube.com/@EvanLeeGBG" target="_blank">@EvanLeeGBG</a> 
+	
+		</p>
+	
+		</div>
+		<hr>
+		
+    </div>
+
+</div>
+
+</header>
+
+
+<!--MAIN BODY-->
+
+
+<section id="content">
+
+	<article>
+	
+    <h1 class="title" style="text-align:center;"> Writing Portfolios</h1>
+	
+	<hr>	
+	
+    <a href="portfolio/metrowest.html#content">
+	<div class="teaser3">
+
+		<div class="teaser_image3" style="margin:10px"> 
+		<img class="full3"  src="images/logos/portfolio/metrowest_round.png" alt="The MetroWest Daily News">
+
+		</div>
+		
+		<br>
+		
+		<div class="teaser_content3" style="margin-top:auto;margin-bottom:auto;">
+	
+		<u style="text-decoration-color:#ffff8f;text-underline-offset: 8px;">
+		<h3 class="title"><span class="hideMobile">The</span> MetroWest Daily News </h3>
+		</u>
+		
+		<div class="hidemobile">
+
+		<p>
+		<b>Regional Newspaper</b>
+		<br>
+		<span style="font-weight:normal">West of Boston, east of Worcester</span>
+		</p>
+		</div>
+	
+		
+		</div>
+		
+	</div>
+	</a>
+	
+	<a href="portfolio/gatepost.html#content">
+	<div class="teaser3">
+
+		<div class="teaser_image3" style="margin:10px"> 
+		<img class="full3" style="border-radius:100%;"  src="images/logos/portfolio/gatepost_round2.png" alt="The Gatepost">
+
+		</div>
+		
+		<br>
+		
+		<div class="teaser_content3" style="margin-top:auto;margin-bottom:auto;">
+	
+		<u style="text-decoration-color:#ffff8f;text-underline-offset: 8px;">
+		<h3 class="title">The Gatepost</h3>
+		</u>
+		
+		<div class="hidemobile">
+		<p>
+		<b>Independent Student Newspaper</b>
+		<br>
+		<span style="font-weight:normal">Framingham State University</span>
+		</p>
+		</div>
+	
+		
+		</div>
+		
+	</div>
+	</a>
+	
+    <a href="portfolio/academic.html#content">
+	<div class="teaser3">
+
+		<div class="teaser_image3" style="margin:10px; padding:0px; border-radius:100%;"> 
+		<img class="full3"  src="images/logos/portfolio/fsu+city.png" alt="Framingham State University">
+
+		</div>
+		
+		<br>
+		
+		<div class="teaser_content3" style="margin-top:auto;margin-bottom:auto;">
+	
+		<u style="text-decoration-color:#ffff8f;text-underline-offset: 8px;">
+		<h3 class="title">Academic Work</h3>
+		</u>
+		
+		<div class="hidemobile">
+		<p>
+		<b>Essays from college</b>
+		<br>
+		<span style="font-weight:normal">Political science and other subjects</span>
+		</p>
+		</div>
+	
+		
+		</div>
+		
+	</div>
+	</a>
+	
+	</article>
+
+
+<!--Side Bar-->
+
+<aside>
+	
+	<nav class="vertical">
+	
+	<div class="sidebar_logo">
+	<a class="noline" href="index.html">
+	<li class="vertical2"> 
+	<img class="full" style="border:2px solid black;" src="images/logos/gbg/GBG_logo.png" 
+	onmouseover="this.src='images/logos/gbg/GBG_logo2.png';" onmouseout="this.src='images/logos/gbg/GBG_logo.png';">
+	</li></a>
+	</div>
+	
+	<ul class="vertical">Back to Blog</ul>
+
+	
+	<a class="noline" href="blog.html#content">
+	<li class="vertical2"> 
+	<img class="full" style="border:2px solid black;" src="images/logos/gbg/GBG_round2.png" 
+	onmouseover="this.src='images/logos/gbg/GBG_round3.png';" onmouseout="this.src='images/logos/gbg/GBG_round2.png';">
+	</li></a>
+	
+	
+<ul class="vertical2"> <hr class="white" style="margin-bottom:0"></ul>
+
+	
+  
+</nav>
+
+	</aside>
+
+</section>
+
+
+
+<!--FOOTER-->
+
+<footer>
+
+
+<div class="footerside">
+
+<a href="index.html"><img class="minilogo" src="images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+
+&nbsp; Contact: <a class="textlink3" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+	
+</div>
+
+<div class="footerside2">
+	
+<a href="index.html"><img class="minilogo" src="images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+	
+</div>
+
+
+<div class="footermid">
+     <p style="margin-bottom:0"> Copyright &copy <span id="currentYear">2023</span> to Evan Lee
+	 <br>The Greater Boston Graphite </p><br>
+</div>
+
+<div class="footerside" style="text-align:right">
+
+	<a href="https://twitter.com/evanleenews" target="_blank">
+	<img src="images/logos/social/twitter.png" alt="Twitter" title="Twitter/X" class="minilogo2">
+	</a>
+
+	<a href="https://www.instagram.com/evanjslee/" target="_blank"><img src="images/logos/social/instagram.png" alt="Instagram" title="Instagram" class="minilogo2"></a>
+	
+	<a href="https://www.youtube.com/@EvanLeeGBG" target="_blank"><img src="images/logos/social/youtube.jpg" alt="YouTube" title="YouTube" class="minilogo2"></a>
+
+	<a href="https://www.linkedin.com/in/evanjslee98" target="_blank"><img src="images/logos/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class="minilogo2"></a>
+	
+	<img  src="images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+
+
+</div>
+
+<div class="footerside2" style="text-align:right">
+
+	<img  src="images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+	
+</div>
+
+</footer>
+
+<!--More JavaScript-->
+<script type="text/javascript" src="javascript/changecolor.js"></script>
+<script type="text/javascript" src="javascript/clockscript.js"></script>
+<script type="text/javascript" src="javascript/copyright.js"></script>
+<script type="text/javascript" src="javascript/accordian.js"></script>
+<script type="text/javascript" src="javascript/accordian2.js"></script>
+<script type="text/javascript" src="javascript/accordian3.js"></script>
+
+</html>
+

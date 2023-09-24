@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- 
+The About Me Page
+ 
+Dedicated to the fool who made this
+(me) 
+-->
+
+<head>
+	
+	<title>About - Evan Lee GBG | The Greater Boston Graphite</title>
+
+	<!--CSS for website-->
+	<link rel="stylesheet" href="stylesheet.css"/>
+	<!--Tab image-->
+	<link rel="shortcut icon" href="images/logos/gbg/GBG_logo_MS.png" type="image/x-icon">
+	<!--Meta Structure-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Details-->
+	<meta name="description" content="Writer and retro audio enthusiast from Massachusetts. Currently listening to mixtapes while delivering the US Mail">
+	<meta name="author" content="Evan Lee">
+	<!--Meta OG Link Display-->
+	<meta property="og:title" content="About - Evan Lee GBG | The Greater Boston Graphite"/>
+	<meta property="og:url" content="#"/>
+	<meta property="og:type" content="blog"/>
+	<meta property="og:image" content="images/logos/gbg/professional_evan.png"/>
+	<meta property="og:description" content="Writer and retro audio enthusiast from Massachusetts. Currently listening to mixtapes while delivering the US Mail"/>
+	<meta property="og:site_name" content="The Greater Boston Graphite">
+	<meta name="twitter:card" content="summary">
+	<meta name="theme-color" content="#ffff8f">
+	
+</head>
+
+<body onLoad="renderTime();"> 
+
+<!-- HEADER & PRIMARY NAVIGATION --> 
+
+<header>
+
+<!--Title-->
+
+	<table align ="center" width="95%">
+		<tr>
+			<td class="header"  align="left"> 
+				
+				<img class="header" src="images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; transform: rotate(270deg);">
+				
+			</td>
+		
+			<td class="header"  align="center">
+			
+			<img class="main" src="images/logos/gbg/GBG_Title.png" alt="The Greater Boston Graphite"> </td>
+		
+			<td class="header"  align="right">
+		
+				<img  class="header"  src="images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; padding: 0; transform: rotate(90deg);">
+			
+			</td>
+		</tr>
+	</table>
+
+<!--DESKTOP NAV -->
+
+<nav class="horizontal">
+
+<a href="index.html">
+<div class="dropdown">
+   <button class="dropbtn">Front Page</button>
+   <div class="dropdown-content">
+     <a style="display:none" class="drop" href="#"></a>
+   </div>
+</div>
+</a>
+
+<a href="blog.html">
+<div class="dropdown">
+   <button class="dropbtn">Blog Posts</button>
+   <div class="dropdown-content">
+     <a class="drop" href="blogs/topics.html">By Topic</a>
+	 <a class="drop" href="blogs/archive.html">Archive</a>
+   </div>
+</div>
+</a>
+
+<a href="about.html">
+<div class="dropdown">
+   <button class="dropbtn">About</button>
+   <div class="dropdown-content">
+     <a class="drop" href="about/contact.html">Contact</a>
+   </div>
+</div>
+</a>
+
+<a href="portfolio.html">
+<div class="dropdown">
+   <button class="dropbtn">Portfolio</button>
+   <div class="dropdown-content">
+     <a class="drop" href="portfolio/metrowest.html">MetroWest Daily</a>
+     <a class="drop" href="portfolio/gatepost.html">The Gatepost</a>
+	 <a class="drop" href="portfolio/academic.html">Academic</a>
+   </div>
+</div>
+</a>
+
+</nav>
+
+<!-- MOBILE NAV -->
+
+<div style="margin: auto;">
+<button  class="accordian"><h1>&#9776;</h1></button>
+	<div class="accordian_content">
+
+
+<nav>  
+
+    <ul class="menu">
+        <a href="index.html"><li class="menu">Front Page</li></a>
+        <a href="blog.html"><li class="menu">Blog Posts</li></a>
+		<a href="about.html"><li class="menu_active">About</li></a>
+		<a href="portfolio.html"><li class="menu">Portfolio</li></a>
+		<a href="about/contact.html"><li class="menu">Contact</li></a>
+    </ul>
+
+</nav>
+		
+	</div>
+</div>
+
+
+<!-- LESSER HEADER -->
+
+<div class="lowerheader">
+
+    <div class="lhside">
+
+        <hr>
+		<div class="lhside2">
+		
+		<a href="about/contact.html">
+		<img class="pfp" src="images/logos/gbg/professional_evan.jpg" alt="Evan Lee" title="hi" style="float:right;">
+		</a>
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Author:</b>
+		<br>
+		Evan Lee
+		<br>
+		<b>Contact:</b>
+		<br>
+		<a class="textlink2" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+		</p>
+		
+		</div>
+		<hr>
+		
+    </div>
+
+
+    <div class="lhmid">
+	
+	<div style="text-align:center; margin:0px; padding:18px 0px 0px 0px;" class="hidedesktop2">
+
+    <h3 style="margin:0; padding:0px 0px 5px 0px;"> A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog</h3>
+	<h3 style="margin:0; padding:0px 0px 5px 0px;"><i> =&nbsp;Est.&nbsp;2023&nbsp;= </i></h3>
+	
+	<!--Javascript Date-->
+	<div id="clockDisplay" class="container"></div> 
+    </div>
+		
+	
+	<div style="text-align:center;" class="hidedesktop">
+	
+	<table align ="center" width="100%">
+	<tr>
+	
+	<td class="header"  align="left"> 
+	
+	<div class="hidemobile4">
+	<a href="contact.html">
+	<img class="pfp" src="images/logos/gbg/professional_evan.jpg" alt="Evan" title="hi :)" style="float:right;">
+	</a>	
+	</td>
+    </div>
+	
+	<td class="header"  align="center">
+	
+	<div class="hidemobile2">
+	<h3 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h3>
+	</div>
+	
+	<div class="hidemobile3">
+	<h4 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h4>
+	</div>
+	
+    
+	</td>
+   
+	<td class="header"  align="right"> <div class="hidemobile"><img class="pfp2" src="images/logos/gbg/GBG_logo_MS.png" alt="GBG" style="float:left;"></div> </td>
+	</tr>
+	</table>
+	
+    </div>
+	
+	
+	</div>
+	
+	
+    <div class="lhside">
+		
+		<hr>
+		<div class="lhside2">
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Follow me on social media:</b>
+		<br>
+		- Twitter:
+		<a class="textlink2" href="https://twitter.com/evanleenews" target="_blank">@EvanLeeNews</a> 
+		<br>
+		- Instagram:
+		<a class="textlink2" href="https://www.instagram.com/evanjslee/" target="_blank">@evanjslee</a> 
+		<br>
+		- YouTube: 
+		<a class="textlink2" href="https://www.youtube.com/@EvanLeeGBG" target="_blank">@EvanLeeGBG</a> 
+	
+		</p>
+	
+		</div>
+		<hr>
+		
+    </div>
+
+</div>
+
+</header>
+
+
+<!-- MAIN BODY -->
+
+
+
+<section id="content">
+
+<article>
+
+<h1 style="text-align:center"> Introduction </h1>
+
+<hr>
+
+
+	<div class="teaser2">
+
+		<div class="teaser_image1" style="margin:10px"> 
+		<img class="full3" style="cursor: none;"src="images/logos/gbg/GBG_round.png"
+		onmouseover="this.src='images/logos/gbg/GBG_round4.png';" onmouseout="this.src='images/logos/gbg/GBG_round.png';">
+		</div>
+		
+		<br>
+		
+		<div class="teaser_content2" style="margin-top:auto;margin-bottom:auto;">
+	
+		<h2 style="text-align:center;margin: 5px 0px 0px 0px"> EvanLeeGBG.com </h2>
+		<hr class="yellow">
+		<h3 class="trebuchet" style="text-align:center"> <i>A Brand New Archaic Blog</i> </h3> 
+		<h3 style="text-align:center;margin: 0px 0px 5px 0px">= Est. 2023 =</h3>
+		
+		</div>
+		
+	</div>
+	
+<hr>
+	
+	
+	<h1 class="georgia" 
+	style="text-align:center;font-weight:normal;padding:7px;margin-top:10px;margin-bottom:10px;background-color:#ffff8f">
+	The Five W&rsquo;s &#38; One H
+	</h1>
+	
+	
+	
+	<hr>
+	
+	<div class="headline">
+	 
+		<div class="headline_title2" style="margin-top:auto;margin-bottom:auto;">
+		
+			<span class="hideAbovemobile2">
+			<img style="margin:5px 15px 0px 10px;width:20%;float:right" src="images/logos/flags/flag_us.png" alt="US Flag">	
+			</span>
+			
+			<h2 class="title">Who?</h2>
+			<img style="width:20%;margin:5px 15px 0px 10px;float:right" src="images/logos/flags/flag_ph2.png" alt="Philippines Flag">
+			<span class="hideMobile2"><img style="width:20%;margin-top:5px; float:right" src="images/logos/flags/flag_us.png" alt="US Flag"></span>
+			<h3 style="font-weight:normal"><u style="text-decoration-color:#f0e68b;text-underline-offset: 8px;">Me! Evan Lee</u></h3>
+			
+		
+			<p>A writer who delivers other people&rsquo;s literature. Also mildly obsessed with cassette tapes.</p>
+		
+		</div>
+		
+		<div class="headline_image">
+		<img class="full" src="images/people/me/professional_evan.jpg" alt="Evan Lee" title="hi :)">
+		</div>
+		
+	</div>	
+	
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">More about Me</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+	<div class="accordian_content_full3">
+	
+	<p>I'm a Letter Carrier for the United States Postal Service, earning that title during the pandemic when it was one of the few places still hiring.</p>
+	
+	
+	<p>Before that, I was an intern reporter for The MetroWest Daily News and the news editor of The Gatepost, Framingham State University&rsquo;s independent student newspaper. I graduated in 2020 with a B.A. in Political Science and minors in Journalism and Business Administration. </p>
+	
+	<p>You can call me a bit of a news junkie. Catch me on the clock at work and there&rsquo;s a good chance you'll hear WBZ 1030 or NPR 
+	coming out the window of my mail truck. Otherwise, make that classic rock and new wave spinning through my cassette player. </p>
+
+	<p>I love music and vintage audio, recording mixtapes and repairing old Walkmans were some of my favorite pandemic pastimes. 
+	I&rsquo;m also a mediocre guitarist. </p>
+	
+	</div>
+	
+	<hr>
+	
+	<div class="headline">
+	 
+		<div class="headline_title2" >
+		<h2 class="title">What?</h2>
+		<h3 style="font-weight:normal"><u style="text-decoration-color:#f0e68b;text-underline-offset: 8px;">The Greater Boston Graphite</u></h3>
+		
+		<p>My hand-coded blog. A place to host old writing portfolios and also publish new work.</p>
+		
+		</div>
+		
+		<div class="headline_image">
+		<img class="full" src="images/scenery/urban/boston_bay.jpg" alt="Boston Bay" Title="Boston Bay">
+		</div>
+		
+	</div>	
+	
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">More about Website</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+	<div class="accordian_content_full3">
+	
+	<p>I call it <q>A Brand New Archaic Blog</q> because I built this site myself - Web 1.0 style. Handwritten HTML, CSS and a touch of JavaScript miraculously link together to display this very page. But more on that later... </p>
+	
+	<p>What&rsquo;s the site about, anyway? Well, it&rsquo;s a personal blog, so I&rsquo;d like to write about my hobbies and interests here! Music and politics, of course, but also adventures I&rsquo;ve gone on, local news, and maybe even some creative fiction. Always love a good Sci-Fi.</p>
+	
+	<p>Beyond the blog, I&rsquo;ve also added portfolios of my previous work at MetroWest Daily and The Gatepost. Much of it revolves around the pandemic culture of 2020. But, also look out for an infamous Metric/Imperial debate spanning several Gatepost Op/Ed sections and a fun feature about the free press in Minecraft.</p>
+
+	<p>Now, back to the website itself - <i>The Greater Boston Graphite?</i></p>
+	
+	<p>It&rsquo;s named after where I live, Greater Boston, and my favorite writing tool, the graphite pencil. This appears in a lot of my logos, which I also made myself... mostly in MS Paint.  &nbsp;  ¯\_(ツ)_/¯</p>
+
+	</div>
+	
+	<hr>
+	
+	
+	<div class="headline" >
+	 
+		<div class="headline_title2">
+		<h2 class="title">When?</h2>
+		<h3 style="font-weight:normal"><u style="text-decoration-color:#f0e68b;text-underline-offset: 8px;">First online Fall 2023</u></h3>
+		
+		<p> But in the works since Spring 2020. <br> <i>Thanks Covid...</i></p>
+		
+		</div>
+		
+		<div class="headline_image">
+		<img class="full" src="images/objects/vehicles/postal/snowLLV.jpg" alt="Postal Truck, 1987 Grumman LLV" title="Postal Truck, Grumman LLV - 1987">
+		</div>
+		
+	</div>	
+	
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">More about Timeline</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+	<div class="accordian_content_full3">
+	
+	<p>I started building this website during my senior year of college, originally just to be an online portfolio for my articles. The idea was to have everything up and running by the end of summer to share with potential employers, but then Covid had other plans.</p>
+	
+	<p>The class of 2020 did not graduate into a great job market. Stay-at-home orders and business shutdowns had ground the country to a halt. I remember my editors at MetroWest Daily taking turns going on furlough.</p>
+	
+	<p>Opportunities for an aspiring writer, then, seemed bleak. And I lost interest in finishing the website.</p>
+	
+	<p>Meanwhile, I noticed my Dad - a letter carrier for over 20 years - working more hours than I&rsquo;d ever seen before. His job with the Postal Service was <q>frontline essential</q> and not allowed to halt.</p>
+
+	<p>All those stimulus checks, mail-in ballots and prescription medication orders had to be delivered by someone, anyway.</p>
+	
+	<p>This wasn&rsquo;t exactly the opportunity I was looking for. But, when most people live in fear of being laid off, you take what you can get. I joined USPS that fall.</p>
+	
+    <p>For the next two and a half years, I endured 10-to-12 hour shifts, six-to-seven days a week, as a third our office was perpetually down with Covid. One of my only real breaks at the time was when I caught the disease myself.</p>
+
+	
+	<p>It wasn&rsquo;t until the pandemic eased in 2023 that I finally got back on track with what I really wanted to do in life.</p>
+	
+	<p>Guaranteed days off, for one, have allowed me to regain focus on old projects and set my sights on future goals, like finally launching this blog and getting myself back into writing.</p>
+		
+	</div>
+	
+	<hr>
+
+	<div class="headline">
+	 
+		<div class="headline_title2">
+		<h2 class="title">Where?</h2>
+		<h3 style="font-weight:normal"><u style="text-decoration-color:#f0e68b;text-underline-offset: 8px;">Spoiler Alert: <i>Greater Boston</i></u></h3>
+		
+	    <p>Mainly the surrounding area east of Boston, but I visit the city every now and then too. </p>
+		
+		</div>
+		
+		<div class="headline_image">
+		<img class="full" src="images/scenery/urban/MBTA2.jpg" alt="Ashland MBTA Station" title="Ashland MBTA Station">
+		</div>
+		
+	</div>	
+	
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">More about Area</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+	<div class="accordian_content_full3">
+
+	<p>I live, and work, in my hometown of Ashland, about 40 minutes from Boston via The Pike. The Postal Service has also sent me as far south as Blackstone, along the Rhode Island border, and as north as Concord, having me deliver to many towns I once reported in for MetroWest Daily.</p>
+	
+	<p>Traveling around Greater Boston is a unique experience, it&rsquo;s one of few regions in the United States where structures pre-dating the country stand side-by-side with the most modern architecture. So, there&rsquo;s always something new, or old, to find and write a story about here.</p>
+	
+	<p>In Ashland alone, several new parks and trails have been built alongside an entire downtown revitalization effort. I&rsquo;ve taken much advantage of the new Mill Pond Bridge, which leads to a trail right near the center of town. It&rsquo;s a great little escape into nature for the community.</p>
+	
+	<p>But, I also enjoy escaping Ashland all together to explore the many other scenic sites this region has to offer. Be that taking a day trip into the city just to walk around, or heading up north to hike some mountains. </p>
+	
+	</div>
+	
+	<hr>
+
+	<div class="headline">
+	 
+		<div class="headline_title2">
+		<h2 class="title">Why?</h2>
+		<h3 style="font-weight:normal"><u style="text-decoration-color:#f0e68b;text-underline-offset: 8px;">To get back into writing</u></h3>
+		
+		<p>It&rsquo;s a passion of mine and what I&rsquo;d like to eventually find a career in.</p>
+		
+		</div>
+		
+		<div class="headline_image">
+		<img class="full" src="images/objects/writing/typewriter_square.jpg" alt="Smith-Corona Typewriter" title="Smith-Corona Sterling Typewriter, 1964">
+		</div>
+		
+	</div>	
+	
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">More about Motivation</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+	<div class="accordian_content_full3">
+
+	<!--<p>As a letter carrier, I deliver other people&rsquo;s literature for a living, from simple cards to entire magazines filled with articles. Ironic, for somebody who strives to be the one authoring them instead.</p>-->
+
+	<p>My calling to be a writer came about during college. In fact, it began with my very first freshman year class - Expository Writing 110. The professor was a harsh critic, infamous for forcing rewrites till he deemed a paper worth any grade at all. But it was here I learned the value of revision.</p>
+	
+	<p>How does my work read? Does it flow well from start to finish? Are there any grammar mistakes? Incoherencies, big or small, can turn off a reader before they even reach the point of an article. </p>
+	
+	<p>That&rsquo;s why pencils are such an icon of this site, revision is built into their design. 
+	
+	<p>Compositions in Political Science further taught me the importance of logic. How sound is my work? Will the sentence I&rsquo;m writing now conflict with anything I&rsquo;ve written before? Do all premises ring true to validate my conclusion? Each is key to making a strong argument. </p>
+	
+	<p>Finally, reporting for The Gatepost and MetroWest Daily showed me why this work is worth pursuing. It&rsquo;s an opportunity to share new insights, info, or just a bit of entertainment with the community, all in my own words. And that, above all, is why I love writing. </p>
+
+	<p>I&rsquo;ve gotten away from it these past few years, blame lack of motivation. But this blog gives me a reason to start back up again.</p>
+		
+	</div>
+	
+	<hr>
+	
+	<div class="headline">
+	 
+		<div class="headline_title2">
+		<h2 class="title">How?</h2>
+		<h3 style="font-weight:normal"><u style="text-decoration-color:#f0e68b;text-underline-offset: 8px;">With a handmade website</u></h3>
+		
+		<p>Many a late night spent fixing one issue, just to fix everything else that broke as a result. </p>
+		
+		</div>
+		
+		<div class="headline_image">
+		<img class="full" src="images/img_gbg/screenshot.png" alt="Website screenshot" title="inception">
+		</div>
+		
+	</div>	
+	
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">More about WebDev</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+	<div class="accordian_content_full3">
+	
+	<p>Everyone has a website these days, what makes this any different?</p>
+	
+	<p>Well, like a blast from the past, this one was built completely from scratch. Each page was lovingly, and frustratingly, handwritten in HTML, CSS and JavaScript - the three primordial languages of web development. </p>
+
+	<p>No Wix or Wordpress templates here. Just a classic, static site written in Notpad++ and hosted freely through GitHub Pages.</p>
+
+	<p>Of course, a modern website builder would have been far quicker and easier to work with. Much more so than raw files anyway. But, creative freedom will always be limited to their templates and themes. </p>
+
+	<p>I wanted to break away from that. Like the Geocities and MySpace blogs that pioneered Web 1.0, here I can have a design that&rsquo;s truly my own.</p>
+	
+	<p>The site&rsquo;s overall style is inspired by the iconic look of old print newspapers. Off whites, graphite grays and faded yellows make up my content.</p>
+	
+	<p>But, form follows function. And no matter what device you may be reading this on, 
+	I&rsquo;ve made sure the site will always be responsive to you.</p>
+	
+	<p>Try resizing your browser or tilting your phone sideways! The content and menus will adapt and change to suit your specific screen size.</p>
+	
+		
+	</div>
+	
+	<hr>
+	
+	<!-- Happy Easter! -->
+<h3 style="margin-bottom:0" title="better question is how many">Bonus: <span style="font-weight:normal">Are there any easter eggs to find here?</span></h3>
+
+	<p style="color:#F7F6F1;margin:0;cursor: default;">well well well look at you revealing the invisable ink </p>
+	
+	<div style="width:98.9%; margin-bottom:10px;">
+<button class="accordian3" style="color:black;cursor: help;"><p style="margin-top:0">Of course ;)</p></button> 
+	<div class="accordian_content3">
+
+		<marquee behavior="scroll" direction="left">
+		
+			<a href="https://www.wickedlocal.com/story/bulletin-tab/2020/04/12/hopping-for-easter-happiness/1368816007/" target="_blank">
+			<img style="width:30%;" src="images/gifs/datboi.gif" title="look at him go"></a>
+			
+		</marquee>
+		
+	</div>
+	
+</article>
+
+<aside>
+
+<nav class="vertical">
+ 
+	<div class="sidebar_logo">
+	<a class="noline" href="index.html">
+	<li class="vertical2"> 
+	<img class="full" style="border:2px solid black;" src="images/logos/gbg/GBG_logo.png" 
+	onmouseover="this.src='images/logos/gbg/GBG_logo2.png';" onmouseout="this.src='images/logos/gbg/GBG_logo.png';">
+	</li></a>
+	</div>
+
+<ul class="vertical">About</ul>
+
+	<a class="noline" href="about.html#content"><li class="vertical_active"> 
+	
+	<b>Introduction</b>
+	
+	</li></a>
+	
+	<a class="noline" href="about/resume.html#content"><li class="vertical"> 
+	
+	<b>Resume</b>
+	
+	</li></a>
+	
+	<a class="noline" href="about/contact.html#content"><li class="vertical"> 
+	
+	<b>Contact</b>
+	
+	</li></a>
+	
+<ul class="vertical2"><i>The Greater Boston Graphite </i> <hr class="white" style="margin-bottom:0"></ul>
+ 
+</nav>
+
+	</aside>
+
+
+
+</section>
+
+
+<!--FOOTER-->
+
+
+<footer>
+
+
+<div class="footerside">
+
+<a href="index.html"><img class="minilogo" src="images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+
+&nbsp; Contact: <a class="textlink3" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+	
+</div>
+
+<div class="footerside2">
+	
+<a href="index.html"><img class="minilogo" src="images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+	
+</div>
+
+
+<div class="footermid">
+     <p style="margin-bottom:0"> Copyright &copy <span id="currentYear">2023</span> to Evan Lee
+	 <br>The Greater Boston Graphite </p><br>
+</div>
+
+<div class="footerside" style="text-align:right">
+
+	<a href="https://twitter.com/evanleenews" target="_blank">
+	<img src="images/logos/social/twitter.png" alt="Twitter" title="Twitter/X" class="minilogo2">
+	</a>
+
+	<a href="https://www.instagram.com/evanjslee/" target="_blank"><img src="images/logos/social/instagram.png" alt="Instagram" title="Instagram" class="minilogo2"></a>
+
+	<a href="https://www.youtube.com/@EvanLeeGBG" target="_blank"><img src="images/logos/social/youtube.jpg" alt="YouTube" title="YouTube" class="minilogo2"></a>
+
+	<a href="https://www.linkedin.com/in/evanjslee98" target="_blank"><img src="images/logos/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class="minilogo2"></a>
+	
+	<img  src="images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+
+
+</div>
+
+<div class="footerside2" style="text-align:right">
+
+	<img  src="images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+	
+</div>
+
+</footer>
+
+<!--More JavaScript-->
+<script type="text/javascript" src="javascript/changecolor.js"></script>
+<script type="text/javascript" src="javascript/clockscript.js"></script>
+<script type="text/javascript" src="javascript/copyright.js"></script>
+<script type="text/javascript" src="javascript/accordian.js"></script>
+<script type="text/javascript" src="javascript/accordian2.js"></script>
+<script type="text/javascript" src="javascript/accordian3.js"></script>
+
+</html>
+
+<!-- A little bit easier to read than a Wix made site right ;) -->

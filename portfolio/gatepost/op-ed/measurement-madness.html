@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+The Systems of Measurment War.
+We are still both the life of the party
+
+The Gatepost
+Portfolio Page 
+Op/Ed Section
+
+Framingham State University
+-->
+
+<!-- Filepath ../../../ -->
+
+<head>
+
+	<title>Measurment Madness - Metric vs Imperial Op/Ed Debate | The Gatepost 2019</title>
+
+	<!--CSS for website-->
+	<link rel="stylesheet" href="../../../stylesheet.css"/>
+	<!--Tab image-->
+	<link rel="shortcut icon" href="../../../images/logos/gbg/GBG_logo_MS.png" type="image/x-icon">
+	<!--Meta Structure-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Details-->
+	<meta name="description" content="A debate spanning several Gatepost Op/Ed sections by Evan Lee, pro Metric System, and Gordan Rupert, pro Imperial System. Originally published April 12 - May 3, 2019">
+	<meta name="author" content="Evan Lee">
+	<!--Meta OG Link Display-->
+	<meta property="og:title" content="Measurment Madness - Metric vs Imperial Op/Ed Debate | The Gatepost 2019"/>
+	<meta property="og:url" content="#"/>
+	<meta property="og:type" content="blog"/>
+	<meta property="og:image" content="../../../images/folder_gatepost/img_op-ed/steel_ruler_closeup.png"/>
+	<meta property="og:description" content="A debate spanning several Gatepost Op/Ed sections. Evan Lee, pro Metric System, vs Gordan Rupert, pro Imperial System. Originally published April 12 to May 3, 2019"/>
+	<meta property="og:site_name" content="The Greater Boston Graphite">
+	<meta name="twitter:card" content="summary_image_large">
+	<meta name="theme-color" content="#ffff8f">
+	
+	
+</head>
+
+<body onLoad="renderTime();"> 
+
+<!-- HEADER & PRIMARY NAVIGATION --> 
+
+<header>
+
+<!--Title-->
+
+	<table align ="center" width="95%">
+		<tr>
+			<td class="header"  align="left"> 
+				
+				<img class="header" src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; transform: rotate(270deg);">
+				
+			</td>
+		
+			<td class="header"  align="center">
+			
+			<img class="main" src="../../../images/logos/gbg/GBG_Title.png" alt="The Greater Boston Graphite"> </td>
+		
+			<td class="header"  align="right">
+		
+				<img  class="header"  src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; padding: 0; transform: rotate(90deg);">
+			
+			</td>
+		</tr>
+	</table>
+
+<!--DESKTOP NAV -->
+
+<nav class="horizontal">
+
+<a href="../../../index.html">
+<div class="dropdown">
+   <button class="dropbtn">Front Page</button>
+   <div class="dropdown-content">
+     <a style="display:none" class="drop" href="#"></a>
+   </div>
+</div>
+</a>
+
+<a href="../../../blog.html">
+<div class="dropdown">
+   <button class="dropbtn">Blog Posts</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../blogs/topics.html">By Topic</a>
+	 <a class="drop" href="../../../blogs/archive.html">Archive</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../about.html">
+<div class="dropdown">
+   <button class="dropbtn">About</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../about/contact.html">Contact</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../portfolio.html">
+<div class="dropdown">
+   <button class="dropbtn">Portfolio</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../portfolio/metrowest.html">MetroWest Daily</a>
+     <a class="drop" href="../../../portfolio/gatepost.html">The Gatepost</a>
+	 <a class="drop" href="../../../portfolio/academic.html">Academic</a>
+   </div>
+</div>
+</a>
+
+</nav>
+
+<!-- MOBILE NAV -->
+
+<div style="margin: auto;">
+<button  class="accordian"><h1>&#9776;</h1></button>
+	<div class="accordian_content">
+
+
+<nav>  
+
+    <ul class="menu">
+        <a href="../../../index.html"><li class="menu">Front Page</li></a>
+        <a href="../../../blog.html"><li class="menu">Blog Posts</li></a>
+		<a href="../../../about.html"><li class="menu">About</li></a>
+		<a href="../../../portfolio.html"><li class="menu_active">Portfolio</li></a>
+		<a href="../../../about/contact.html"><li class="menu">Contact</li></a>
+    </ul>
+
+</nav>
+		
+	</div>
+</div>
+
+
+<!-- LESSER HEADER -->
+
+<div class="lowerheader">
+
+    <div class="lhside">
+
+        <hr>
+		<div class="lhside2">
+		
+		<a href="../../../about/contact.html">
+		<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan Lee" title="hi" style="float:right;">
+		</a>
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Author:</b>
+		<br>
+		Evan Lee
+		<br>
+		<b>Contact:</b>
+		<br>
+		<a class="textlink2" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+		</p>
+		
+		</div>
+		<hr>
+		
+    </div>
+
+
+    <div class="lhmid">
+	
+	<div style="text-align:center; margin:0px; padding:18px 0px 0px 0px;" class="hidedesktop2">
+
+    <h3 style="margin:0; padding:0px 0px 5px 0px;"> A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog</h3>
+	<h3 style="margin:0; padding:0px 0px 5px 0px;"><i> =&nbsp;Est.&nbsp;2023&nbsp;= </i></h3>
+	
+	<!--Javascript Date-->
+	<div id="clockDisplay" class="container"></div> 
+    </div>
+		
+	
+	<div style="text-align:center;" class="hidedesktop">
+	
+	<table align ="center" width="100%">
+	<tr>
+	
+	<td class="header"  align="left"> 
+	
+	<div class="hidemobile4">
+	<a href="contact.html">
+	<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan" title="hi :)" style="float:right;">
+	</a>	
+	</td>
+    </div>
+	
+	<td class="header"  align="center">
+	
+	<div class="hidemobile2">
+	<h3 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h3>
+	</div>
+	
+	<div class="hidemobile3">
+	<h4 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h4>
+	</div>
+	
+    
+	</td>
+   
+	<td class="header"  align="right"> <div class="hidemobile"><img class="pfp2" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG" style="float:left;"></div> </td>
+	</tr>
+	</table>
+	
+    </div>
+	
+	
+	</div>
+	
+	
+    <div class="lhside">
+		
+		<hr>
+		<div class="lhside2">
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Follow me on social media:</b>
+		<br>
+		- Twitter:
+		<a class="textlink2" href="https://twitter.com/evanleenews" target="_blank">@EvanLeeNews</a> 
+		<br>
+		- Instagram:
+		<a class="textlink2" href="https://www.instagram.com/evanjslee/" target="_blank">@evanjslee</a> 
+		<br>
+		- YouTube: 
+		<a class="textlink2" href="https://www.youtube.com/@EvanLeeGBG" target="_blank">@EvanLeeGBG</a> 
+	
+		</p>
+	
+		</div>
+		<hr>
+		
+    </div>
+
+</div>
+
+
+</header>
+
+<!-- Main Body -->
+
+
+
+<section id="content">
+
+	<article>
+	
+	<h1 class="headline" style="text-align:center;margin-bottom:10px"> 
+	<q>steel_ruler_closeup</q>
+	</h1>
+	
+	
+	<h2 style="font-weight:normal; text-align:center"> Gateposters argue over Metric System in Op/Ed pages: Debate spans three issues </h2>
+	<br>
+	
+<hr class="title"><br>
+
+
+<div class="headline">
+	
+		<div class="headline_title" style="margin-top:auto;margin-bottom:auto;">
+	
+		<h2><u style="text-decoration-color:#f0e68b;text-underline-offset: 15px;">Measurement Madness</u></h2>
+	
+		<p><b>By: Evan Lee, Staff Writer</b>
+		<br><i>Originally published in The Gatepost</i> 
+		<br> April 12, 2019 &nbsp;|&nbsp;  Argument 1</p>
+		
+		</div>
+		
+		<div class="headline_image">
+		<img class="full" style="cursor: crosshair;"src="../../../images/folder_gatepost/img_op-ed/steel_ruler_closeup.png" title="steel_ruler_closeup.png">
+		</div>
+		
+	</div>
+
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">Read Initial Argument</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+<div class="accordian_content_full" style="border-top:2px solid black">
+
+<p>I recently made the mistake of buying a cheap new bicycle off eBay.</p>
+
+<p>When it arrived, the box&rsquo;s &ldquo;this side up&rdquo; arrow did not point up, an axle had pierced through its side, and the only protection found within was some paper to prevent scratching.</p>
+
+<p>It was scratched anyway.</p>
+
+<p>But undeterred by the scratches, dents, and buyer&rsquo;s remorse, I set about putting my new bike together.</p>
+
+<p>A task which didn&rsquo;t seem like it&rsquo;d be too much of a challenge at the time &ndash; just a few nuts and bolts to tighten, right?</p>
+
+<p>Wrong.</p>
+
+<p>The bike, having been made outside the U.S., was manufactured to metric standards &ndash; unsurprising since most other countries use the Metric System, but problematic here as we still rely on the Imperial System.</p>
+
+<p>And evidently, metric hex sockets don&rsquo;t get along with imperial Allen wrenches.</p>
+
+<p>While the difference is just slightly off in their measurements, it&rsquo;s enough to keep my bicycle in pieces while I write this article. A rather pathetic tragedy, I guess, but one that when expanded over a global scale, leaves more than enough room for actual catastrophes to happen.</p>
+
+<p>Case in point: the infamous Mars Climate Orbiter incident of 1999.</p>
+
+<p>When NASA launched its orbiter in December &rsquo;98 to embark on a $327.6 million mission, it&rsquo;s unlikely that anyone expected a measly metric miscalculation to lead them to complete loss less than a year later.</p>
+
+<p>But, according to Arthur Stephenson of the Mars Climate Orbiter Mission Failure Investigation Board, that&rsquo;s exactly what happened.</p>
+
+<p>&ldquo;The root cause of the loss of the spacecraft was the failed translation of [imperial] units into metric units in a segment of ground-based, navigation-related mission software,&rdquo; he said in a report.</p>
+
+<p>Essentially, two separate mission teams were working with two different systems of measurement. Which is perfectly fine, until they have to share information with one another.</p>
+
+<p>And apparently, when those two teams did go to share their information, they failed to convert the units they originally used, the investigation board found.</p>
+
+<p>It&rsquo;s a dilemma that anyone who has taken science classes may have encountered during exams.</p>
+
+<p>If the conversion is done improperly in part A, then any attempts at doing parts B or C will be misguided since the information gathered to do so is wrong.</p>
+
+<p>And screwing up on the test because of that is frustrating &ndash; I know from experience &ndash; but imagine how it must feel to do the same thing on a $327.6 million mission.</p>
+
+<p>Probably not good.</p>
+
+<p>Inevitably, the measurement error led to mission failure as the orbiter either drifted off into space or crashed somewhere it wasn&rsquo;t supposed to on Mars.</p>
+
+<p>An expensive mistake to say the least, but one that NASA didn&rsquo;t blame on the different units involved &ndash; rather, NASA&rsquo;s leadership blamed it on themselves.</p>
+
+<p>&ldquo;The problem here was not the error, it was the failure of NASA&rsquo;s systems engineering, and the checks and balances in our processes to detect the error. That&rsquo;s why we lost the spacecraft,&rdquo; according to NASA&rsquo;s Associate Administrator for Space Science at the time, Edward Weiler.</p>
+
+<p>While it&rsquo;s certainly true that NASA had failed to catch that error, is it really fair not to place any blame on the difference in measurement systems?</p>
+
+<p>To put it bluntly, had only one system been used, then there would have never been any risk for such an error to have occurred in the first place.</p>
+
+<p>And though NASA has improved its error detection methods since 1999, so long as the Metric and Imperial systems of measurement continue their attempt to co-exist here in the U.S., the risk of another error slipping through still remains &ndash; both for NASA and suckers who buy bikes off eBay.</p>
+
+</div>
+
+<br><hr><br>
+
+<div class="headline">
+	
+		<div class="headline_title" style="margin-top:auto;margin-bottom:auto;">
+	
+		<h2><u style="text-decoration-color:#f0e68b;text-underline-offset: 15px;">The Whole 8.23 Meters</u></h2>
+	
+		<p><b>By: Gordan Rupert, Editorial Staff</b>
+		<br><i>Originally published in The Gatepost</i> 
+		<br> April 26, 2019 &nbsp;|&nbsp;  Argument 2</p>
+		
+		</div>
+		
+		<div class="headline_image">
+		<img class="full" style="cursor: crosshair;" src="../../../images/folder_gatepost/img_op-ed/steel_ruler_closeup.png" title="steel_ruler_closeup.png">
+		</div>
+		
+	</div>
+
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">Read The Rebutal</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+<div class="accordian_content_full" style="border-top:2px solid black">
+ 
+<p>Recently, an op/ed was published by my colleague at The Gatepost highlighting the perceived folly of using both the Metric and Imperial Systems, and the problems when using them together.</p>
+
+<p>In the article, the writer points to his personal experiences purchasing a foreign bicycle that had metric-sized parts incompatible with Imperial, or United States Customary System (USCS), sized wrenches, and the 1999 failure of the Mars Climate Orbiter, in which a miscalculation due to the use of both units resulted in the loss of the satellite.</p>
+
+<p>While these may be good arguments for moving toward one global system, the most important aspects of life have already transitioned to one system &ndash; the Metric one.</p>
+
+<p>Switching every miniscule aspect of life away from one system to the other would result in a loss of the culture unique and identifiable to the United States.</p>
+
+<p>First, let&rsquo;s look at the current reality of measurement systems used in professional areas.</p>
+
+<p>We can see the usage of the Metric System in every STEM field and job. I wonder if there is even an official STEM textbook in the United States that doesn&rsquo;t use the Metric System for anything beyond the fundamentals.</p>
+
+<p>Likewise, any international industry can&rsquo;t use the Imperial System without risking mistranslations that could cost millions of dollars to fix.</p>
+
+<p>Further, the federal government itself passed the Metric Conversion Act of 1975, which stated that the Metric System was &ldquo;the preferred system of weights and measures for U.S. trade and commerce,&rdquo; called on the movement to the Metric System by companies, and even stated that the government had to help with the voluntary change.</p>
+
+<p>So, with the government offering to help create the change, why, over 40 years later, do we still use two systems of measurement?</p>
+
+<p>Let&rsquo;s ask another question &ndash; which would you rather eat, a quarter-pounder, or a 113.4-gram hamburger?</p>
+
+<p>The USCS is a system engrained not in American eagerness to reject something foreign, but in hundreds of years of cultural and social identification through measurements both easy to express and easy to remember.</p>
+
+<p>Cup of Joe. Footlong hotdog. Ton of bricks &ndash; easy to understand, easy to imagine, and unable to be translated into Metric.</p>
+
+<p>These are the shorthands and standards of American culture.</p>
+
+<p>Of my culture.</p>
+
+<p>Every concession has been made where it needs to be in the professional world. Beyond that, the USCS has been designed for human use over hundreds of years.</p>
+
+<p>A cup of Joe is about 8 ounces. A footlong hotdog is at least as big as my foot. A ton of bricks is too many for me to count, but I know it&rsquo;s an awful lot, and it hurts when it falls on you.</p>
+
+<p>Is moving to one measurement system an attack on who I am? No, that&rsquo;s ridiculous. It&rsquo;s an argument that has existed for hundreds of years before the Metric System.</p>
+
+<p>But, the ideological ham-fisting of the Metric System into everyday life, through a call for a single, universal system, is something I can&rsquo;t support.</p>
+
+<p>For all my life, and my parents&rsquo; lives, and my grandparents&rsquo; lives, every measurement we&rsquo;ve used has been good enough for us. Our system isn&rsquo;t worried about putting people on Mars, and we know that.</p>
+
+<p>But we also know how many cups of Joe we need in the morning. We know how full we feel after a footlong hotdog. And we will be damn sure dissatisfied if the Metric System hits us like a ton of bricks.</p>
+</div>
+
+<br><hr><br>
+
+<div class="headline">
+	
+		<div class="headline_title" style="margin-top:auto;margin-bottom:auto;">
+	
+		<h2><u style="text-decoration-color:#f0e68b;text-underline-offset: 15px;">A Cup of Culture</u></h2>
+	
+		<p><b>By: Evan Lee, Staff Writer</b>
+		<br><i>Originally published in The Gatepost</i> 
+		<br> May 3, 2019 &nbsp;|&nbsp;  Argument 3</p>
+		
+		</div>
+		
+		<div class="headline_image">
+		<img class="full" style="cursor: crosshair;"src="../../../images/folder_gatepost/img_op-ed/steel_ruler_closeup.png" title="steel_ruler_closeup.png">
+		</div>
+		
+	</div>
+
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">Read Counter Argument</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+<div class="accordian_content_full" style="border-top:2px solid black">
+<p>A bicycle, a cup of Joe, and this royalty free image of &ldquo;steel_ruler_closeup&rdquo; have all come to define an epic debate of immeasurable wit &ndash; and lousy gags &ndash; between a colleague and me over &#8230; systems of measurement.</p>
+
+<p>We&rsquo;re both the life of the party.</p>
+
+<p>It all began after I wrote an article on my experiences in trying, and failing, to build a Metric-made foreign bicycle with Imperial measured American tools.</p>
+
+<p>A case of &ldquo;Measurement madness,&rdquo; as I called it.</p>
+
+<p>But not allowing this tragedy to go in vain, I decided to draw upon it &ndash; along with a more important mix-up by NASA in 1999 &ndash; to argue that only chaos and confusion prevails when Metric and Imperial collide.</p>
+
+<p>And thus, it is no longer feasible for them to coexist within the U.S.</p>
+
+<p>Yet, my colleague has gone &ldquo;The whole 8.23 meters&rdquo; to disagree.</p>
+
+<p>He countered in his own article that not only is it unnecessary to move to one system, it would be unwise as the consequences of doing so are culturally catastrophic.</p>
+
+<p>He raised to my article a cup of Joe before dropping a ton of bricks over it. Those being just a few of &ldquo;the shorthands and standards of American culture&rdquo; that would be lost to the mediocrity of Metric &ndash; the global system likeliest to dethrone Imperial.</p>
+
+<p>And that&rsquo;s an argument I can sympathize with.</p>
+
+<p>Because I like the Imperial System. It&rsquo;s worked for me, it&rsquo;s worked for my colleague, and it&rsquo;s worked for generations before us &ndash; as he pointed out in his article. Not to mention it&rsquo;s what every tool I&rsquo;ve owned was once measured by.</p>
+
+<p>But I have to emphasize once now &ndash; because I finally built my bike.</p>
+
+<p>It cost me an extra $12 to get the metric tools I needed &ndash; on top of something I already paid too much for &ndash; but it marked my preparation for the future.</p>
+
+<p>And the future is in Metric.</p>
+
+<p>But why? Why bother changing to Metric when I&rsquo;ve just conceded that Imperial still works?</p>
+
+<p>Well, why change to the automobile when horse drawn carriages still work?</p>
+
+<p>Truly, the covered wagon is an American cultural icon. For generations, they took us across the entire continental U.S. while leaving cultural legacies along each rut of every trail they made.</p>
+
+<p>And, as the Amish would contend, they still work just as well today.</p>
+
+<p>Yet by the turn of the 20th century, Americans had begun to abandon the traditional ways of their wagons for a newer system &ndash; the horseless carriage.</p>
+
+<p>And while these two systems of transportation did share the roads at first, it inevitably became apparent that such harmony couldn&rsquo;t last.</p>
+
+<p>Imagine trying to merge a wagon onto Route 9 &ndash; it&rsquo;d just be a disaster waiting to happen.</p>
+
+<p>A disaster not unlike the madness of Metric merging with Imperial.</p>
+
+<p>I lost an extra $12 last week because of that mix-up, NASA lost $327.6 million in 1999, and somebody else is probably losing out right now.</p>
+
+<p>When does the systemically driven madness end?</p>
+
+<p>Well, for systems of transportation, it ended midway through the 20th century as the horse drawn carriage culture of America&rsquo;s past was all but overtaken by the current car culture of today.</p>
+
+<p>The Oregon Trail, despite its countless crossings and cultural significance, was succeeded by Route 66 &ndash; now a cultural icon in of itself.</p>
+
+<p>And perhaps this foreshadows the end to shared systems of measurement in the 21st century, as the newer Metric System increasingly shows up in our everyday lives.</p>
+
+<p>And not just for big businesses and organizations, but for common Americans who might make the mistake of buying a bike off the internet without checking what system it&rsquo;s measured by first.</p>
+
+<p>Just as Route 66 came to have the nickname of &ldquo;America&rsquo;s mother road,&rdquo; perhaps Metric will come to be known as America&rsquo;s measurement system.</p>
+</div>
+
+<br><hr> 
+
+<p> &#10097; <a class="textlink" target="_blank" href="https://issuu.com/fsugatepost">Read this debate through The Gatepost&rsquo;s print editions via Issuu </a> &raquo </p>
+
+<p>Unfortunately, Internet Archive never scraped them while they were online.</p>
+
+
+
+</article>
+
+
+<aside>
+	
+	<nav class="vertical">
+	
+	<a class="noline" href="https://www.fsugatepost.com">
+	<li class="vertical2"> 
+	<img class="full" src="../../../images/logos/portfolio/gatepost_round2.png">  
+	</li></a>
+
+<ul class="vertical">GP Section</ul>
+
+	<a class="noline" href="../../../portfolio/gatepost.html#content2"><li class="vertical"> 
+	
+	<b>News</b>
+	
+	</li></a>
+	
+	<a class="noline" href="../../../portfolio/gatepost.html#content3"><li class="vertical"> 
+	
+	<b>Arts & Features</b>
+	
+	</li></a>
+	
+	<a class="noline" href="../../../portfolio/gatepost.html#content4"><li class="vertical_active"> 
+	
+	<b>Op/Ed</b>
+	
+	</li></a>
+
+<ul class="vertical2"><i>The Greater Boston Graphite </i> <hr class="white" style="margin-bottom:0"></ul>
+ 
+</nav>
+
+</aside>
+
+
+
+</section>
+
+
+<!--FOOTER-->
+
+<footer>
+
+
+<div class="footerside">
+
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+
+&nbsp; Contact: <a class="textlink3" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+	
+</div>
+
+<div class="footerside2">
+	
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+	
+</div>
+
+
+<div class="footermid">
+     <p style="margin-bottom:0"> Copyright &copy <span id="currentYear">2023</span> to Evan Lee
+	 <br>The Greater Boston Graphite </p><br>
+</div>
+
+<div class="footerside" style="text-align:right">
+
+	<a href="https://twitter.com/evanleenews" target="_blank">
+	<img src="../../../images/logos/social/twitter.png" alt="Twitter" title="Twitter/X" class="minilogo2">
+	</a>
+
+	<a href="https://www.instagram.com/evanjslee/" target="_blank"><img src="../../../images/logos/social/instagram.png" alt="Instagram" title="Instagram" class="minilogo2"></a>
+	
+	<a href="https://www.youtube.com/@EvanLeeGBG" target="_blank"><img src="../../../images/logos/social/youtube.jpg" alt="YouTube" title="YouTube" class="minilogo2"></a>
+
+	<a href="https://www.linkedin.com/in/evanjslee98" target="_blank"><img src="../../../images/logos/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class="minilogo2"></a>
+	
+	<img src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+
+
+</div>
+
+<div class="footerside2" style="text-align:right">
+
+	<img  src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+	
+</div>
+
+</footer>
+
+
+<!--More JavaScript-->
+<script type="text/javascript" src="../../../javascript/clockscript.js"></script>
+<script type="text/javascript" src="../../../javascript/copyright.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian2.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian3.js"></script>
+
+
+</html>
+

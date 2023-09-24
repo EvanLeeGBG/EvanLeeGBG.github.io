@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+The funny lag article.
+Hi Leighah!
+
+The Gatepost
+Portfolio Page
+Arts & Features Section
+
+Framingham State University
+-->
+
+<!-- Filepath ../../../ -->
+
+<head>
+
+	<title>Breaking Boundaries By Building Blocks - Minecraft's Uncensored Library | The Gatepost</title>
+
+	<link rel="stylesheet" href="../../../stylesheet.css"/>
+	<!--Tab image-->
+	<link rel="shortcut icon" href="../../../images/logos/gbg/GBG_logo_MS.png" type="image/x-icon">
+	<!--Meta Structure-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Details-->
+	<meta name="description" content="Reporters Without Borders republishes banned literature in video game. Originally published in The Gatepost by Evan Lee & Leighah Beausoleil - April 10, 2020">
+	<meta name="author" content="Evan Lee">
+	<!--Meta OG Link Display-->
+	<meta property="og:title" content="FSU Students sign petition to change weekend parking policy - The Gatepost "/>
+	<meta property="og:url" content="#"/>
+	<meta property="og:type" content="blog"/>
+	<meta property="og:image" content="../../../images/folder_gatepost/img_minecraft_library/lag.jpg"/>
+	<meta property="og:description" content="Reporters Without Borders republishes banned literature in video game. Originally published in The Gatepost by Evan Lee & Leighah Beausoleil - April 10, 2020"/>
+	<meta property="og:site_name" content="The Greater Boston Graphite">
+	<meta name="twitter:card" content="summary_image_large">
+	<meta name="theme-color" content="#ffff8f">
+
+</head>
+
+<body onLoad="renderTime();">
+
+<!-- HEADER & PRIMARY NAVIGATION -->
+
+<header>
+
+<!--Title-->
+
+	<table align ="center" width="95%">
+		<tr>
+			<td class="header"  align="left">
+
+				<img class="header" src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil"
+				style="margin: 0; transform: rotate(270deg);">
+
+			</td>
+
+			<td class="header"  align="center">
+
+			<img class="main" src="../../../images/logos/gbg/GBG_Title.png" alt="The Greater Boston Graphite"> </td>
+
+			<td class="header"  align="right">
+
+				<img  class="header"  src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil"
+				style="margin: 0; padding: 0; transform: rotate(90deg);">
+
+			</td>
+		</tr>
+	</table>
+
+<!--DESKTOP NAV -->
+
+<nav class="horizontal">
+
+<a href="../../../index.html">
+<div class="dropdown">
+   <button class="dropbtn">Front Page</button>
+   <div class="dropdown-content">
+     <a style="display:none" class="drop" href="#"></a>
+   </div>
+</div>
+</a>
+
+<a href="../../../blog.html">
+<div class="dropdown">
+   <button class="dropbtn">Blog Posts</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../blogs/topics.html">By Topic</a>
+	 <a class="drop" href="../../../blogs/archive.html">Archive</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../about.html">
+<div class="dropdown">
+   <button class="dropbtn">About</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../about/contact.html">Contact</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../portfolio.html">
+<div class="dropdown">
+   <button class="dropbtn">Portfolio</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../portfolio/metrowest.html">MetroWest Daily</a>
+     <a class="drop" href="../../../portfolio/gatepost.html">The Gatepost</a>
+	 <a class="drop" href="../../../portfolio/academic.html">Academic</a>
+   </div>
+</div>
+</a>
+
+</nav>
+
+<!-- MOBILE NAV -->
+
+<div style="margin: auto;">
+<button  class="accordian"><h1>&#9776;</h1></button>
+	<div class="accordian_content">
+
+
+<nav>
+
+    <ul class="menu">
+        <a href="../../../index.html"><li class="menu">Front Page</li></a>
+        <a href="../../../blog.html"><li class="menu">Blog Posts</li></a>
+		<a href="../../../about.html"><li class="menu">About</li></a>
+		<a href="../../../portfolio.html"><li class="menu_active">Portfolio</li></a>
+		<a href="../../../about/contact.html"><li class="menu">Contact</li></a>
+    </ul>
+
+</nav>
+
+	</div>
+</div>
+
+
+<!-- LESSER HEADER -->
+
+<div class="lowerheader">
+
+    <div class="lhside">
+
+        <hr>
+		<div class="lhside2">
+		
+		<a href="../../../about/contact.html">
+		<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan Lee" title="hi" style="float:right;">
+		</a>
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Author:</b>
+		<br>
+		Evan Lee
+		<br>
+		<b>Contact:</b>
+		<br>
+		<a class="textlink2" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+		</p>
+		
+		</div>
+		<hr>
+		
+    </div>
+
+
+    <div class="lhmid">
+	
+	<div style="text-align:center; margin:0px; padding:18px 0px 0px 0px;" class="hidedesktop2">
+
+    <h3 style="margin:0; padding:0px 0px 5px 0px;"> A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog</h3>
+	<h3 style="margin:0; padding:0px 0px 5px 0px;"><i> =&nbsp;Est.&nbsp;2023&nbsp;= </i></h3>
+	
+	<!--Javascript Date-->
+	<div id="clockDisplay" class="container"></div> 
+    </div>
+		
+	
+	<div style="text-align:center;" class="hidedesktop">
+	
+	<table align ="center" width="100%">
+	<tr>
+	
+	<td class="header"  align="left"> 
+	
+	<div class="hidemobile4">
+	<a href="contact.html">
+	<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan" title="hi :)" style="float:right;">
+	</a>	
+	</td>
+    </div>
+	
+	<td class="header"  align="center">
+	
+	<div class="hidemobile2">
+	<h3 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h3>
+	</div>
+	
+	<div class="hidemobile3">
+	<h4 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h4>
+	</div>
+	
+    
+	</td>
+   
+	<td class="header"  align="right"> <div class="hidemobile"><img class="pfp2" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG" style="float:left;"></div> </td>
+	</tr>
+	</table>
+	
+    </div>
+	
+	
+	</div>
+	
+	
+    <div class="lhside">
+		
+		<hr>
+		<div class="lhside2">
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Follow me on social media:</b>
+		<br>
+		- Twitter:
+		<a class="textlink2" href="https://twitter.com/evanleenews" target="_blank">@EvanLeeNews</a> 
+		<br>
+		- Instagram:
+		<a class="textlink2" href="https://www.instagram.com/evanjslee/" target="_blank">@evanjslee</a> 
+		<br>
+		- YouTube: 
+		<a class="textlink2" href="https://www.youtube.com/@EvanLeeGBG" target="_blank">@EvanLeeGBG</a> 
+	
+		</p>
+	
+		</div>
+		<hr>
+		
+    </div>
+
+</div>
+
+</header>
+
+<!-- Main Body -->
+
+
+
+<section id="content">
+
+	<article>
+
+
+	<div class="headline">
+
+		<div class="headline_title">
+		<h1>Breaking Boundaries <br> By Building Blocks </h1>
+		<p class="byline">
+		<b>By: Evan Lee & Leighah Beausoleil</b>
+		<br>
+		<i>Originally published in The Gatepost</i>
+		<br>
+		April 10th, 2020
+		</p>
+		<br>
+		</div>
+
+		<div class="headline_image">
+		<img class="full" src="../../../images/folder_gatepost/img_minecraft_library/leighah.png"
+		title="She has since changed her skin to a frog">
+		</div>
+
+	</div>
+
+
+	<hr class="title">
+
+<p>A free press is fundamental to a free people.</p>
+
+<p>Journalists, who provide crucial information about leaders, government, and society, allow citizens to decide for themselves whether their nation is on the right path or in need of change.</p>
+
+<p>Informed by the press, the people voice their visions for the future. Reported by the press, their vision is published for their leaders and all others to see.</p>
+
+<p>Without a free press, this fundamental connection is lost. And there is little to stop leaders from becoming oppressors as the people’s vision vanishes under unchecked power, corruption, and greed.</p>
+
+<p>This, unfortunately, is the reality in many countries across the globe.</p>
+
+<p>Oppressive regimes have censored, exiled, and even killed journalists in their attempt to suppress all other visions aside from their own. </p>
+
+<p>They’ve shut down news outlets, banned social media, restricted internet access, and silenced free speech all in an attempt to prevent the people from becoming informed and threatening their rule.</p>
+
+<p>But what they haven’t banned? Minecraft.</p>
+
+<div>
+<img class="full" src="../../../images/folder_gatepost/img_minecraft_library/02_Uncensored_Library_Fist.jpg">
+<p class="right">The Uncensored Library / Courtesy of Reporters Without Borders</p>
+</div>
+
+<p>With 176 million copies distributed worldwide, the world’s most popular video game is not targeted by dictators who perceive it as little more than a children’s online building block game.</p>
+
+<p>But, there’s more to Minecraft than meets the pixelated eye - there’s books.</p>
+
+<p>As an in-game item, books can be written by anyone for everyone to read – even in countries where literature is censored. </p>
+
+<p>It’s a loophole recognized by Reporters Without Borders, an international non-profit NGO dedicated to freedom of information, which recently contracted the construction of a sanctuary of forbidden journalism within Minecraft – “The Uncensored Library.”</p>
+
+<p>Banned articles of journalists from Saudi Arabia, Mexico, Russia, Egypt, and Vietnam among others have been re-published in these Minecraft books and cataloged within the library’s halls.</p>
+
+<p>It opened to the public March 12, “World Day Against Cyber Censorship,” and allows up to 100 players at a time to browse through each of its halls. </p>
+
+<div>
+<a class="noline" target="_blank" href="https://www.uncensoredlibrary.com/en">
+<img class="fullLink" style="border: 2px solid #3E3E3E;
+"src="../../../images/folder_gatepost/img_minecraft_library/UncensoredLibrary_logo_oneline_pos.png">
+</a>
+</div>
+<p>Wanting to see this for ourselves after the concept blew up online last month, we attempted to join as well. However, the 100-player limit did thwart our efforts. </p>
+
+<p>With attention from social media, YouTubers, and even major news networks, entering the server was effectively a matter of repeatedly clicking “join” until somebody else happened to leave at the same time. </p>
+
+<p>The BBC noticed similar difficulties as well when it sent reporters to interview players there. </p>
+
+<p>After several frustrating minutes, we were both finally able to log in. And our excitement for what we were expecting to see was through the roof.</p>
+
+<p>Unfortunately, this was more literal than metaphorical for the roof and pretty much everything else on the server failed to load.</p>
+
+<div>
+<img class="full" src="../../../images/folder_gatepost/img_minecraft_library/lag.jpg">
+<p class="right">Gatepost reporters Evan and Leighah experience extreme lag
+</p>
+</div>
+
+<p>We found ourselves falling through an endless void as the grounds beneath us simply did not appear. And we were unable to move forward as the path to the library, as well as the library itself, never rendered for us.</p>
+
+<p>The lag was also atrocious, qualifying as some form of cruel and unusual punishment – an opinion the public chat agreed with.</p>
+
+<p>After a long and pointless struggle, we gave up and left. The books were never found. </p>
+
+<p>But returning on a later date, after the library’s hype had died down and with fewer people online, we had better luck exploring the server, which is actually quite immaculate.</p>
+
+<p>Upon spawning, we walked up a staircase leading to a monumental hand gripping a pen. Before us in the distance was the library itself.</p>
+
+<p>With columns stretching several stories high and a classical marble facade similar to those found in Washington D.C., our curiosity for what was held within only grew.</p>
+
+<p>Upon entering, we were greeted to a grand atrium displaying the flags of countries from around the world and labyrinths stretching to each of the halls dedicated to the library’s featured nations.</p>
+
+<div>
+<img class="full" src="../../../images/folder_gatepost/img_minecraft_library/jwhMg37.png">
+<p class="right">Atrium of Nations / Courtesy of Reporters Without Borders</p>
+</div>
+
+<p>But for all its opulence and grandeur, we found each grand hall to only contain about 10 actual books.</p>
+
+<p>They mostly revolve around the topic of censorship and criticisms of government. The Mexican Hall further honors writers who were killed for voicing their opinions through a display of their portraits.</p>
+
+<p>Other books are scattered around crevasses and smaller halls in the library, and we applaud the inclusion of each. Though, we were puzzled to find one book in the Egyptian Hall that appeared to be some sort of Harry Potter fanfiction.</p>
+
+<p>But our main concern in all of this is whether or not oppressed citizens are actually going to go through the process of visiting this library to read these books.</p>
+
+<p>An offline version does exist for those who wish to avoid the chaos and confusion of joining the server, but are people seriously downloading it for the 10 books in each hall?</p>
+
+<p>Or has it attracted fame more so out of the idea it’s supposed to represent? </p>
+
+<p>The idea that free press advocates are banding together on Minecraft to fight back against the unjust censorship of journalists around the world.</p>
+
+<p>It’s a noble idea, but one we believe The Uncensored Library falls short of achieving with its limited catalogue of re-published articles.</p>
+
+<p>Added to this is the fact that the library itself seems to be the main attraction, with each hall built as tall as a skyscraper, as wide as a football field, and immaculately decorated to the theme of the country it represents – all to house just 10 books.</p>
+
+<p>Not to mention the fanciful but fruitless gardens that surround the library itself. We’re here to read articles – not pick flowers. </p>
+
+<div>
+<img class="full" src="../../../images/folder_gatepost/img_minecraft_library/08_Uncensored_Library_top.png">
+<p class="right">Library grounds / Courtesy of Reporters Without Borders</p>
+</div>
+
+<p>In that regard, it’s all kind of pompous. </p>
+
+<p>Perhaps the vast openness of the library will fill in overtime as Reporters Without Borders adds more books to its collection.</p>
+
+<p>But we can’t help but think the concept could be so much more.</p>
+
+<p><b>6/10 Blocks “The ‘Diamond Hoe’ of journalism - Innovative but Impractical”</b></p>
+
+<hr class="dash">
+
+<p> <i>[Editor&rsquo;s note: this article has been updated with new images not present in its original publication.]</i></p>
+
+<p>&#10097; <a class="textlink" target="_blank" href="https://web.archive.org/web/20220706153358/http://fsugatepost.com/2020/04/10/breaking-boundaries-by-building-blocks/">Read this article on The Gatepost&rsquo;s old website via Internet Archive </a> &raquo </p>
+
+<p>&#10097; <a class="textlink" target="_blank" href="https://leighahledes.wixsite.com/home">Visit Leighah&rsquo;s website! </a> &raquo </p>
+
+<hr>
+
+		<h2 style="margin-top:15px;text-align:center"> <i>Related:</i> <span style="font-weight:normal">Trends of the 10&rsquo;s - Minecraft</h2>
+
+		<br>
+
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">Read Bonus Article</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+	
+	<div class="accordian_content_full3">
+	
+<h3>Part of The Gatepost&rsquo;s special feature on 2010&rsquo;s culture: <span style="font-weight:normal">January 31, 2020</span></h3>
+
+<p><b>By: Evan Lee, editorial staff</b></p>
+	
+<p>You find yourself lost in a grassy, pixelated plain and stood before you is a tall, blocky tree.</p>
+
+<p>You punch it.</p>
+
+<p><q>Minecraft</q> is unique. Having entered the decade as a small indie project led by a team of one, it left holding the title of most sold video game of all time.</p>
+
+<p>Pretty good for something made entirely out of squares, blocks, and 90 degree angles.</p>
+
+<p>But just as we&rsquo;re told not to judge a book by its cover, the same applies to video games.</p>
+
+<p>While Minecraft may look simple compared to the last decade&rsquo;s triple A titles that pushed the boundaries of reality, good graphics don&rsquo;t make the game - good gameplay does. And Minecraft has a lot of it.</p>
+
+<p>In fact, there&rsquo;s an endless amount of gameplay thanks to its procedurally generated worlds. That grassy plain you found yourself in? You were the first person to ever travel it.</p>
+
+<p>Every cave you explore, diamond you find, and pit of lava you unfortunately fall into while mining it are all unique to you. And all experienced based on your own choices.</p>
+
+<p>While other games simply tell you what to do and where to go to advance their stories, Minecraft lets you decide how that happens.</p>
+
+<p>That tree you punched down earlier? Perhaps you&rsquo;ll build a house out of it on the plains, or maybe you&rsquo;ll craft a boat from it to sail off to new lands. The choice is entirely up to you.</p>
+
+<p>Because Minecraft allows you to be its author. And the story is your&rsquo;s. </p>
+
+<hr class="dash">
+
+<p><p>&#10097; <a class="textlink" target="_blank" href="https://issuu.com/fsugatepost/docs/jan.31.20_updated">Read the full feature in The Gatepost&rsquo;s print edition - pages 10-11</a> &raquo </p>
+	
+	</div>
+
+<hr>
+
+</article>
+
+
+<aside>
+
+	<nav class="vertical">
+
+	<a class="noline" href="https://www.fsugatepost.com">
+	<li class="vertical2">
+	<img class="full" src="../../../images/logos/portfolio/gatepost_round2.png"> 
+	</li></a>
+
+<ul class="vertical">GP Section</ul>
+
+	<a class="noline" href="../../../portfolio/gatepost.html#content2"><li class="vertical">
+
+	<b>News</b>
+
+	</li></a>
+
+	<a class="noline" href="../../../portfolio/gatepost.html#content3"><li class="vertical_active">
+
+	<b>Arts & Features</b>
+
+	</li></a>
+
+	<a class="noline" href="../../../portfolio/gatepost.html#content4"><li class="vertical">
+
+	<b>Op/Ed</b>
+
+	</li></a>
+
+<ul class="vertical2"><i>The Greater Boston Graphite </i> <hr class="white" style="margin-bottom:0"></ul>
+
+</nav>
+
+</aside>
+
+
+
+</section>
+
+
+<!--FOOTER-->
+
+<footer>
+
+
+<div class="footerside">
+
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+
+&nbsp; Contact: <a class="textlink3" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+	
+</div>
+
+<div class="footerside2">
+	
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+	
+</div>
+
+
+<div class="footermid">
+     <p style="margin-bottom:0"> Copyright &copy <span id="currentYear">2023</span> to Evan Lee
+	 <br>The Greater Boston Graphite </p><br>
+</div>
+
+<div class="footerside" style="text-align:right">
+
+	<a href="https://twitter.com/evanleenews" target="_blank">
+	<img src="../../../images/logos/social/twitter.png" alt="Twitter" title="Twitter/X" class="minilogo2">
+	</a>
+
+	<a href="https://www.instagram.com/evanjslee/" target="_blank"><img src="../../../images/logos/social/instagram.png" alt="Instagram" title="Instagram" class="minilogo2"></a>
+	
+	<a href="https://www.youtube.com/@EvanLeeGBG" target="_blank"><img src="../../../images/logos/social/youtube.jpg" alt="YouTube" title="YouTube" class="minilogo2"></a>
+
+	<a href="https://www.linkedin.com/in/evanjslee98" target="_blank"><img src="../../../images/logos/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class="minilogo2"></a>
+	
+	<img src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+
+
+</div>
+
+<div class="footerside2" style="text-align:right">
+
+	<img  src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+	
+</div>
+
+</footer>
+
+
+<!--More JavaScript-->
+<script type="text/javascript" src="../../../javascript/clockscript.js"></script>
+<script type="text/javascript" src="../../../javascript/copyright.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian2.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian3.js"></script>
+
+
+</html>
+

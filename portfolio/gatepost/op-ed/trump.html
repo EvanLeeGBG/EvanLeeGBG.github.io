@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+
+Dark Brandon was here
+
+The Gatepost
+Portfolio Page 
+Op/Ed Section
+
+Framingham State University
+-->
+
+<!-- Filepath ../../../ -->
+
+<head>
+
+	<title>The Ire of Impeachment - Op/Ed | The Gatepost - Feb. 14, 2020</title>
+
+	<!--CSS for website-->
+	<link rel="stylesheet" href="../../../stylesheet.css"/>
+	<!--Tab image-->
+	<link rel="shortcut icon" href="../../../images/logos/gbg/GBG_logo_MS.png" type="image/x-icon">
+	<!--Meta Structure-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Details-->
+	<meta name="description" content="Will moving to impeach President Trump effect Democrats in Novemeber? Originally published in The Gatepost, Op/Ed by Evan Lee, eitorial staff - Feb 14, 2020">
+	<meta name="author" content="Evan Lee">
+	<!--Meta OG Link Display-->
+	<meta property="og:title" content="The Ire of Impeachment - Op/Ed | The Gatepost - Feb. 14, 2020"/>
+	<meta property="og:url" content="#"/>
+	<meta property="og:type" content="blog"/>
+	<meta property="og:image" content="../../../images/folder_gatepost/img_op-ed/impeachment.png"/>
+	<meta property="og:description" content="Will moving to impeach President Trump effect Democrats in Novemeber? Originally published in The Gatepost, Op/Ed by Evan Lee, eitorial staff - Feb 14, 2020"/>
+	<meta property="og:site_name" content="The Greater Boston Graphite">
+	<meta name="twitter:card" content="summary">
+	<meta name="theme-color" content="#ffff8f">
+	
+	
+</head>
+
+<body onLoad="renderTime();"> 
+
+<!-- HEADER & PRIMARY NAVIGATION --> 
+
+<header>
+
+<!--Title-->
+
+	<table align ="center" width="95%">
+		<tr>
+			<td class="header"  align="left"> 
+				
+				<img class="header" src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; transform: rotate(270deg);">
+				
+			</td>
+		
+			<td class="header"  align="center">
+			
+			<img class="main" src="../../../images/logos/gbg/GBG_Title.png" alt="The Greater Boston Graphite"> </td>
+		
+			<td class="header"  align="right">
+		
+				<img  class="header"  src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; padding: 0; transform: rotate(90deg);">
+			
+			</td>
+		</tr>
+	</table>
+
+<!--DESKTOP NAV -->
+
+<nav class="horizontal">
+
+<a href="../../../index.html">
+<div class="dropdown">
+   <button class="dropbtn">Front Page</button>
+   <div class="dropdown-content">
+     <a style="display:none" class="drop" href="#"></a>
+   </div>
+</div>
+</a>
+
+<a href="../../../blog.html">
+<div class="dropdown">
+   <button class="dropbtn">Blog Posts</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../blogs/topics.html">By Topic</a>
+	 <a class="drop" href="../../../blogs/archive.html">Archive</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../about.html">
+<div class="dropdown">
+   <button class="dropbtn">About</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../about/contact.html">Contact</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../portfolio.html">
+<div class="dropdown">
+   <button class="dropbtn">Portfolio</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../portfolio/metrowest.html">MetroWest Daily</a>
+     <a class="drop" href="../../../portfolio/gatepost.html">The Gatepost</a>
+	 <a class="drop" href="../../../portfolio/academic.html">Academic</a>
+   </div>
+</div>
+</a>
+
+</nav>
+
+<!-- MOBILE NAV -->
+
+<div style="margin: auto;">
+<button  class="accordian"><h1>&#9776;</h1></button>
+	<div class="accordian_content">
+
+
+<nav>  
+
+    <ul class="menu">
+        <a href="../../../index.html"><li class="menu">Front Page</li></a>
+        <a href="../../../blog.html"><li class="menu">Blog Posts</li></a>
+		<a href="../../../about.html"><li class="menu">About</li></a>
+		<a href="../../../portfolio.html"><li class="menu_active">Portfolio</li></a>
+		<a href="../../../about/contact.html"><li class="menu">Contact</li></a>
+    </ul>
+
+</nav>
+		
+	</div>
+</div>
+
+
+<!-- LESSER HEADER -->
+
+<div class="lowerheader">
+
+    <div class="lhside">
+
+        <hr>
+		<div class="lhside2">
+		
+		<a href="../../../about/contact.html">
+		<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan Lee" title="hi" style="float:right;">
+		</a>
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Author:</b>
+		<br>
+		Evan Lee
+		<br>
+		<b>Contact:</b>
+		<br>
+		<a class="textlink2" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+		</p>
+		
+		</div>
+		<hr>
+		
+    </div>
+
+
+    <div class="lhmid">
+	
+	<div style="text-align:center; margin:0px; padding:18px 0px 0px 0px;" class="hidedesktop2">
+
+    <h3 style="margin:0; padding:0px 0px 5px 0px;"> A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog</h3>
+	<h3 style="margin:0; padding:0px 0px 5px 0px;"><i> =&nbsp;Est.&nbsp;2023&nbsp;= </i></h3>
+	
+	<!--Javascript Date-->
+	<div id="clockDisplay" class="container"></div> 
+    </div>
+		
+	
+	<div style="text-align:center;" class="hidedesktop">
+	
+	<table align ="center" width="100%">
+	<tr>
+	
+	<td class="header"  align="left"> 
+	
+	<div class="hidemobile4">
+	<a href="contact.html">
+	<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan" title="hi :)" style="float:right;">
+	</a>	
+	</td>
+    </div>
+	
+	<td class="header"  align="center">
+	
+	<div class="hidemobile2">
+	<h3 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h3>
+	</div>
+	
+	<div class="hidemobile3">
+	<h4 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h4>
+	</div>
+	
+    
+	</td>
+   
+	<td class="header"  align="right"> <div class="hidemobile"><img class="pfp2" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG" style="float:left;"></div> </td>
+	</tr>
+	</table>
+	
+    </div>
+	
+	
+	</div>
+	
+	
+    <div class="lhside">
+		
+		<hr>
+		<div class="lhside2">
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Follow me on social media:</b>
+		<br>
+		- Twitter:
+		<a class="textlink2" href="https://twitter.com/evanleenews" target="_blank">@EvanLeeNews</a> 
+		<br>
+		- Instagram:
+		<a class="textlink2" href="https://www.instagram.com/evanjslee/" target="_blank">@evanjslee</a> 
+		<br>
+		- YouTube: 
+		<a class="textlink2" href="https://www.youtube.com/@EvanLeeGBG" target="_blank">@EvanLeeGBG</a> 
+	
+		</p>
+	
+		</div>
+		<hr>
+		
+    </div>
+
+</div>
+
+</header>
+
+<!-- Main Body -->
+
+
+
+<section id="content">
+
+	<article>
+	
+	<div class="headline">
+		
+		<div class="headline_title">
+		<h1>The ire of impeachment </h1>
+		<p class="byline">
+		<b>By: Evan Lee, editorial staff</b>
+		<br>
+		<i>Originally published in The Gatepost</i>
+		<br>
+		February 14, 2020
+		</p>
+		<br>
+		</div>
+	
+		<div class="headline_image2">
+		<br>
+		<img class="full" src="../../../images/folder_gatepost/img_op-ed/impeachment.png" 
+		title="Christopher Columbus">
+		<br>
+		</div>
+		
+	</div>	
+	
+	
+<hr class="title">
+
+
+<p>One year ago, I wrote that President Trump&rsquo;s constitutionally controversial acts could lead to his downfall.</p>
+
+<p>My column, &ldquo;The cost of crisis,&rdquo; suggested Trump&rsquo;s declaration of a national emergency to secure funding to &ldquo;build the wall&rdquo; &ndash; enacted Feb. 15, 2019 &ndash; could sway independent voters away from him during his bid for reelection.</p>
+
+<p>And so the cost for him, I wrote, was 2020.</p>
+
+<p>One year later, Trump has become the third president in American history to be impeached &ndash; largely due to his continually controversial acts.</p>
+
+<p>House Democrats, responding to a U.S. election scandal involving Trump and the Ukrainian government, accused the president of abuse of power and obstruction of Congress. Their majority vote adopted two articles of impeachment against him Dec. 18.</p>
+
+<p>However, their effort to actually remove the president was never realistically the goal &ndash; given Trump&rsquo;s grip over the Republican majority Senate.</p>
+
+<p>Trials there unsurprisingly ended with his acquittal on both articles Feb. 5. Though, Republican Mitt Romney did break the partisan line by voting guilty on abuse of power.</p>
+
+<p>Regardless of the odds, House Democrats pushed the impeachment process forward.</p>
+
+<p>Elijah Cummings, former chair of the House Oversight Committee, said, &ldquo;When the history books are written about this tumultuous era, I want them to show that I was among those in the House of Representatives who stood up to lawlessness and tyranny.&rdquo;</p>
+
+<p>His quote was included in Speaker Nancy Pelosi&rsquo;s speech made before the impeachment debate was introduced to the House.</p>
+
+<p>&ldquo;If we do not act now, we would be derelict in our duty,&rdquo; she argued.</p>
+
+<p>&ldquo;It is tragic that the president&rsquo;s reckless actions make impeachment necessary. He gave us no choice,&rdquo; she added.</p>
+
+<p>Republicans think differently.</p>
+
+<p>Mitch McConnell, majority leader of the Senate, said, &ldquo;The House&rsquo;s vote yesterday was not some neutral judgment that Democrats came to reluctantly.</p>
+
+<p>&ldquo;It was the pre-determined end of a partisan crusade that began before President Trump was even nominated, let alone sworn in,&rdquo; he said, referring to Democratic members of Congress who voiced their desire to impeach the president before his inauguration in 2017.</p>
+
+<p>&ldquo;This week wasn&rsquo;t even the first time House Democrats have introduced articles of impeachment. It was the seventh time,&rdquo; he added.</p>
+
+<p>The opinions of the Congressional leadership largely reflect those of their parties back home, according to a recent national opinion poll by NBC and the Wall Street Journal, released Feb. 2.</p>
+
+<p>The polling suggested that 84% of Democrats were supportive of Trump&rsquo;s removal, calling it &ldquo;necessary,&rdquo; &ldquo;justified,&rdquo; and &ldquo;warranted&rdquo; when asked what one word they&rsquo;d use to describe it.</p>
+
+<p>Republicans, meanwhile, disapproved of Trump&rsquo;s removal by a rate of 94%, using words such as &ldquo;ridiculous,&rdquo; &ldquo;wasteful,&rdquo; and &ldquo;sham&rdquo; to describe it.</p>
+
+<p>Neither set of data is particularly surprising.</p>
+
+<p>What matters most over the impeachment issue &ndash; just as it did during the national emergency issue last year &ndash; is where independent voters stand.</p>
+
+<p>As controversial and divisive as President Trump may be, the impeachment process is just as controversial and divisive of a method Democrats used.</p>
+
+<p>Which is why independents were divided over Trump&rsquo;s impeachment in the opinion poll, with 50% reported as opposing his removal and 45% approving it.</p>
+
+<p>The polls did favor disapproval, however. And as an acquitted Trump attacks Democrats for trying to remove him prior to the election, disapproval over his impeachment may rise further.</p>
+
+<p>&ldquo;&lsquo;I don&rsquo;t think we should go down that path because it divides the country&#8230; it&rsquo;s just not worth it.&rsquo; That was Nancy Pelosi a year ago, right?&rdquo; Trump rhetorically asked after his acquittal.</p>
+
+<p>&ldquo;Instead of wanting to heal our country and fix our country &#8230; they want to destroy our country,&rdquo; he said of their impeachment effort.</p>
+
+<p>It&rsquo;s a statement that independent voters may take with them to the polls.</p>
+
+<p><i>[Editor&rsquo;s Note: The referenced column, &ldquo;The cost of crisis,&rdquo; can be found in the Feb. 22, 2019 edition of The Gatepost.]</i></p>
+
+<hr class="dash"> 
+
+<p> &#10097; <a class="textlink" target="_blank" href="https://web.archive.org/web/20210120183954/http://fsugatepost.com/2020/02/14/the-ire-of-impeachment/">Read this article on The Gatepost&rsquo;s old website via Internet Archive</a> &raquo </p>
+
+<hr>
+
+		<h2 style="margin-top:15px;text-align:center"> <i>Related:</i> <span style="font-weight:normal">The Cost of Crisis</h2>
+
+		<br>
+
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">Read referenced column</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+	
+	<div class="accordian_content_full2">
+	
+<p><b>By: Evan Lee, staff writer</b><br><i>Originally published in The Gatepost</i><br>February 22, 2019</p>
+
+<p>In the wake of the longest U.S. government shutdown in history, President Trump issued an ultimatum to Congress - either reach a deal on his demand for $5.7 billion in funding for a southern border wall by Feb. 15, or face the consequences.</p>
+
+<p>&ldquo;If we don&rsquo;t get a fair deal from Congress, the government will either shut down, again, or I will use the powers afforded to me under the laws of the Constitution of the United States to address this emergency,&rdquo; Trump announced on Jan. 25.</p>
+
+<p>Congress was given three weeks to work out a compromise over the border issue after a bipartisan resolution to temporarily fund the government was passed.</p>
+
+<p>Yet, as the days dragged on without very much cooperation on either side, the shadow of a second shutdown loomed dangerously close</p>
+
+<p>&ldquo;I think the talks are stalled right now,&rdquo; said Senator Richard Shelby on Feb. 10.</p>
+
+<p>&ldquo;I'm not confident we're going to get there,&rdquo; he added.</p>
+
+<p>But miraculously, under bipartisan pressure to escape the shutdown&rsquo;s enclosing shadow, Congressional negotiators managed to come together during the final week and struck a deal acceptable for both sides.</p>
+
+<p>Without a moment&rsquo;s delay, their compromise budget bill swiftly passed through both houses and received the presidential signature on the very last day before funding ran out again.</p>
+
+<p>Second shutdown averted.</p>
+
+<p>Unfortunately, the deal doesn&rsquo;t include an end to the battle over the southern border, which was at the crux of the record breaking 35 day shutdown that preceded this all.</p>
+
+<p>The final budget, which will fund the government for the rest of the fiscal year, falls well short on Trump&rsquo;s original border funding demand, allocating just $1.375 billion for his wall.</p>
+
+<p>It&rsquo;s enough to raise about 55 miles of fencing along the Rio Grande, according to the Wall Street Journal, but that&rsquo;s not nearly enough to appease Trump&rsquo;s loyal base.</p>
+
+<p>Conservative talk show host Sean Hannity slammed the agreement as a &ldquo;garbage new compromise&rdquo; that is &ldquo;typical of the D.C. sewer&rdquo; during his Fox News program.</p>
+
+<p>He went on to encourage Trump to make good on his earlier threats of using executive power to &ldquo;address this emergency&rdquo; as a way of raising all of the funds necessary to keep his campaign promise to build the wall.</p>
+
+<p>&ldquo;This is the time, that is the necessity,&rdquo; Hannity argued.</p>
+
+<p>And Trump agreed.</p>
+
+<p>On the same day that he signed the bipartisan approved budget into law, Trump declared a national emergency over border security.</p>
+
+<p>It&rsquo;s an act that has received instantaneous bipartisan disapproval.    Congressional Democrats are furious at Trump&rsquo;s emergency declaration which they deem as an unconstitutional use of force, though this isn&rsquo;t very surprising coming from Trump&rsquo;s opposition.</p>
+
+<p>What&rsquo;s more stunning is that many Congressional Republicans have also come to share that same opinion.</p>
+
+<p>&ldquo;Declaring a national emergency is unnecessary, unwise, and inconsistent with the U.S. Constitution, &rdquo; said Republican Senator Lamar Alexander.</p>
+
+<p>Yet despite numerous concerns and criticisms from politicians within his own party, Trump remains set in his determination to build the wall at all costs.</p>
+
+<p>Unfortunately for him, the cost may be 2020.</p>
+
+<p>Six out of ten Americans believe that Trump&rsquo;s national emergency is unnecessary and that it&rsquo;s a misuse of his executive power, according to a recent NPR/PBS NewsHour/Marist opinion poll.</p>
+
+<p>Republican approval still remains high in said poll, as does Democratic disapproval - these are both givens - but what&rsquo;s most important is where non partisan voters stand.</p>
+
+<p>According to the poll, only 33% of independents approve of Trump&rsquo;s national emergency, compared to 63% who disapprove of it. And as the lawsuits begin to pile up against him, a coalition of 16 states have already filed one, it is unlikely that such a constitutional controversy will sway many independents in Trump&rsquo;s favor.</p>
+
+<p>&ldquo;He's maintaining his base and little else,&quot; said Lee Miringoff, the Director of Marist Institute in regard to the poll&rsquo;s findings.</p>
+
+<p>In 2016, president elect Trump gave thanks to the &ldquo;silent majority,&rdquo; a mass of unspoken voters whom he said had become disenchanted of the games played by the Washington establishment.</p>
+
+<p>That silent majority, he proudly proclaimed during numerous rallies, had helped him win the presidential election.</p>
+
+<p> But now, after having played political games of his own, will he still be able to count on the silent majority&rsquo;s vote in 2020?</p>
+
+<p>We shall see. </p>
+
+<hr class="dash">
+
+<p> &#10097; <a class="textlink" target="_blank" href="https://issuu.com/fsugatepost/docs/oct._19_issue">Read this article in The Gatepost&rsquo;s print edition via Issuu - Page 8</a> &raquo </p>
+
+</div>
+</article>
+
+
+<aside>
+	
+	<nav class="vertical">
+	
+	<a class="noline" href="https://www.fsugatepost.com">
+	<li class="vertical2"> 
+	<img class="full" src="../../../images/logos/portfolio/gatepost_round2.png"> 
+	</li></a>
+
+<ul class="vertical">GP Section</ul>
+
+	<a class="noline" href="../../../portfolio/gatepost.html#content2"><li class="vertical"> 
+	
+	<b>News</b>
+	
+	</li></a>
+	
+	<a class="noline" href="../../../portfolio/gatepost.html#content3"><li class="vertical"> 
+	
+	<b>Arts & Features</b>
+	
+	</li></a>
+	
+	<a class="noline" href="../../../portfolio/gatepost.html#content4"><li class="vertical_active"> 
+	
+	<b>Op/Ed</b>
+	
+	</li></a>
+
+<ul class="vertical2"><i>The Greater Boston Graphite </i> <hr class="white" style="margin-bottom:0"></ul>
+ 
+</nav>
+
+</aside>
+
+
+
+</section>
+
+
+<!--FOOTER-->
+
+<footer>
+
+
+<div class="footerside">
+
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+
+&nbsp; Contact: <a class="textlink3" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+	
+</div>
+
+<div class="footerside2">
+	
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+	
+</div>
+
+
+<div class="footermid">
+     <p style="margin-bottom:0"> Copyright &copy <span id="currentYear">2023</span> to Evan Lee
+	 <br>The Greater Boston Graphite </p><br>
+</div>
+
+<div class="footerside" style="text-align:right">
+
+	<a href="https://twitter.com/evanleenews" target="_blank">
+	<img src="../../../images/logos/social/twitter.png" alt="Twitter" title="Twitter/X" class="minilogo2">
+	</a>
+
+	<a href="https://www.instagram.com/evanjslee/" target="_blank"><img src="../../../images/logos/social/instagram.png" alt="Instagram" title="Instagram" class="minilogo2"></a>
+	
+	<a href="https://www.youtube.com/@EvanLeeGBG" target="_blank"><img src="../../../images/logos/social/youtube.jpg" alt="YouTube" title="YouTube" class="minilogo2"></a>
+
+	<a href="https://www.linkedin.com/in/evanjslee98" target="_blank"><img src="../../../images/logos/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class="minilogo2"></a>
+	
+	<img src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+
+
+</div>
+
+<div class="footerside2" style="text-align:right">
+
+	<img  src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+	
+</div>
+
+</footer>
+
+
+
+<!--More JavaScript-->
+<script type="text/javascript" src="../../../javascript/clockscript.js"></script>
+<script type="text/javascript" src="../../../javascript/copyright.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian2.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian3.js"></script>
+
+
+</html>
+

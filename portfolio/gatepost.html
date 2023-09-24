@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+The Gatepost
+Portfolio Page 
+
+Framingham State University
+-->
+
+<!-- Filepath ../ -->
+
+<head>
+
+	<title>The Gatepost Portfolio - Evan Lee, News Editor | The GBG</title>
+
+	<!--CSS for website-->
+	<link rel="stylesheet" href="../stylesheet.css"/>
+	<!--Tab image-->
+	<link rel="shortcut icon" href="../images/logos/gbg/GBG_logo_MS.png" type="image/x-icon">
+	<!--Meta Structure-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Details-->
+	<meta name="description" content="Articles by Evan Lee, 2020 News Editor for The Gatepost - independant student newspaper at Framingham State University | The Greater Boston Graphite">
+	<meta name="author" content="Evan Lee">
+	<!--Meta OG Link Display-->
+	<meta property="og:title" content="The Gatepost Portfolio - Evan Lee, News Editor | GBG"/>
+	<meta property="og:url" content="#"/>
+	<meta property="og:type" content="blog"/>
+	<meta property="og:image" content="../images/folder_gatepost/img_buildings_fsu/dwight2.png"/>
+	<meta property="og:description" content="Articles by Evan Lee, 2020 News Editor for The Gatepost - independant student newspaper at Framingham State University | The Greater Boston Graphite"/>
+	<meta property="og:site_name" content="The Greater Boston Graphite">
+	<meta name="twitter:card" content="summary_image_large">
+	<meta name="theme-color" content="#ffff8f">
+	
+</head>
+
+<body onLoad="renderTime();"> 
+
+<!-- HEADER & PRIMARY NAVIGATION --> 
+
+<header>
+
+<!--Title-->
+
+	<table align ="center" width="95%">
+		<tr>
+			<td class="header"  align="left"> 
+				
+				<img class="header" src="../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; transform: rotate(270deg);">
+				
+			</td>
+		
+			<td class="header"  align="center">
+			
+			<img class="main" src="../images/logos/gbg/GBG_Title.png" alt="The Greater Boston Graphite"> </td>
+		
+			<td class="header"  align="right">
+		
+				<img  class="header"  src="../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; padding: 0; transform: rotate(90deg);">
+			
+			</td>
+		</tr>
+	</table>
+
+<!--DESKTOP NAV -->
+
+<nav class="horizontal">
+
+<a href="../index.html">
+<div class="dropdown">
+   <button class="dropbtn">Front Page</button>
+   <div class="dropdown-content">
+     <a style="display:none" class="drop" href="#"></a>
+   </div>
+</div>
+</a>
+
+<a href="../blog.html">
+<div class="dropdown">
+   <button class="dropbtn">Blog Posts</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../blogs/topics.html">By Topic</a>
+	 <a class="drop" href="../blogs/archive.html">Archive</a>
+   </div>
+</div>
+</a>
+
+<a href="../about.html">
+<div class="dropdown">
+   <button class="dropbtn">About</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../about/contact.html">Contact</a>
+   </div>
+</div>
+</a>
+
+<a href="../portfolio.html">
+<div class="dropdown">
+   <button class="dropbtn">Portfolio</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../portfolio/metrowest.html">MetroWest Daily</a>
+     <a class="drop" href="../portfolio/gatepost.html">The Gatepost</a>
+	 <a class="drop" href="../portfolio/academic.html">Academic</a>
+   </div>
+</div>
+</a>
+
+</nav>
+
+<!-- MOBILE NAV -->
+
+<div style="margin: auto;">
+<button  class="accordian"><h1>&#9776;</h1></button>
+	<div class="accordian_content">
+
+
+<nav>  
+
+    <ul class="menu">
+        <a href="../index.html"><li class="menu">Front Page</li></a>
+        <a href="../blog.html"><li class="menu">Blog Posts</li></a>
+		<a href="../about.html"><li class="menu">About</li></a>
+		<a href="../portfolio.html"><li class="menu_active">Portfolio</li></a>
+		<a href="../about/contact.html"><li class="menu">Contact</li></a>
+    </ul>
+
+</nav>
+		
+	</div>
+</div>
+
+
+<!-- LESSER HEADER -->
+
+<div class="lowerheader">
+
+    <div class="lhside">
+
+        <hr>
+		<div class="lhside2">
+		
+		<a href="../about/contact.html">
+		<img class="pfp" src="../images/logos/gbg/professional_evan.jpg" alt="Evan Lee" title="hi" style="float:right;">
+		</a>
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Author:</b>
+		<br>
+		Evan Lee
+		<br>
+		<b>Contact:</b>
+		<br>
+		<a class="textlink2" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+		</p>
+		
+		</div>
+		<hr>
+		
+    </div>
+
+
+    <div class="lhmid">
+	
+	<div style="text-align:center; margin:0px; padding:18px 0px 0px 0px;" class="hidedesktop2">
+
+    <h3 style="margin:0; padding:0px 0px 5px 0px;"> A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog</h3>
+	<h3 style="margin:0; padding:0px 0px 5px 0px;"><i> =&nbsp;Est.&nbsp;2023&nbsp;= </i></h3>
+	
+	<!--Javascript Date-->
+	<div id="clockDisplay" class="container"></div> 
+    </div>
+		
+	
+	<div style="text-align:center;" class="hidedesktop">
+	
+	<table align ="center" width="100%">
+	<tr>
+	
+	<td class="header"  align="left"> 
+	
+	<div class="hidemobile4">
+	<a href="contact.html">
+	<img class="pfp" src="../images/logos/gbg/professional_evan.jpg" alt="Evan" title="hi :)" style="float:right;">
+	</a>	
+	</td>
+    </div>
+	
+	<td class="header"  align="center">
+	
+	<div class="hidemobile2">
+	<h3 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h3>
+	</div>
+	
+	<div class="hidemobile3">
+	<h4 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h4>
+	</div>
+	
+    
+	</td>
+   
+	<td class="header"  align="right"> <div class="hidemobile"><img class="pfp2" src="../images/logos/gbg/GBG_logo_MS.png" alt="GBG" style="float:left;"></div> </td>
+	</tr>
+	</table>
+	
+    </div>
+	
+	
+	</div>
+	
+	
+    <div class="lhside">
+		
+		<hr>
+		<div class="lhside2">
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Follow me on social media:</b>
+		<br>
+		- Twitter:
+		<a class="textlink2" href="https://twitter.com/evanleenews" target="_blank">@EvanLeeNews</a> 
+		<br>
+		- Instagram:
+		<a class="textlink2" href="https://www.instagram.com/evanjslee/" target="_blank">@evanjslee</a> 
+		<br>
+		- YouTube: 
+		<a class="textlink2" href="https://www.youtube.com/@EvanLeeGBG" target="_blank">@EvanLeeGBG</a> 
+	
+		</p>
+	
+		</div>
+		<hr>
+		
+    </div>
+
+</div>
+
+</header>
+
+
+<!-- MAIN BODY -->
+
+
+
+<section id="content">
+
+<article>
+
+	<h1 class="title" style="text-align:center;margin-bottom:0;">The Gatepost</h1>
+	
+	<h3 style="text-align:center;font-weight:normal; margin-top:5px; margin-bottom: 1em;">News Editor Portfolio</h3>
+	
+	
+	<hr>
+	
+	<div class="teaser2" style="margin-bottom:5px;">
+	
+		<div class="teaser_image2"> 
+		<img class="full" style="border-color:black" src="../images/people/friends/gp_news_team.png">
+		</div>
+		
+		<div class="teaser_content2" style="margin-top:auto; margin-bottom:auto; text-align:center">
+		<h2 style="margin-top:10px"> -News Team- </h2>
+		
+		<hr class="yellow" style="margin-bottom:0">
+		
+		<table style="margin-left:auto; margin-right:auto;margin-top:0;margin-bottom:0;text-align:left;">
+		<td>
+		<p><b>Left: </b>Leighah Beausoleil</p>
+		
+		<p><b>Right:</b> Me <br></p>
+		</td>
+		</table>
+		
+		<p style="margin-top:0;"><i>Gatepost office -&nbsp;Oct.&nbsp;2019</i></p>		
+		</div>
+	
+	</div>
+
+	
+	<div style="border-left: 1em groove #ffff8f; padding-left:15px;">
+	<p>As a Poli-Sci student, I took an interest in journalism as the <q>fourth check</q> on government, holding it accountable from the outside.  </p>
+	
+	<p>Following this, I went beyond my major to take an intro to journalism class led by Liz Banks - a news reporter herself. She further encouraged me to join the university&rsquo;s student paper, The Gatepost. </p>
+	</div>
+	
+	
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">More about Gatepost</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+	<div class="accordian_content_full3">
+	
+	<p> I started out as an Op/Ed writer, submitting opinions on my studies, but was soon thrown into news. It was there I really began to hone my skills as a journalist, contributing to as many articles as I authored myself.</p>
+	
+	<p>Although COVID-19 halted our print edition in the spring of 2020, we were proud to continue publishing online every week when many other student-run papers ceased altogether. As news editor at the time, I encouraged us to publish as many stories as possible about the campus-wide reaction to the pandemic for future reference.</p>
+	
+	<p>The Gatepost recently moved to a new website, and many of my old articles are not yet hosted there. So I've republished a selection of
+	my favorites here, including many of the lockdown articles that never made it to print.</p> 
+	
+	</div>
+	
+	<br>
+
+    <hr id="content2">
+	
+	<h1 class="thin" style="text-align:center"> News Articles </h1>
+	
+	<hr><br>
+	
+	
+	<a href="../portfolio/gatepost/news/commencement-postponed.html#content">
+	
+	<div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_covid_gp/ram_mask.jpg">
+		</div>
+		
+		<div class="teaser_content">
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b> Framingham State University postpones commencement due to COVID-19</h3>
+		<h5>March 27, 2020 | News <b style="color:#999900">&raquo;</b></h5>
+		
+		</div>
+	
+	
+	</div>
+	</a>
+	
+	<br>
+	
+	<a href="../portfolio/gatepost/news/parking-petition.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/parking_petition.jpg">
+		</div>
+		
+		<div class="teaser_content">
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b> Students sign petition to change weekend parking policy </h3>
+		<h5>March 6, 2020 | News <b style="color:#999900">&raquo;</b></h5>
+		
+		</div>
+	
+	
+	</div></a>
+<!--
+	<br>
+
+	<a href="../portfolio/gatepost/news/fundraising.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_buildings_fsu/dwight.jpg">
+		</div>
+		
+		<div class="teaser_content">
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b> 
+		University exceeds fundraising goal for fiscal year 2019:</b> <span style="font-weight:normal">Received over $4,000,000 from doners</span> </h3>
+		<h5>November 15, 2019 | News <b style="color:#999900">&raquo;</b></h5>
+		
+		</div>
+	
+	
+	</div></a>
+-->	
+	<br>
+	
+	<a href="../portfolio/gatepost/news/metamorphosis.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_buildings_fsu/metamorphosis.png">
+		</div>
+		
+		<div class="teaser_content">
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b> Metamorphosis: <span style="font-weight:normal">New changes to FSU's Dining Services</span></h3>
+		<h5>September 13, 2019 | News <b style="color:#999900">&raquo;</b>
+		<br><i>My first published news article</i></h5>
+		
+		</div>
+	
+	
+	</div></a>
+	
+	<br>
+	
+	<a href="../portfolio/gatepost/news/covid-coverage.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_covid_gp/COVID-19.jpg">
+		</div>
+		
+		<div class="teaser_content">
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b>  COVID Coverage: <span style="font-weight:normal">The Gatepost's unprinted, online-only editions </span></h3>
+		<h5>March to May 2020 | News <b style="color:#999900">&raquo;</b></h5>
+		
+		</div>		
+	
+	
+	</div></a>
+	
+	<br>
+	
+	<hr id="content3">
+	
+	<h1 class="thin" style="text-align:center"> Features </h1>
+	
+	<hr>
+	
+	<br>
+	
+	<a href="../portfolio/gatepost/features/facemasks.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_covid_gp/fsu_masks-1.png">
+		</div>
+		
+		<div class="teaser_content">
+
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b>  Face masks sewn and donated in the hundreds by Framingham State volunteers </h3>
+		<h5>April 17, 2020 | Arts & Features <b style="color:#999900">&raquo;</b> </h5>
+	
+	
+		</div>
+	
+	
+	</div></a>
+	
+	<br>
+	
+	<a href="../portfolio/gatepost/features/uncensored-library.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_minecraft_library/lag.jpg">
+		</div>
+		
+		<div class="teaser_content">
+
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b>  Breaking boundaries by building blocks: <span style="font-weight:normal"> The Uncensored Library in Minecraft </span> </h3>
+		<h5>April 10, 2020 | Arts & Features <b style="color:#999900">&raquo;</b> 
+		<br><i>Co-written with Leighah Beausoleil</i></h5>
+	
+	
+		</div>
+	
+	</div></a>
+	
+	<br>
+	
+		<a href="../portfolio/gatepost/features/stop&strike.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_op-ed/stop&shop.png">
+		</div>
+		
+		<div class="teaser_content">
+
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b>  Stop & Strike: <span style="font-weight:normal"> A day with the people behind the picket line</span> </h3>
+		<h5> April 26, 2019 | <i>As an Op/Ed</i> <b style="color:#999900">&raquo;</b> 
+		<br><i>Published here in full for the first time</i></h5>
+	
+	
+		</div>
+	
+	
+	</div></a>
+	
+	<br>
+	
+	<hr id="content4">
+	
+	<h1 class="thin" style="text-align:center"> Op/Ed </h1>
+	
+	<hr><br>
+	
+		<a href="../portfolio/gatepost/op-ed/trump.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_op-ed/impeachment.png">
+		</div>
+		
+		<div class="teaser_content">
+
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b>The ire of impeachment: <span style="font-weight:normal">Will moving to impeach Trump effect Democrats in November?</span> </h3>
+		<h5> Feburary 14, 2020 | Op/Ed <b style="color:#999900">&raquo;</b>  </h5>
+	
+		</div>
+	
+	</div></a>
+	
+	<br>
+	
+	<a href="../portfolio/gatepost/op-ed/big-textbook.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_op-ed/textbooks2.jpg">
+		</div>
+		
+		<div class="teaser_content">
+
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b> Big Textbook: <span style="font-weight:normal">McGraw Hill, Cengage seek to monopolize required course material </span> </h3>
+		<h5>September 13, 2019 | Op/Ed <b style="color:#999900">&raquo;</b> </h5>
+	
+		</div>
+	
+	</div></a>
+	
+	<br>
+	
+	<a href="../portfolio/gatepost/op-ed/measurement-madness.html#content">
+		
+		<div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_op-ed/steel_ruler_closeup.png">
+		</div>
+		
+		<div class="teaser_content">
+
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b> Gateposters argue over Metric System in Op/Ed pages</h3>
+		<h5>April 12 to May 3, 2019 | Op/Ed <b style="color:#999900">&raquo;</b> </i>
+		<br><i>A Debate | Opponent: Gordan Rupert</i></h5>
+	
+	
+		</div>
+	</div></a>
+	
+	<br>
+<!--	
+		<a href="../portfolio/gatepost/op-ed/trump.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_op-ed/carlos.jpg">
+		</div>
+		
+		<div class="teaser_content">
+
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b>The Cost of Crisis: <span style="font-weight:normal">Trump&rsquo;s government shutdown, longest in U.S. history, may lose him 2020</span> </h3>
+		<h5> | Op/Ed <b style="color:#999900">&raquo;</b>  </h5>
+	
+		</div>
+	
+	</div></a>
+	
+	<br>
+-->	
+
+	<a href="../portfolio/gatepost/op-ed/columbus.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/img_op-ed/columbus_wrath.jpeg">
+		</div>
+		
+		<div class="teaser_content">
+
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b> Counterpoint Columbus: <br><span style="font-weight:normal">Hero or Villian?</span> </h3>
+		<h5><i style="color:#999900">My very first published work</i>
+		<br>October 19, 2018 | Op/Ed <b style="color:#999900">&raquo;</b>  </h5>
+	
+		</div>
+	
+	</div></a>
+		
+	<br>	
+
+	<hr id="content5">
+	
+	<h1 class="thin" style="text-align:center"> Mixtape </h1>
+	
+	<hr><br>
+	
+		<a href="../blogs/hobbies/mixtapes/news-wave-mix.html#content"><div class="teaser">
+	
+		<div class="teaser_image"> 
+		<img class="full" src="../images/folder_gatepost/gp_cassette.jpg">
+		</div>
+		
+		<div class="teaser_content">
+
+		<h3 class="title"> <b style="color:#999900"> &#10097; </b>  On The News Beat<br><i>News Wave Mix</i> </h3>
+		<h5>December 31, 2022 | Alumni <b style="color:#999900">&raquo;</b>  </h5>
+	
+	
+		</div>
+	
+	
+	</div></a>
+	
+	<br>
+	
+	<hr><br>
+	
+</article>
+	
+<!-- SIDE BAR -->
+
+<aside>
+	
+<nav class="vertical">
+ 
+	<div>
+	<a class="noline" href="https://www.fsugatepost.com/" target="_blank">
+	<li class="vertical2"> 
+	<img class="full" src="../images/logos/portfolio/gatepost_round2.png"> 
+	</li></a>
+	</div>
+	
+
+<ul class="vertical">Portfolios</ul>
+
+	<a class="noline" href="../portfolio/metrowest.html#content"><li class="vertical"> 
+	
+	<b>MetroWest Daily</b>
+	
+	</li></a>
+	
+	<a class="noline" href="../portfolio/gatepost.html#content2"><li class="vertical_active"> 
+	
+	<b>The Gatepost</b>
+	
+	</li></a>
+	
+	<a class="noline" href="../portfolio/academic.html#content"><li class="vertical"> 
+	
+	<b>Academic</b>
+	
+	</li></a>
+
+<ul class="vertical2"><i>The Greater Boston Graphite </i> <hr class="white" style="margin-bottom:0"></ul>
+ 
+</nav>
+
+</aside>
+
+</section>
+
+
+<!--FOOTER-->
+
+
+<footer>
+
+
+<div class="footerside">
+
+<a href="../index.html"><img class="minilogo" src="../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+
+&nbsp; Contact: <a class="textlink3" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+	
+</div>
+
+<div class="footerside2">
+	
+<a href="../index.html"><img class="minilogo" src="../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+	
+</div>
+
+
+<div class="footermid">
+     <p style="margin-bottom:0"> Copyright &copy <span id="currentYear">2023</span> to Evan Lee
+	 <br>The Greater Boston Graphite </p><br>
+</div>
+
+<div class="footerside" style="text-align:right">
+
+	<a href="https://twitter.com/evanleenews" target="_blank">
+	<img src="../images/logos/social/twitter.png" alt="Twitter" title="Twitter/X" class="minilogo2">
+	</a>
+	
+	<a href="https://www.instagram.com/evanjslee/" target="_blank"><img src="../images/logos/social/instagram.png" alt="Instagram" title="Instagram" class="minilogo2"></a>
+	
+	<a href="https://www.youtube.com/@EvanLeeGBG" target="_blank"><img src="../images/logos/social/youtube.jpg" alt="YouTube" title="YouTube" class="minilogo2"></a>
+
+	<a href="https://www.linkedin.com/in/evanjslee98" target="_blank"><img src="../images/logos/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class="minilogo2"></a>
+	
+	<img src="../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+
+
+</div>
+
+<div class="footerside2" style="text-align:right">
+
+	<img  src="../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+	
+</div>
+
+</footer>
+
+<!--More JavaScript-->
+<script type="text/javascript" src="../javascript/clockscript.js"></script>
+<script type="text/javascript" src="../javascript/copyright.js"></script>
+<script type="text/javascript" src="../javascript/accordian.js"></script>
+<script type="text/javascript" src="../javascript/accordian2.js"></script>
+<script type="text/javascript" src="../javascript/accordian3.js"></script>
+
+
+</html>
+
