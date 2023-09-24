@@ -234,7 +234,7 @@ li.menu {
   background-color: #3E3E3E;
   color: #F7F6F1;
   display: block; 
-  border-top: 1.5px solid #F7F6F1;
+  border: 1.5px double #F7F6F1;
   border-bottom: 1.5px solid #F7F6F1;
   padding: 15px; 
   font-family: Trebuchet MS, Verdana, Georgia;
@@ -272,7 +272,7 @@ button.accordian {
   cursor: pointer;
   padding: 0px;
   width: 100%;
-  border: 2px solid #3E3E3E;
+  border: 2px double #F7F6F1;
   text-decoration: none;
   font-size: 2.5vw;
   font-family: Georgia, serif;
