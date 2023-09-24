@@ -238,7 +238,7 @@ li.menu {
   border-bottom: 1.5px solid #F7F6F1;
   padding: 15px; 
   font-family: Trebuchet MS, Verdana, Georgia;
-  font-size: 7vw;
+  font-size: 5.7vw;
   text-decoration: none; 
   opacity: 1;
   transition: 0.3s;
@@ -258,7 +258,7 @@ li.menu_active {
   display: block; 
   padding: 15px;
   font-family: Trebuchet MS, Verdana, Georgia;
-  font-size: 7vw;
+  font-size: 5.7vw;
   text-decoration: none; 
   opacity: 1;
   transition: 0.3s;
@@ -274,7 +274,7 @@ button.accordian {
   width: 100%;
   border: 2px double #F7F6F1;
   text-decoration: none;
-  font-size: 2.5vw;
+  font-size: 2.7vw;
   font-family: Georgia, serif;
   opacity: 1;
   transition: 0.3s;
@@ -316,23 +316,30 @@ div.lowerheader {
 	display:flex;
 }
 
+
 @media screen and (max-width: 600px) {
 	div.lowerheader {
-		display:none;
+		font-size:.9em;
 	}
 }
 
 div.lhmid {
-	 flex: 2;
+	 flex: 40%;
 	 border: 2px solid #3E3E3E;
 	 width: 100%;
 	 margin:1.5px;
 	 align-items: center;
 }
   
+@media screen and (max-width: 600px) {
+	div.lhmid {
+     border:0px;
+	 margin:0px;
+	}
+}
 
 div.lhside {
-	 flex: 1.5;
+	 flex: 30%;
 	 display: inline-block;
 	 text-align:center;
 	 border: 2px solid #3E3E3E;
@@ -349,6 +356,8 @@ div.lhside {
 div.lhside2 {
 	display: inline-block;
 }
+
+
 
 
 /* CLOCK */
@@ -2127,6 +2136,12 @@ div.accordian_content_full3 {
 div.accordian_content_full3 p {
   font-family: Tahoma,Verdana,Segoe,sans-serif; 
   font-size:1.2em;
+}
+
+@media screen and (max-width: 600px) {
+div.accordian_content_full3 p {
+  font-size:1.1em;
+}
 }
 
 div.accordian_content_full3 h3 {
