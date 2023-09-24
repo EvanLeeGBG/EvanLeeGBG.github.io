@@ -1141,7 +1141,7 @@ p {
 @media screen and (max-width: 750px){
 p {
 	font-family:Georgia,Book Antiqua,Palatino,times new roman,times,serif;
-	font-size: 1.2em;
+	font-size: 1.15em;
 	line-height:1.5;
 	margin-top: .7em;
     margin-bottom: .7em;
@@ -2115,6 +2115,12 @@ div.accordian_content_full2 p {
   font-size:1.2em;
 }
 
+@media screen and (max-width: 600px) {
+div.accordian_content_full2 p {
+  font-size:1.05em;
+}
+}
+
 
 button.accordian2ALT {
   background-color:#3E3E3E;
@@ -2206,7 +2212,7 @@ div.accordian_content_full3 p {
 
 @media screen and (max-width: 600px) {
 div.accordian_content_full3 p {
-  font-size:1.1em;
+  font-size:1.05em;
 }
 }
 
