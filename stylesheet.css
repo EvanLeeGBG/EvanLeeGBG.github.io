@@ -320,6 +320,8 @@ div.lowerheader {
 @media screen and (max-width: 600px) {
 	div.lowerheader {
 		font-size:.9em;
+		margin:0;
+		padding:0;
 	}
 }
 
@@ -2276,13 +2278,13 @@ div.hidemobile3 {
   display: none;
   }
 }
-
+/*
 @media screen and (max-width: 350px) {
 div.hidemobile4 {
   display: none;
   }
 }
-
+*/
 /*GBG and other logos on top of Sidebar*/
 
 @media screen and (max-width: 750px) {
