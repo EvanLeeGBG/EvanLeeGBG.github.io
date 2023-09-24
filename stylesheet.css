@@ -1036,7 +1036,15 @@ h2.headline {
 	margin-bottom:0;
    }
    
-h2.alt{
+   
+h2.title {
+	margin-top:0;
+	margin-bottom:10px;
+	
+   }
+   
+   
+h2.alt {
 	font-family: Book Antiqua,Palatino,serif;
 	padding:0;
 	margin:0;
@@ -1650,6 +1658,30 @@ div.teaser_content_hover:hover {
 	}
   }
   
+@media (max-width: 600px) {
+ div.teaser_content h1 {
+	margin:0;
+	}
+  }
+  
+@media (max-width: 600px) {
+ div.teaser_content h2 {
+	margin:0px 0px 5px 0px;
+	}
+  }
+  
+@media (max-width: 600px) {
+ div.teaser_content h3 {
+	margin:0;
+	}
+  }
+  
+@media (max-width: 600px) {
+ div.teaser_content p {
+	
+	}
+  }
+  
 div.teaser_content h5 {
 	
 margin-bottom:0;
@@ -1661,21 +1693,53 @@ a.teaserM:hover p {
 	transition: 0.3s;
 }
 
+@media (max-width: 600px) {
+	
+	a.teaserM:hover p {
+	color: black;
+	transition:0s;
+	}
+}
+
 a.teaserM:hover h2 {
 	color:#999900;
 	transition: 0.3s;
+	
+}
+
+@media (max-width: 600px) {
+	
+	a.teaserM:hover h2 {
+	color: black;
+	transition:0s;
+	}
 }
 
 a.teaserM:hover h3 {
 	color:#999900;
 	transition: 0.3s;
 }
+@media (max-width: 600px) {
+	
+	a.teaserM:hover h3 {
+	color: black;
+	transition:0s;
+	}
+}
 
 a.teaserM:hover h5 {
     color:#abab60;
 	transition: 0.3s;
 }
-  
+
+@media (max-width: 600px) {
+	
+	a.teaserM:hover h5 {
+	color: black;
+	transition:0s;
+	}
+}
+
 /*Bigger Image, Dark Background*/
   
 div.teaser2 {
