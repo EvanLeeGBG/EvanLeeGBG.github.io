@@ -1692,7 +1692,7 @@ a.teaserM:hover p {
     color:#abab60;
 	transition: 0.3s;
 }
-
+/*
 @media (max-width: 600px) {
 	
 	a.teaserM:hover p {
@@ -1739,6 +1739,7 @@ a.teaserM:hover h5 {
 	transition:0s;
 	}
 }
+*/
 
 /*Bigger Image, Dark Background*/
   
