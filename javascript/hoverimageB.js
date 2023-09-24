@@ -1,5 +1,5 @@
 const blogImages = [
-   "images/objects/audio/cassette/c-60.jpg",// Default 
+   "images/objects/audio/cassette/c-60.JPG",// Default 
    "images/blog_teasers/walkman.jpg", //Hobbies
    "images/scenery/hiking/backpack2.png", // Adventures
    "images/objects/audio/cassette/OutrunInsta.png", // Creative
