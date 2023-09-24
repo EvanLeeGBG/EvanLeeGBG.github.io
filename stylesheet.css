@@ -316,6 +316,12 @@ div.lowerheader {
 	display:flex;
 }
 
+@media screen and (max-width: 600px) {
+	div.lowerheader {
+		display:none;
+	}
+}
+
 div.lhmid {
 	 flex: 2;
 	 border: 2px solid #3E3E3E;
