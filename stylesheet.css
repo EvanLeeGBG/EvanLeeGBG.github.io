@@ -1593,6 +1593,14 @@ div.teaser_text:hover {
 	color:#abab60;
 	
 }
+
+div.teaser_text2 {
+    text-decoration: none;
+	border-left:7px solid #abab60;
+	padding-left:10px;
+
+}
+
 div.teaser_show {
     opacity: 0;
     transition: all .4s ease-in-out;
@@ -2246,6 +2254,18 @@ div.flex {
   display: flex;
 }
 
+/*intro blurb before content*/
+div.intro {
+	border-left: 1em groove #ffff8f; 
+	padding-left:15px;
+}
+
+div.intro2 {
+	border-left: 1em groove #ffff8f; 
+	padding-left:15px;
+	background-color:#3E3E3E;
+	color:#F7F6F1;
+}
 /* =============================================================== */
 /* ======================= PORTFOLIO PAGE ======================== */
 /* =============================================================== */
