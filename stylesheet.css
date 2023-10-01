@@ -1028,7 +1028,8 @@ h2{
 	margin:0;
 
    }
-  
+   
+
 h2.headline {
 	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
 	padding:0;
@@ -1069,7 +1070,7 @@ h2.georgia{
 
 @media screen and (max-width: 600px) {
 	h2 {
-		font-size:1.8em;
+		font-size:1.7em;
 	}
 	
 }
@@ -1085,7 +1086,6 @@ h3{
   
 h3.title{
 	
-	font-size:1.5em;
 	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
 	padding:0;
 	margin-top:0;
@@ -1095,7 +1095,6 @@ h3.title{
   
  h3.georgia{
 	
-	font-size:1.5em;
 	font-family: Georgia,Book Antiqua,Palatino,times new roman,times,serif;
 	padding:0;
 	
@@ -1104,12 +1103,18 @@ h3.title{
   
  h3.trebuchet{
 	
-	font-size:1.5em;
 	font-family: Trebuchet MS, Verdana, Georgia;
 	padding:0;
 	
 	
   }
+  
+ @media screen and (max-width: 600px) {
+	h3 {
+		font-size:1.3em;
+	}
+	
+}
   
   
 h4{
@@ -1121,6 +1126,12 @@ h4{
 
   }
   
+ @media screen and (max-width: 600px) {
+	h4 {
+		font-size:1.2em;
+	}
+	
+}
  h5{
 	font-size:1.3em;
 	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
@@ -1129,6 +1140,13 @@ h4{
     margin-bottom: .5em;
 
   }
+  
+ @media screen and (max-width: 600px) {
+	h5 {
+		font-size:1.2em;
+	}
+	
+}
 
 p {
 	font-family:Georgia,Book Antiqua,Palatino,times new roman,times,serif;
@@ -1141,10 +1159,10 @@ p {
 @media screen and (max-width: 750px){
 p {
 	font-family:Georgia,Book Antiqua,Palatino,times new roman,times,serif;
-	font-size: 1.1em;
-	line-height:1.5;
-	margin-top: .7em;
-    margin-bottom: .7em;
+	font-size: 1.07em;
+	line-height:1.4;
+	margin-top: .6.5em;
+    margin-bottom: .6.5em;
 	}
 	
 }
