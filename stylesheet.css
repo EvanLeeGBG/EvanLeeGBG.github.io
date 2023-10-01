@@ -1015,7 +1015,7 @@ h1.thin{
 	
 @media screen and (max-width: 600px) {
 	h1 {
-		font-size:2em;
+		font-size:1.9em;
 	}
 	
 }
@@ -1141,7 +1141,7 @@ p {
 @media screen and (max-width: 750px){
 p {
 	font-family:Georgia,Book Antiqua,Palatino,times new roman,times,serif;
-	font-size: 1.15em;
+	font-size: 1.1em;
 	line-height:1.5;
 	margin-top: .7em;
     margin-bottom: .7em;
