@@ -1551,6 +1551,12 @@ img.half {
 	height: auto;
 } 
 
+img.half2 {
+    width:48%;
+	height: auto;
+	border:2px solid #3E3E3E;
+} 
+
 /*Evenly spaced pictures in a line*/
 div.even_space {
 	 margin:0;
