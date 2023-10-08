@@ -3,8 +3,8 @@ const blogImages = [
    "images/blog_teasers/walkman.jpg", //Hobbies
    "images/scenery/hiking/backpack2.png", // Adventures
    "images/objects/audio/cassette/OutrunInsta.png", // Creative
-   "images/objects/vehicles/bikes/i_went_this_way.jpg",// Opinion
-   "images/objects/vehicles/postal/snowLLV.jpg",  // Personal
+   "images/vehicles/bikes/i_went_this_way.jpg",// Opinion
+   "images/vehicles/postal/snowLLV.jpg",  // Personal
    "images/scenery/urban/ashland_mbta.jpg" // News
    
 ];
