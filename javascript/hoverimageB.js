@@ -1,6 +1,6 @@
 const blogImages = [
-   "images/objects/audio/cassette/c-60.JPG",// Default 
-   "images/blog_teasers/walkman.jpg", //Hobbies
+   "images/digital/website/screenshot24.png",// Default 
+   "images/objects/audio/cassette/c-60.JPG", //Hobbies
    "images/scenery/hiking/backpack2.png", // Adventures
    "images/objects/audio/cassette/OutrunInsta.png", // Creative
    "images/vehicles/bikes/i_went_this_way.jpg",// Opinion
