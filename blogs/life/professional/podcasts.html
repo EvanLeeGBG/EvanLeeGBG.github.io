@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- 
+I feel like dying on days when my speaker battery runs out
+
+filepath: ../../../
+-->
+
+<head>
+	
+	<title>Podcasts recomendations | Evan Lee GBG</title>
+
+	<!--CSS for website-->
+	<link rel="stylesheet" href="../../../stylesheet.css"/>
+	<!--Tab image-->
+	<link rel="shortcut icon" href="../../../images/logos/gbg/GBG_logo_MS.png" type="image/x-icon">
+	<!--Meta Structure-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Details-->
+	<meta name="description" content="">
+	<meta name="author" content="Evan Lee">
+	<!--Meta OG Link Display-->
+	<meta property="og:title" content=" | Evan Lee GBG"/>
+	<meta property="og:url" content="https://evanleegbg.com/blogs/life/professional/podcasts.html"/>
+	<meta property="og:type" content="blog"/>
+	<meta property="og:image" content=""/>
+	<meta property="og:description" content=""/>
+	<meta property="og:site_name" content="The Greater Boston Graphite">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Twitter Card Display-->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:domain" content="evanleegbg.com">
+	<meta name="twitter:url" content="https://evanleegbg.com/blogs/life/professional/podcasts.html">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image" content="">
+	
+</head>
+
+<body onLoad="renderTime();"> 
+
+<!-- HEADER & PRIMARY NAVIGATION --> 
+
+<header>
+
+<!--Title-->
+
+	<table align ="center" width="95%">
+		<tr>
+			<td class="header"  align="left" style="margin:0;padding:0px 0px 1px 0px"> 
+				
+				<img class="header" src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; transform: rotate(270deg);">
+				
+			</td>
+		
+			<td class="header"  align="center">
+			
+			<img class="main" src="../../../images/logos/gbg/GBG_Title.png" alt="The Greater Boston Graphite"> </td>
+		
+			<td class="header"  align="right">
+		
+				<img  class="header"  src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; padding: 0; transform: rotate(90deg);">
+			
+			</td>
+		</tr>
+	</table>
+
+<!--DESKTOP NAV -->
+
+<nav class="horizontal">
+
+<a href="../../../index.html">
+<div class="dropdown">
+   <button class="dropbtn">Front Page</button>
+   <div class="dropdown-content">
+     <a style="display:none" class="drop" href="../../../#"></a>
+   </div>
+</div>
+</a>
+
+<a href="../../../blog.html">
+<div class="dropdown">
+   <button class="dropbtn">Blog Posts</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../blogs/topics.html">By Topic</a>
+	 <a class="drop" href="../../../blogs/archive.html">Archive</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../about.html">
+<div class="dropdown">
+   <button class="dropbtn">About</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../about/contact.html">Contact</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../portfolio.html">
+<div class="dropdown">
+   <button class="dropbtn">Portfolio</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../portfolio/metrowest.html">MetroWest Daily</a>
+     <a class="drop" href="../../../portfolio/gatepost.html">The Gatepost</a>
+	 <a class="drop" href="../../../portfolio/academic.html">Academic</a>
+   </div>
+</div>
+</a>
+
+</nav>
+
+<!-- MOBILE NAV -->
+
+<div style="margin: auto;">
+<button  class="accordian"><h1>&#9776;</h1></button>
+	<div class="accordian_content">
+
+
+<nav>  
+
+    <ul class="menu">
+        <a href="../../../index.html"><li class="menu">Front Page</li></a>
+        <a href="../../../blog.html"><li class="menu_active">Blog Posts</li></a>
+		<a href="../../../about.html"><li class="menu">About</li></a>
+		<a href="../../../portfolio.html"><li class="menu">Portfolio</li></a>
+		<a href="../../../about/contact.html"><li class="menu">Contact</li></a>
+    </ul>
+
+</nav>
+		
+	</div>
+</div>
+
+
+<!-- LESSER HEADER -->
+
+<div class="lowerheader">
+
+    <div class="lhside">
+
+        <hr>
+		<div class="lhside2">
+		
+		<a href="../../../about/contact.html">
+		<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan Lee" title="hi" style="float:right;">
+		</a>
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Author:</b>
+		<br>
+		Evan Lee
+		<br>
+		<b>Contact:</b>
+		<br>
+		<a class="textlink2" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+		</p>
+		
+		</div>
+		<hr>
+		
+    </div>
+
+
+    <div class="lhmid">
+	
+	<div style="text-align:center; margin:0px; padding:18px 0px 0px 0px;" class="hidedesktop2">
+
+    <h3 style="margin:0; padding:0px 0px 5px 0px;"> A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog</h3>
+	<h3 style="margin:0; padding:0px 0px 5px 0px;"><i> =&nbsp;Est.&nbsp;2023&nbsp;= </i></h3>
+	
+	<!--Javascript Date-->
+	<div id="clockDisplay" class="container"></div> 
+    </div>
+		
+	
+	<div style="text-align:center;" class="hidedesktop">
+	
+	<table align ="center" width="100%">
+	<tr>
+	
+	<td class="header"  align="left" style="margin:0;padding:0px 0px 1px 0px"> 
+	
+	<div class="hidemobile4">
+	<a href="../../../about/contact.html">
+	<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan" title="hi :)" style="float:right;">
+	</a>	
+	</td>
+    </div>
+	
+	<td class="header"  align="center">
+	
+	<div class="hidemobile2">
+	<h3 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h3>
+	</div>
+	
+	<div class="hidemobile3">
+	<h4 style="margin:0; padding:5px 0px 5px 0px;">Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h4>
+	</div>
+	
+    
+	</td>
+   
+	<td class="header"  align="right"> <div class="hidemobile"><img class="pfp2" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG" style="float:left;"></div> </td>
+	</tr>
+	</table>
+	
+    </div>
+	
+	
+	</div>
+	
+	
+    <div class="lhside">
+		
+		<hr>
+		<div class="lhside2">
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Follow me on social media:</b>
+		<br>
+		- Twitter:
+		<a class="textlink2" href="https://twitter.com/evanleenews" target="_blank">@EvanLeeNews</a> 
+		<br>
+		- Instagram:
+		<a class="textlink2" href="https://www.instagram.com/evanjslee/" target="_blank">@evanjslee</a> 
+		<br>
+		- YouTube: 
+		<a class="textlink2" href="https://www.youtube.com/@EvanLeeGBG" target="_blank">@EvanLeeGBG</a> 
+	
+		</p>
+	
+		</div>
+		<hr>
+		
+    </div>
+
+</div>
+</header>
+
+
+<!-- MAIN BODY -->
+
+
+
+<section id="content">
+
+	<article>
+	
+	<div class="headline">
+	 
+		<div class="headline_title">
+		<h1 class="title" style="margin-bottom:10px">Music, podcasts and audiobooks</h1>
+		
+		<h2 style="font-weight:normal">Recommendations to make the workday go by faster</h2>
+
+		<p>
+		<b>By: Evan Lee</b>
+		<br>
+		Oct. 16, 2023 | 
+		
+		Life
+		</p>
+		</div>
+		
+		<div class="headline_image2">
+		<img class="full" src="../../../images/objects/audio/cassette/hifi60.jpg" alt="Cassette Player" 
+		title="No radio? No problem!">
+		</div>
+		
+	</div>	
+	
+<hr>
+
+<div class="intro">
+<p>Like any job, delivering mail gets pretty monotonous after a while. But, being out on my own for most of the workday does come with a few perks. </p>
+
+<p>The best perk? I&rsquo;d give it a close tie between having nobody breath over my shoulder, <i> most of the time,</i> and getting to listen to whatever I like while on the route.</p>
+
+<p>Music, podcasts, audiobooks, they all make the workday feel like it&rsquo;s going by just a little bit faster. So, for a quick Monday post, I thought I&rsquo;d share some of my favorite things to listen to while on the clock. </p>
+
+</div>
+
+<hr>
+		
+<div class="side">
+	
+		<div class="side_image"> 
+		<img class="full" src="../../../images/objects/audio/cassette/mixtape.jpg" alt="Mixtape" title="Outrun Accents - RetroWave">
+		</div>
+		
+	<div class="side_content">
+
+		<h2 style="text-align:center">Music &#127932;</h2>
+	
+	
+	<div class="side_text">
+	
+		<p>My absolute favorite thing to listen to is my cassette player. Unlike vinyl, tape is still dirt cheap in 2023 and it&rsquo;s also portable!</p>
+	
+		<p>But, I also like finding new music through Spotify and listening to albums I don&rsquo;t have on YouTube or Soundcloud.</p>
+		
+	</div>
+	</div>
+		
+</div>
+
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">Music Recommendations</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+	<div class="accordian_content_full3">
+	
+	<p>I listen to lots of different music. Classic rock and new wave are my go-to genres, but I also like synthwave, jazz & jazz fusion, blues, lo-fi hip-hop, classic heavy metal, and <i>unapologetically</i> elevator music.</p>
+	
+	<p>Ask me for a list of my top artists and it&rsquo;ll take up the whole page. So, I&rsquo;ll just name drop a few here I always have on repeat.</p> 
+	
+	<p><b>The Alan Parsons Project</b> - formed by Eric Woolfson and Alan Parsons - the sound engineer behind Pink Floyd&rsquo;s <i>Dark Side of The Moon</i> - these guys were pioneers in synthesizer music. Pairing the sounds of the future with lyrics inspired by classic literature and contemporary issues, each of their albums tells a unique story that&rsquo;s best played in full. </p>
+	
+	<p><b>Re-Flex</b> - a lesser known New Wave band that only had one album to their name before getting dropped by their label. Known for progressive lyrics on climate decay and policy inaction, a second album was recorded but deemed &ldquo;too political&rdquo; for the Reagan era. Finally released in 2010, its lyrics sadly ring more true now than they did in 1984.</p>
+	
+	<p><b>Home</b> - best known for &ldquo;Resonance,&rdquo; that one song people have nostalgia for even though it&rsquo;s less than a decade old. The solo synthwave artist behind it, Randy Goffe, released the track when he was only 17. Yet, it&rsquo;s gone on to influence the entire sub-genre of <q>chillwave.</q></p>
+
+	<p><b>The Doors</b> - an iconic 60&rsquo;s rock band that defined my taste during high school. I don&rsquo;t listen to them as much as before, but they were the first band I remember actually paying money to own music from.</p>
+	
+	<p>
+	
+	</div>		
+	
+<hr>
+<div class="side">
+	
+		<div class="side_image"> 
+		<img class="full" src="../../../images/work/npr.jpg" alt="NPR" title="&ldquo;NPR&rsquo;s taxpayer-funded ideological programming&ldquo;">
+		</div>
+		
+	<div class="side_content">
+
+		<h2 style="text-align:center">Podcasts & Radio &#128240; </h2>
+	
+	
+	<div class="side_text">
+	
+		<p>I like to kick off the day with headline news from NPR or WBZ, keeping myself up-to-date on big issues nationwide and globally.</p>
+		
+		<p>But, I also have a playlist of other podcasts and radio shows that dig deeper into specific topics I want to learn more about. </p>
+		
+		<p>
+		
+	</div>
+	</div>
+		
+</div>
+
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">Podcast & Radio Recommendations</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+	<div class="accordian_content_full3">
+	
+	<p>Coming from a journalistic background, I need my daily dose of news. But, I also enjoy listening to features on life, science, and travel.</p>
+	
+	<p>Mostly, I stream these as podcasts from my phone to a portable speaker. Though, I keep a transistor radio around too for when the speaker dies... or my phone dies. (Yes it&rsquo;s an old phone, no I won&rsquo;t replace it.)</p>
+	
+	<h3> Breaking News </h3>
+	
+	<p><b>NPR News Now</b> - the very first thing I listen to in the morning. With updates every hour, it offers quick five minute briefs on headlines around the world. Great way to get right up to speed on today&rsquo;s top stories.</p>
+	
+	<p><b>WBZ 1030</b> - Boston&rsquo;s news network, I like to get my local stories from here when I don&rsquo;t have time to read The MetroWest Daily News.</p>
+	
+	<p><b>NYT The Daily</b> - a longer half-hour to full-hour interview based show focusing on a single story or topic. Great for getting a more in-depth look on one of the big issues leading the day.</p>
+	
+	<h3> Politics </h3>
+	
+	<p><b>Playbook Deep Dive</b> - another interview based show like The Daily, but from Politico with more of a focus on government. Often inviting guests from both aisles, it&rsquo;s a good way to hear different perspectives.</p>
+	
+	<p><b>Washington Today</b> - a podcast by C-SPAN, of all things. Mostly, it plays speeches and debates recorded directly from Congress, government executives, and the President. But interviews are hosted too.</p>
+	
+	<h3>Feature Stories</h3>
+	
+	<p><b>Unexplainable</b> - a science show from Vox Media exploring unanswered questions, from the deepest depths of the ocean to the furthest reaches of outer space. I love a little existential crisis in the morning.</p>
+	
+	<p><b>This American Life</b> - weekly radio program sharing tales from average people&rsquo;s lives. Sometimes humorous, other times sad - as is life.</p>
+	
+	<p><b>Armchair Explorer</b> - travel and adventure stories from across the globe told by those who experienced them.</p>
+	
+	</div>
+
+<hr>		
+<div class="side">
+	
+		<div class="side_image"> 
+		<img class="full" src="../../../images/work/bigbook.jpg" alt="big book" 
+		title="&ldquo;The book is the entire Encyclopedia Brittanica&rdquo;">
+		</div>
+		
+	<div class="side_content">
+
+		<h2 style="text-align:center">Audiobooks &#128218;</h2>
+	
+	
+	<div class="side_text">
+	
+		<p>Out of anything I listen to, these make the day go by the quickest, immersing me in great storytelling while I work on autopilot.</p>
+		
+		<p>My local library card lets me borrow audiobooks online through apps like Libby or Hoopla, some can found on YouTube too.</p>
+		
+	</div>
+	</div>
+		
+</div>
+
+	<button class="accordian2">
+	<span style="color:#ffff8f">&#9776;</span> 
+	<u style="text-decoration-color:#ffff8f;text-underline-offset: 3px;">Audiobook Recommendations</u>
+	<span style="color:#ffff8f">&#9660;</span>
+	</button>
+
+	<div class="accordian_content_full3">
+	
+	<p>My favorite book genre is Sci-Fi, usually the dystopian kind. But, I also enjoy classic adventure stories and non-fiction history. </p>
+	
+	<p>Personally, I don&rsquo;t think audiobooks are as good as regular books. Having the same reader play every single character sometimes breaks the immersion for me. But obviously, I can&rsquo;t read anything at work besides addresses on mail to deliver, so I&rsquo;m willing to compromise here. </p>
+	
+	<p><b>Do Androids Dream of Electric Sheep?</b> - the book that inspired <i>Blade Runner</i> and arguably the entire cyberpunk genre. Its Phillip K. Dick&rsquo;s magnum opus on AI, but his shorter novelettes like <i>Second Variety</i> are a great introduction to the Sci-Fi world building he&rsquo;s known for. </p>
+
+	<p><b>1984</b> - the definitive, political dystopian novel by George Orwell, need I say more? Certain politicians love to point at this while spreading misinformation about the other side to their partisans. Oh, the irony.</p>
+	
+	<p><b>Ready Player One</b> - a fun, albeit somewhat self-obsessed story about video games and 80&rsquo;s pop culture in a futuristic virtual reality world. Written ten years ago by Ernest Cline, it&rsquo;s neat to see some of the technology described in this book starting to become more commercialized in our real world.</p>
+	
+	<p><b>Around the world in 80 days</b> - moving away from Sci-Fi to an 1872 classic by Jules Verne. This was my favorite adventure story growing up. I was fascinated by all the different places the main characters visited on the journey, and the unique experiences they had along the way.</p>
+	
+	<p><b>The Call of the Wild and White Fang</b> - more classic adventure stories by Jack London. What&rsquo;s unique about these books is that the main characters aren&rsquo;t people, but rather wolfdogs. Often seen as companion novels, one tells the story of man&rsquo;s best friend turning wild once abandoned, and the other of a beast being tamed through love. </p>
+	
+	<p><b>Walden</b> - Henry David Thoreau&rsquo;s transcendental, though arguably somewhat dramatized, non-fiction recount of his time spent living alone at Walden Pond. His search for a simple life in nature away from the hustle and bustle of the growing industrialized world. </p>
+	
+	</div>
+
+<hr>
+
+<p>Of course, like Waldon, sometimes I also just enjoy the peace and quiet of working alone, letting myself get lost in my own thoughts.</p>
+	
+		<img class="full" src="../../../images/vehicles/postal/autum.jpg" alt="Postal Truck" 
+		title="Enjoying the fall weather">
+		<p class="right"> Enjoying the Fall weather, not thinking about Winter. </p>
+		
+</article>
+
+<aside>
+	
+	<nav class="vertical">
+		
+		<div class="sidebar_logo">
+		<a class="noline" href="../../../index.html">
+		<li class="vertical2"> 
+		<img class="full" style="border:2px solid black;" src="../../../images/logos/gbg/GBG_logo.png" 
+		onmouseover="this.src='../../../images/logos/gbg/GBG_logo2.png';" onmouseout="this.src='../../../images/logos/gbg/GBG_logo.png';">
+		</li></a>
+		</div>
+		
+		<ul class="vertical">Blog Posts</ul>
+		
+		<a class="noline" href="../../../blog.html#content"><li class="vertical"> 
+		
+		<b>Latest</b>
+		
+		</li></a>
+		
+		
+		<a class="noline" href="../../../blogs/archive.html#content"><li class="vertical"> 
+		
+		<b>Archive</b>
+		
+		</li></a>
+		
+		
+	<!-- desktop drop-up topics menu -->	
+	<div class="dropup">
+	
+	 
+	   <button class="dropbtn2">
+	   <div style="color:#999900"><b>&#9776;</b></div> 
+	   <div><b>By Topic</b></div>
+	   <div style="color:#999900">&#9650;</b></div> 
+	   </button>
+	  
+	   <div class="dropup-content">
+	   	 <a class="drop2" href="../../../blogs/topics.html#content"> Blog Tuner</a>
+	     <a class="drop2" href="../../../blogs/topics.html#content2">Opinion</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content3">Hobbies</a>
+		 <a class="drop2Active" href="../../../blogs/topics.html#content4">Life</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content5">Adventures</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content6">News</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content7">Creative</a>
+	   </div>
+	</div>
+	
+	<!-- mobile+tablet drop-down topics menu -->
+	
+
+<button  class="accordianSide">
+
+	   <div style="color:#999900;"><b>&#9776;</b></div> 
+	   <div><b>By Topic</b></div>
+	   <div style="color:#999900"><b>&#9660;</b></div> 
+	   
+</button>
+	<div class="accordian_contentSide">
+	   	 <a class="drop2" href="../../../blogs/topics.html#content"> Blog Tuner</a>
+	     <a class="drop2" href="../../../blogs/topics.html#content2">Opinion</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content3">Hobbies</a>
+		 <a class="drop2Active" href="../../../blogs/topics.html#content4">Life</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content5">Adventures</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content6">News</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content7">Creative</a>
+	   </div>
+	  
+	</div>
+
+		
+	
+		
+
+	 <ul class="vertical2"><i>The Greater Boston Graphite </i> <hr class="white" style="margin-bottom:0"></ul>
+
+	  
+	</nav>
+
+</aside>
+
+
+
+</section>
+
+
+<!--FOOTER-->
+
+
+<footer>
+
+
+<div class="footerside">
+
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+
+&nbsp; Contact: <a class="textlink3" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+	
+</div>
+
+<div class="footerside2">
+	
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+	
+</div>
+
+
+<div class="footermid">
+     <p style="margin-bottom:0"> Copyright &copy <span id="currentYear">2023</span> to Evan Lee
+	 <br>The Greater Boston Graphite </p><br>
+</div>
+
+<div class="footerside" style="text-align:right">
+
+	<a href="https://www.instagram.com/evanjslee/" target="_blank"><img src="../../../images/logos/social/instagram.png" alt="Instagram" title="Instagram" class="minilogo2"></a>
+
+	<a href="https://twitter.com/evanleenews" target="_blank">
+	<img src="../../../images/logos/social/twitter.png" alt="Twitter" title="Twitter/X" class="minilogo2">
+	</a>
+	
+	<a href="https://www.youtube.com/@EvanLeeGBG" target="_blank"><img src="../../../images/logos/social/youtube.jpg" alt="YouTube" title="YouTube" class="minilogo2"></a>
+
+	<a href="https://www.linkedin.com/in/evanjslee98" target="_blank"><img src="../../../images/logos/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class="minilogo2"></a>
+	
+	<img src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+
+
+</div>
+
+<div class="footerside2" style="text-align:right">
+
+	<img  src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+	
+</div>
+
+</footer>
+
+
+<!--More JavaScript-->
+<script type="text/javascript" src="../../../javascript/clockscript.js"></script>
+<script type="text/javascript" src="../../../javascript/copyright.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian.js"></script>
+<script type="text/javascript" src="../../../javascript/accordianSide.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian2.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian3.js"></script>
+<script type="text/javascript" src="../../../javascript/hoverDrop.js"></script>
+
+</html>
+
+<!-- A little bit easier to read than a Wix made site right ;) -->

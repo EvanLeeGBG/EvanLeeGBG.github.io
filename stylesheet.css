@@ -498,6 +498,7 @@ div.headline_title2 {
 
 div.headline_image2 {
   margin-top: 10px;
+  padding-left:10px;
   flex: 39%;
   flex-direction: column;
   overflow:hidden;
@@ -2245,7 +2246,7 @@ div.accordian_content_full3 p {
 
 @media screen and (max-width: 600px) {
 div.accordian_content_full3 p {
-  font-size:1.05em;
+  font-size:1em;
 }
 }
 
