@@ -505,9 +505,14 @@ div.headline_image2 {
   margin-top:auto;
   margin-bottom:auto;
 
-
 }
 
+@media (max-width: 600px) {
+ div.headline_image2 {
+     margin-left:0;
+	 margin-right:0;
+	}
+  }
   
 /* Vertical Sidebar */
 
