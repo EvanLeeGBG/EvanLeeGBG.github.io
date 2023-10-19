@@ -511,6 +511,8 @@ div.headline_image2 {
  div.headline_image2 {
      margin-left:0;
 	 margin-right:0;
+	 padding-left:0;
+	 padding-right:0;
 	}
   }
   
