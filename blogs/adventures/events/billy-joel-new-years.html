@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- 
+
+My blog post template. 
+Why are you looking at this? 
+Go read one of my blogs
+
+filepath: ../../../
+-->
+
+<head>
+	
+	<title>Blog Post Template | Evan Lee GBG</title>
+
+	<!--CSS for website-->
+	<link rel="stylesheet" href="../../../stylesheet.css"/>
+	<!--Tab image-->
+	<link rel="shortcut icon" href="../../../images/logos/gbg/GBG_logo_MS.png" type="image/x-icon">
+	<!--Meta Structure-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Details-->
+	<meta name="description" content="description"
+	<meta name="author" content="Evan Lee">
+	<!--Meta OG Link Display-->
+	<meta property="og:title" content="Blog Post template | Evan Lee GBG"/>
+	<meta property="og:url" content="https://evanleegbg.com/blogs/template.html"/>
+	<meta property="og:type" content="blog"/>
+	<meta property="og:image" content="https://evanleegbg.com/images/logos/gbg/GBG_logo.png"/>
+	<meta property="og:description" content="description"/>
+	<meta property="og:site_name" content="The Greater Boston Graphite">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Twitter Card Display-->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:domain" content="evanleegbg.com">
+	<meta name="twitter:url" content="https://evanleegbg.com/blogs/template.html">
+	<meta name="twitter:title" content="Blog Post Template | Evan Lee GBG">
+	<meta name="twitter:description" content="description">
+	<meta name="twitter:image" content="https://evanleegbg.com/images/logos/gbg/GBG_logo.png">
+	
+</head>
+
+<body onLoad="renderTime();"> 
+
+<!-- HEADER & PRIMARY NAVIGATION --> 
+
+<header>
+
+<!--Title-->
+
+	<table align ="center" width="95%">
+		<tr>
+			<td class="header"  align="left" style="margin:0;padding:0px 0px 1px 0px"> 
+				
+				<img class="header" src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; transform: rotate(270deg);">
+				
+			</td>
+		
+			<td class="header"  align="center">
+			
+			<img class="main" src="../../../images/logos/gbg/GBG_Title.png" alt="The Greater Boston Graphite"> </td>
+		
+			<td class="header"  align="right">
+		
+				<img  class="header"  src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; padding: 0; transform: rotate(90deg);">
+			
+			</td>
+		</tr>
+	</table>
+
+<!--DESKTOP NAV -->
+
+<nav class="horizontal">
+
+<a href="../../../index.html">
+<div class="dropdown">
+   <button class="dropbtn">Front Page</button>
+   <div class="dropdown-content">
+     <a style="display:none" class="drop" href="../../../#"></a>
+   </div>
+</div>
+</a>
+
+<a href="../../../blog.html">
+<div class="dropdown">
+   <button class="dropbtn">Blog Posts</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../blogs/topics.html">By Topic</a>
+	 <a class="drop" href="../../../blogs/archive.html">Archive</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../about.html">
+<div class="dropdown">
+   <button class="dropbtn">About</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../about/contact.html">Contact</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../portfolio.html">
+<div class="dropdown">
+   <button class="dropbtn">Portfolio</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../portfolio/metrowest.html">MetroWest Daily</a>
+     <a class="drop" href="../../../portfolio/gatepost.html">The Gatepost</a>
+	 <a class="drop" href="../../../portfolio/academic.html">Academic</a>
+   </div>
+</div>
+</a>
+
+</nav>
+
+<!-- MOBILE NAV -->
+
+<div style="margin: auto;">
+<button  class="accordian"><h1>&#9776;</h1></button>
+	<div class="accordian_content">
+
+
+<nav>  
+
+    <ul class="menu">
+        <a href="../../../index.html"><li class="menu">Front Page</li></a>
+        <a href="../../../blog.html"><li class="menu_active">Blog Posts</li></a>
+		<a href="../../../about.html"><li class="menu">About</li></a>
+		<a href="../../../portfolio.html"><li class="menu">Portfolio</li></a>
+		<a href="../../../about/contact.html"><li class="menu">Contact</li></a>
+    </ul>
+
+</nav>
+		
+	</div>
+</div>
+
+
+<!-- LESSER HEADER -->
+
+<div class="lowerheader">
+
+    <div class="lhside">
+
+        <hr>
+		<div class="lhside2">
+		
+		<a href="../../../about/contact.html">
+		<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan Lee" title="hi" style="float:right;">
+		</a>
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Author:</b>
+		<br>
+		Evan Lee
+		<br>
+		<b>Contact:</b>
+		<br>
+		<a class="textlink2" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+		</p>
+		
+		</div>
+		<hr>
+		
+    </div>
+
+
+    <div class="lhmid">
+	
+	<div style="text-align:center; margin:0px; padding:18px 0px 0px 0px;" class="hidedesktop2">
+
+    <h3 style="margin:0; padding:0px 0px 5px 0px;"> A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog</h3>
+	<h3 style="margin:0; padding:0px 0px 5px 0px;"><i> =&nbsp;Est.&nbsp;2023&nbsp;= </i></h3>
+	
+	<!--Javascript Date-->
+	<div id="clockDisplay" class="container"></div> 
+    </div>
+		
+	
+	<div style="text-align:center;" class="hidedesktop">
+	
+	<table align ="center" width="100%">
+	<tr>
+	
+	<td class="header"  align="left" style="margin:0;padding:0px 0px 1px 0px"> 
+	
+	<div class="hidemobile4">
+	<a href="../../../about/contact.html">
+	<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan" title="hi :)" style="float:right;">
+	</a>	
+	</td>
+    </div>
+	
+	<td class="header"  align="center">
+	
+	<div class="hidemobile2">
+	<h3 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h3>
+	</div>
+	
+	<div class="hidemobile3">
+	<h4 style="margin:0; padding:5px 0px 5px 0px;">Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h4>
+	</div>
+	
+    
+	</td>
+   
+	<td class="header"  align="right"> <div class="hidemobile"><img class="pfp2" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG" style="float:left;"></div> </td>
+	</tr>
+	</table>
+	
+    </div>
+	
+	
+	</div>
+	
+	
+    <div class="lhside">
+		
+		<hr>
+		<div class="lhside2">
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Follow me on social media:</b>
+		<br>
+		- Twitter:
+		<a class="textlink2" href="https://twitter.com/evanleenews" target="_blank">@EvanLeeNews</a> 
+		<br>
+		- Instagram:
+		<a class="textlink2" href="https://www.instagram.com/evanjslee/" target="_blank">@evanjslee</a> 
+		<br>
+		- YouTube: 
+		<a class="textlink2" href="https://www.youtube.com/@EvanLeeGBG" target="_blank">@EvanLeeGBG</a> 
+	
+		</p>
+	
+		</div>
+		<hr>
+		
+    </div>
+
+</div>
+</header>
+
+
+<!-- MAIN BODY -->
+
+
+
+<section id="content">
+
+	<article>
+	
+	<div class="headline">
+	 
+		<div class="headline_title">
+		<h1 class="title" style="margin-bottom:10px">New Years in New York with <nobr>Billy Joel</nobr></h1>
+		
+		<h2 style="font-weight:normal">Road-tripping to Long Island for a concert</h2>
+
+		<p>
+		<b>By: Evan Lee</b>
+		<br>
+		Jan. 7, 2024 | 
+		
+		<a class="textlink" target="_blank" href="../../../blogs/adventures/events">Adventures</a>
+		</div>
+		
+		<div class="headline_image2">
+		<img class="full" src="../../../images/people/famous/billy-joel/piano-man.png" alt="Concert Stage" title="Keyboards">
+		</div>
+		
+	</div>	
+	
+<hr>
+
+<div class="intro">
+<p>&ldquo;The deal is you gotta get me Billy&rsquo;s signature,&rdquo; said the Postmaster as he approved my leave slip.</p>
+
+<p>&ldquo;Sure, I&rsquo;ll bring the uniform and say I got a letter he needs to sign for!&rdquo;</p>
+</div>
+
+<hr class="dash"> 
+
+<img class="full2" src="../../../images/people/famous/side-eye-billy.jpg" alt="Side eyes Billy" title="Billy giving side eyes">
+
+
+<p class="right"> <i>&ldquo;Side-eye Billy,&rdquo; courtesy Leighah</i> <br> I did not get the signature.
+
+<hr class="dash">
+
+<p>It&rsquo;s New Year&rsquo;s Eve 2023 and I&rsquo;m with my friends Leighah and Emily to see Billy Joel live at the 
+UBS Arena in Elmont, New York.</p>
+
+<p>&ldquo;For the first time ever,&rdquo; as the concert posters proclaimed, 
+this was his very first show at UBS, changing things up from his usual residency at Madison Square Garden.
+It was also the NY native&rsquo;s first performance back in Long Island since 2018.</p>
+
+<p> So, calling it a packed show would be an understatement.</p>
+
+<p>Having picked me up in Leighah&rsquo;s car - <i>a Ford Focus named Cocoa</i> - 
+the three of us set off on a road trip down from Greater Boston to Long Island to take our seats at the concert.</p>
+
+<p>It was a three hour, 200 mile trip for me - and even further for them - but it didn&rsquo;t feel that long. 
+We did it all in one shot with Leighah behind the wheel and no rest stops in between, save for a Dunkin run at the start.</p>
+
+<img class="full" src="../../../images/people/friends/leighah-driving.jpg" alt="Leighah driving" title="Leighah the chofer">
+<p class="right">Crossing over the bridge to Long Island</p>
+
+<p>For Leighah, this was a big bucket list event to finally cross off. 
+Billy Joel is her all-time favorite artist, someone she&rsquo;s been listening to since childhood and whom she&rsquo;s always wanted to see live in concert. 
+
+<p>And Emily and I are both fans too, so we&rsquo;d all been looking forward to the trip since we got our tickets over a month ago.</p>
+
+<p>Despite having not recorded anything new since 1993, the Piano Man still sells out every seat at his shows. Our tickets came off the resale market, 
+putting us near the top of the stadium but still at a good angle to see it all.</p>
+
+<p>Hearing it would be no problem regardless of where we sat.</p>
+
+<p>To get in the mood, I made up a mixtape for us to play along the way. 
+Taking songs mostly from 52nd Street - Leighah&rsquo;s favorite Billy Joel album - it follows a jazz rock theme. 
+Other artists like Steely Dan feature too.</p>
+
+<p>We plugged a Walkman into the car&rsquo;s aux port and hit play on the tape, 
+spinning into a radio recording of the New Years ball drop from 1976 before Zanzibar played. </p>
+
+<audio controls style="width:100%;background-color:#3E3E3E;border:3px solid #3E3E3E">
+  <source src="../../../audio/zanzibar76.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<p>That&rsquo;s my favorite song from the album and apparently a group favorite too as we all sang out to the lyrics.</p>
+
+<!--
+<p>The mixtape doubled as a graduation gift for Emily, who finished a semester early. The other side plays her favorite artist - Taylor Swift.</p>
+
+<p>I &ldquo;joked&rdquo; about making a Billy Joel/Taylor Swift mixtape before the concert, turns out I wasn&rsquo;t kidding. </p>
+-->
+
+
+<p>Our road trip went by mostly smoothly. We played the license plate game and made fun of awkwardly humored law-firm billboards posted along the highway in Connecticut.</p>
+
+<p style="text-align:center"><i>&ldquo;NEED A HAND? CALL DAN&rdquo;</i></p>
+
+<p>Then the Manhattan skyline came into view as we crossed Throgs Neck Bridge into Long Island. </p>
+
+<img class="full" src="../../../images/vehicles/cars/nyc-window.jpg" alt="NYC skyline from the car" title="Looking out at NYC">
+<p class="right">Certainly bigger than Boston.</p>
+
+<p>This was actually my first time seeing NYC. The mass of buildings almost looked like a mountain range from a distance. </p>
+
+<p>I&rsquo;d like to come back and explore it someday, both Leighah and Emily already have. But, like The Downeaster &ldquo;Alexa&rdquo; was Nantucket bound,
+ our course today was set for Elmont.</p>
+
+<p>The only real road-trip calamity we faced happened near the end of our drive when the car&rsquo;s rear view mirror just decided to fall off. 
+Emily, riding shotgun, had to hold it in place for the last 15 miles or so. </p>
+
+<div style="text-align:center;margin-bottom:0">
+
+	<img class="half2full" src="../../../images/people/friends/emily-mirror1.png" alt="Broken Mirror" title="Emily holding the mirror">
+	
+	<img class="half2full" src="../../../images/people/friends/leighah-mirror.png" alt="Fixed Mirror" title="Leighah fixing the mirror">
+
+</div>
+<p class="right">What can you do ¯\_(ツ)_/¯</p>
+
+<p>&ldquo;That&rsquo;s a tomorrow problem,&rdquo; Leighah capitulated as we finally pulled into the hotel parking lot. 
+We&rsquo;d duct tape it back on later.</p>
+
+<p>Despite the mirror mishap, Elmont was reached in good time with a few hours to spare till the concert started. After dropping off our bags in the hotel room and procrastinating for a bit watching cable TV, 
+we set out for a bite to eat at a Wendy&rsquo;s near the arena.</p>
+
+<p>Leighah decided to film a vlog here, something she&rsquo;d been doing throughout the trip to make a memento video with later on. 
+But I interrupted it by proclaiming &ldquo;burgers&rdquo; with nothing else to add. <i>Sorry.</i></p>
+
+<video width="100%" border="2px solid black" autoplay controls>
+<source src="../../../video/burgers.mp4" type="video/mp4">
+Your browser does not support the video tag.
+<!-- https://packaged-media.redd.it/65pa5qyny8ia1/pb/m2-res_360p.mp4?m=DASHPlaylist.mpd&v=1&e=1699668000&s=889ce83f9ff908b3728aa515a5f5ae42e67b8a2f#t=0 
+-->
+ </video>
+
+<!--
+<img class="full" src="../../../images/maps/wendys-ubs.png" alt="Wendys to UBS" title="Wendys to UBS">
+<p class="right">A short walk to the arena</p>
+-->
+
+<p>We hung out there till about 8 PM when the arena opened up for early entry.</p>
+
+<!--
+<p>Heading over, we passed through a small park before getting in line to enter the concert. 
+It had food trucks, ice skating rinks, and some rather odd-looking bubble domes that people were sitting inside 
+- I guess to stay warm in the low 40&rsquo;s weather.</p>
+ 
+<p>Otherwise, there were silver cylinder-like fire pits spread throughout the area for anyone to stand around. 
+They reminded me of trash can fires you&rsquo;d see in old movies set in 1970&rsquo;s New York though. Maybe not the image UBS was trying to go for. </p>
+-->
+
+<p>Crossing a few streets and walking through a small park to reach it, 
+the lines to enter were already jam packed. Spanning the entire east side of the building, 
+we chose one and it took us a while to make our way inside. There was a security check before we finally submitted our digital tickets. </p>
+
+<p>Now in, we strolled past most of the overpriced merch and concession stands, though Leighah did opt for a can of wine. Then we found our seats.</p> 
+
+<img class="full" src="../../../images/buildings/ubs.png" alt="UBS stadium" title="We sat here for 1.5 hours before the music started">
+<p class="right">The arena filling up before the concert</p>
+
+<p>We were very high up and to the left of the stage, so it appeared small to us. 
+But there was also a huge screen hanging down from the middle of the roof that we could watch for closer views.</p>
+
+<p>At around 9:30 PM, the opening act walked onto the stage - Regina Spektor. </p>
+
+<p>Emily was already familiar with the singer-songwriter, but I had never heard her music before. 
+She was good though, a pianist like Billy Joel with a strong voice.</p>
+
+<p>Being Russian-American, the lyrics of one of her songs - &ldquo;Après Moi&rdquo; - was also split between English and Russian.
+She played for a solid hour-and-a-half until 11 PM when the main act switched over.</p>
+
+<img class="full" src="../../../images/people/famous/billy-joel/billy-on-screen.png" alt="Billy Joel - the main act" title="The show begins">
+<p class="right">Billy on the big screen</p>
+
+<p>With a roaring round of applause from the now filled stadium, the Piano Man himself took the stage and dove right into his hit single 
+- &ldquo;My Life.&rdquo;</p> 
+
+<p>A fitting introduction as he played songs spanning his entire musical career throughout the night, 
+even going as far back as his very first, lesser known 1971 album - <i>Cold Spring Harbor.</i></p> 
+
+<p>&ldquo;You don&rsquo;t have that album. Nobody bought <i>that</i> album!&rdquo; he joked before playing &ldquo;Everybody Loves You&rdquo; from it.</p>
+
+<p>It was rather his second album,<i> Piano Man,</i> where Joel really broke out as an artist. 
+With the title track being arguably his most famous work, it was only a matter of time before he&rsquo;d play at the concert. </p>
+
+<p>And we all knew when it was coming once the harmonica holder was whipped out.</p>
+
+<p>As a performer for over 50 years, the man was humble about his age, even making fun of himself for not being able to hit the 
+high notes on some songs anymore.</p>
+
+<p>But he still gave a spectacular performance that only got better and better as the night went on.</p>
+
+<img class="full" src="../../../images/people/famous/billy-joel/billys-band.png" alt="Billy Joel Band" title="Billy and the band">
+<p class="right">The photos my phone too were unfortunately not as spectacular</p>
+
+<p>Along with his own work, covers from other bands like Led Zeppelin and The Beatles were played too. 
+Some covers even had other members of the band take center stage. </p>
+
+<p>The only time Billy was by himself was when he played &ldquo;Souvenir,&rdquo; a solo piano driven song and one of his shortest.</p>
+
+<p>Just before midnight, the music paused as a countdown to the Ball Drop in Time Square was broadcasted over the giant screen. 
+The whole stadium stood to watch and count down with it as 2023 turned to 2024.</p> 
+
+<p style="text-align:center">&ldquo;<i>10, 9, 8, 7, 6, 5, 4, 3, 2, 1... <nobr>Happy New Year!</nobr></i>&rdquo;</p>
+
+<p>But the show was still far from over. </p>
+
+<p>Returning for the encore, Billy and his band pulled out all the stops. Launching right into
+&ldquo;We Didn&rsquo;t Start The Fire,&rdquo; the crowd sprang up again as the lights shone fiery red.</p>
+
+<img class="full" src="../../../images/people/famous/billy-joel/billy-joel-red.png" alt="Light Show" title="The lighting was really cool though">
+<p class="right">We didn&rsquo;t start the fire but they turned on the lights </p>
+
+<p>Following up came even more of his greatest hits - &ldquo;Uptown Girl,&rdquo; &ldquo;It's Still Rock and Roll to Me,&rdquo; 
+and &ldquo;Big Shot.&rdquo; </p>
+
+<p>Then finally, &ldquo;You May Be Right&rdquo; played just before 1:30AM with Regina Spektor coming back out to sing along with Billy and close out the night.</p>
+
+<p>We were kinda bummed that Zanzibar never played, but the concert still hit many of our favorites. 
+&ldquo;Allentown&rdquo; for Emily, &ldquo;We Didn&rsquo;t Start The Fire&rdquo; and &ldquo;Vienna&rdquo; for Leighah, 
+and &ldquo;It&rsquo;s Still Rock And Roll To Me&rdquo; for yours truly.</p>
+
+<p>I don&rsquo;t think any of us really slept well after finally getting back to the hotel.
+ I was certainly still wound up and only partially slept.</p>
+ 
+ <p>But it was definitely a night to remember!</p>
+ 
+<img class="full" src="../../../images/people/friends/mirror.png" alt="Three friends" title="We got the tape from CVS">
+<p class="right">Taped up and ready to head back home</p>
+
+<p>
+
+
+
+
+
+</article>
+
+<aside>
+	
+	<nav class="vertical">
+		
+		<div class="sidebar_logo">
+		<a class="noline" href="../../../index.html">
+		<li class="vertical2"> 
+		<img class="full" style="border:2px solid black;" src="../../../images/logos/gbg/GBG_logo.png" 
+		onmouseover="this.src='../../../images/logos/gbg/GBG_logo2.png';" onmouseout="this.src='../../../images/logos/gbg/GBG_logo.png';">
+		</li></a>
+		</div>
+		
+		<ul class="vertical">Blog Posts</ul>
+		
+		<a class="noline" href="../../../blog.html#content"><li class="vertical"> 
+		
+		<b>Latest</b>
+		
+		</li></a>
+		
+		
+		<a class="noline" href="../../../blogs/archive.html#content"><li class="vertical"> 
+		
+		<b>Archive</b>
+		
+		</li></a>
+		
+		
+	<!-- desktop drop-up topics menu -->	
+	<div class="dropup">
+	
+	 
+	   <button class="dropbtn2">
+	   <div style="color:#999900"><b>&#9776;</b></div> 
+	   <div><b>By Topic</b></div>
+	   <div style="color:#999900">&#9650;</b></div> 
+	   </button>
+	  
+	   <div class="dropup-content">
+	   	 <a class="drop2" href="../../../blogs/topics.html#content"> Blog Tuner</a>
+	     <a class="drop2" href="../../../blogs/topics.html#content2">Opinion</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content3">Hobbies</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content4">Life</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content5">Adventures</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content6">News</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content7">More</a>	   </div>
+	</div>
+	
+	<!-- mobile+tablet drop-down topics menu -->
+	
+
+<button  class="accordianSide">
+
+	   <div style="color:#999900;"><b>&#9776;</b></div> 
+	   <div><b>By Topic</b></div>
+	   <div style="color:#999900"><b>&#9660;</b></div> 
+	   
+</button>
+	<div class="accordian_contentSide">
+	   	 <a class="drop2" href="../../../blogs/topics.html#content"> Blog Tuner</a>
+	     <a class="drop2" href="../../../blogs/topics.html#content2">Opinion</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content3">Hobbies</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content4">Life</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content5">Adventures</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content6">News</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content7">More</a>	   </div>
+	  
+	</div>
+
+		
+	
+		
+
+	 <ul class="vertical2"><i>The Greater Boston Graphite </i> <hr class="white" style="margin-bottom:0"></ul>
+
+	  
+	</nav>
+
+</aside>
+
+
+
+</section>
+
+
+<!--FOOTER-->
+
+
+<footer>
+
+
+<div class="footerside">
+
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+
+&nbsp; Contact: <a class="textlink3" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+	
+</div>
+
+<div class="footerside2">
+	
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+	
+</div>
+
+
+<div class="footermid">
+     <p style="margin-bottom:0"> Copyright &copy <span id="currentYear">2023</span> to Evan Lee
+	 <br>The Greater Boston Graphite </p><br>
+</div>
+
+<div class="footerside" style="text-align:right">
+
+	<a href="https://www.instagram.com/evanjslee/" target="_blank"><img src="../../../images/logos/social/instagram.png" alt="Instagram" title="Instagram" class="minilogo2"></a>
+
+	<a href="https://twitter.com/evanleenews" target="_blank">
+	<img src="../../../images/logos/social/twitter.png" alt="Twitter" title="Twitter/X" class="minilogo2">
+	</a>
+	
+	<a href="https://www.youtube.com/@EvanLeeGBG" target="_blank"><img src="../../../images/logos/social/youtube.jpg" alt="YouTube" title="YouTube" class="minilogo2"></a>
+
+	<a href="https://www.linkedin.com/in/evanjslee98" target="_blank"><img src="../../../images/logos/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class="minilogo2"></a>
+	
+	<img src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+
+
+</div>
+
+<div class="footerside2" style="text-align:right">
+
+	<img  src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+	
+</div>
+
+</footer>
+
+
+<!--More JavaScript-->
+<script type="text/javascript" src="../../../javascript/clockscript.js"></script>
+<script type="text/javascript" src="../../../javascript/copyright.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian.js"></script>
+<script type="text/javascript" src="../../../javascript/accordianSide.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian2.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian3.js"></script>
+<script type="text/javascript" src="../../../javascript/hoverDrop.js"></script>
+
+</html>
+
+<!-- A little bit easier to read than a Wix made site right ;) -->
