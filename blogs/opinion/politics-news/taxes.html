@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- 
+
+My blog post template. 
+Why are you looking at this? 
+Go read one of my blogs
+
+filepath: ../../../
+-->
+
+<head>
+	
+	<title>Don't pay TurboTax, file your return for free | Evan Lee GBG</title>
+
+	<!--CSS for website-->
+	<link rel="stylesheet" href="../../../stylesheet.css"/>
+	<!--Tab image-->
+	<link rel="shortcut icon" href="../../../images/logos/gbg/GBG_logo_MS.png" type="image/x-icon">
+	<!--Meta Structure-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Details-->
+	<meta name="description" content="description"
+	<meta name="author" content="Evan Lee">
+	<!--Meta OG Link Display-->
+	<meta property="og:title" content="Don't pay TurboTax, file your return for free | Evan Lee GBG"/>
+	<meta property="og:url" content="https://evanleegbg.com/blogs/template.html"/>
+	<meta property="og:type" content="blog"/>
+	<meta property="og:image" content="https://evanleegbg.com/images/logos/gbg/GBG_logo.png"/>
+	<meta property="og:description" content="description"/>
+	<meta property="og:site_name" content="The Greater Boston Graphite">
+	<meta name="theme-color" content="#ffff8f">
+	<!--Meta Twitter Card Display-->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:domain" content="evanleegbg.com">
+	<meta name="twitter:url" content="https://evanleegbg.com/blogs/template.html">
+	<meta name="twitter:title" content="Don't pay TurboTax, file your return for free | Evan Lee GBG">
+	<meta name="twitter:description" content="description">
+	<meta name="twitter:image" content="https://evanleegbg.com/images/logos/gbg/GBG_logo.png">
+	
+</head>
+
+<body onLoad="renderTime();"> 
+
+<!-- HEADER & PRIMARY NAVIGATION --> 
+
+<header>
+
+<!--Title-->
+
+	<table align ="center" width="95%">
+		<tr>
+			<td class="header"  align="left" style="margin:0;padding:0px 0px 1px 0px"> 
+				
+				<img class="header" src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; transform: rotate(270deg);">
+				
+			</td>
+		
+			<td class="header"  align="center">
+			
+			<img class="main" src="../../../images/logos/gbg/GBG_Title.png" alt="The Greater Boston Graphite"> </td>
+		
+			<td class="header"  align="right">
+		
+				<img  class="header"  src="../../../images/logos/gbg/gbg_pencil.svg" alt="pencil" 
+				style="margin: 0; padding: 0; transform: rotate(90deg);">
+			
+			</td>
+		</tr>
+	</table>
+
+<!--DESKTOP NAV -->
+
+<nav class="horizontal">
+
+<a href="../../../index.html">
+<div class="dropdown">
+   <button class="dropbtn">Front Page</button>
+   <div class="dropdown-content">
+     <a style="display:none" class="drop" href="../../../#"></a>
+   </div>
+</div>
+</a>
+
+<a href="../../../blog.html">
+<div class="dropdown">
+   <button class="dropbtn">Blog Posts</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../blogs/topics.html">By Topic</a>
+	 <a class="drop" href="../../../blogs/archive.html">Archive</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../about.html">
+<div class="dropdown">
+   <button class="dropbtn">About</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../about/contact.html">Contact</a>
+   </div>
+</div>
+</a>
+
+<a href="../../../portfolio.html">
+<div class="dropdown">
+   <button class="dropbtn">Portfolio</button>
+   <div class="dropdown-content">
+     <a class="drop" href="../../../portfolio/metrowest.html">MetroWest Daily</a>
+     <a class="drop" href="../../../portfolio/gatepost.html">The Gatepost</a>
+	 <a class="drop" href="../../../portfolio/academic.html">Academic</a>
+   </div>
+</div>
+</a>
+
+</nav>
+
+<!-- MOBILE NAV -->
+
+<div style="margin: auto;">
+<button  class="accordian"><h1>&#9776;</h1></button>
+	<div class="accordian_content">
+
+
+<nav>  
+
+    <ul class="menu">
+        <a href="../../../index.html"><li class="menu">Front Page</li></a>
+        <a href="../../../blog.html"><li class="menu_active">Blog Posts</li></a>
+		<a href="../../../about.html"><li class="menu">About</li></a>
+		<a href="../../../portfolio.html"><li class="menu">Portfolio</li></a>
+		<a href="../../../about/contact.html"><li class="menu">Contact</li></a>
+    </ul>
+
+</nav>
+		
+	</div>
+</div>
+
+
+<!-- LESSER HEADER -->
+
+<div class="lowerheader">
+
+    <div class="lhside">
+
+        <hr>
+		<div class="lhside2">
+		
+		<a href="../../../about/contact.html">
+		<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan Lee" title="hi" style="float:right;">
+		</a>
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Author:</b>
+		<br>
+		Evan Lee
+		<br>
+		<b>Contact:</b>
+		<br>
+		<a class="textlink2" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+		</p>
+		
+		</div>
+		<hr>
+		
+    </div>
+
+
+    <div class="lhmid">
+	
+	<div style="text-align:center; margin:0px; padding:18px 0px 0px 0px;" class="hidedesktop2">
+
+    <h3 style="margin:0; padding:0px 0px 5px 0px;"> A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog</h3>
+	<h3 style="margin:0; padding:0px 0px 5px 0px;"><i> =&nbsp;Est.&nbsp;2023&nbsp;= </i></h3>
+	
+	<!--Javascript Date-->
+	<div id="clockDisplay" class="container"></div> 
+    </div>
+		
+	
+	<div style="text-align:center;" class="hidedesktop">
+	
+	<table align ="center" width="100%">
+	<tr>
+	
+	<td class="header"  align="left" style="margin:0;padding:0px 0px 1px 0px"> 
+	
+	<div class="hidemobile4">
+	<a href="../../../about/contact.html">
+	<img class="pfp" src="../../../images/logos/gbg/professional_evan.jpg" alt="Evan" title="hi :)" style="float:right;">
+	</a>	
+	</td>
+    </div>
+	
+	<td class="header"  align="center">
+	
+	<div class="hidemobile2">
+	<h3 style="margin:0; padding:5px 0px 5px 0px;">A&nbsp;Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h3>
+	</div>
+	
+	<div class="hidemobile3">
+	<h4 style="margin:0; padding:5px 0px 5px 0px;">Brand&nbsp;New&nbsp;Archaic&nbsp;Blog<br><i>=&nbsp;Est.&nbsp;2023&nbsp;by&nbsp;Evan&nbsp;Lee&nbsp;=</i></h4>
+	</div>
+	
+    
+	</td>
+   
+	<td class="header"  align="right"> <div class="hidemobile"><img class="pfp2" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG" style="float:left;"></div> </td>
+	</tr>
+	</table>
+	
+    </div>
+	
+	
+	</div>
+	
+	
+    <div class="lhside">
+		
+		<hr>
+		<div class="lhside2">
+		
+		<p class="byline" style="text-align:left; margin: 0px;"> 
+		<b>Follow me on social media:</b>
+		<br>
+		- Twitter:
+		<a class="textlink2" href="https://twitter.com/evanleenews" target="_blank">@EvanLeeNews</a> 
+		<br>
+		- Instagram:
+		<a class="textlink2" href="https://www.instagram.com/evanjslee/" target="_blank">@evanjslee</a> 
+		<br>
+		- YouTube: 
+		<a class="textlink2" href="https://www.youtube.com/@EvanLeeGBG" target="_blank">@EvanLeeGBG</a> 
+	
+		</p>
+	
+		</div>
+		<hr>
+		
+    </div>
+
+</div>
+</header>
+
+
+<!-- MAIN BODY -->
+
+
+
+<section id="content">
+
+	<article>
+	
+	<div class="headline">
+	 
+		<div class="headline_title">
+		<h1 class="title" style="margin-bottom:10px">TurboTax lobbies to keep taxes difficult</h1>
+		
+		<h2 style="font-weight:normal">Stop supporting them by filing your return for free</h2>
+
+		<p>
+		<b>By: Evan Lee</b>
+		<br>
+		Feb. 4, 2024 | 
+		
+		<a class="textlink" target="_blank" href="../../../blogs/opinion/politics-news.html#content">Opinion</a>
+		</div>
+		
+		<div class="headline_image2">
+		<img class="full" src="../../../images/objects/writing/tax-return.png" alt="1040 Form and Tax Return Check" title="A check for your 1040">
+		</div>
+		
+	</div>	
+	
+<hr>
+
+<div class="intro">
+<p>The tax preparation industry doesn&rsquo;t want you to know this, but filing for your return doesn&rsquo;t have to be difficult or expensive. </p>
+
+<p>Most developed nations already offer free guided tax filing systems directly to taxpayers. 
+This year, the US will finally do the same.</p>
+</div>
+
+<hr class="dash">
+
+<p>For years, companies like Intuit - the creator of TurboTax - have waged multimillion dollar lobbying campaigns against 
+efforts to make filing taxes free and easy.</p>
+
+<p>Under the guise of offering free versions of their own private software, 
+Intuit, H&R Block and other tax prep companies stifled competition from public alternatives while maintaining profit margins by 
+making the no-fee options difficult to find. Eligible taxpayers were often misled into paying for premium services they did not need.</p>
+
+<p>In 2019, an article published by <a class="textlink" target="_blank" 
+href="https://www.propublica.org/article/inside-turbotax-20-year-fight-to-stop-americans-from-filing-their-taxes-for-free" title="The TurboTax Trap">
+ProPublica</a> exposed the deceptive business practices of these companies, prompting Congress to reconsider non-competition agreements 
+with the tax prep industry at large.</p>
+
+<p>Today, it&rsquo;s much easier for qualifying taxpayers to find the software they need to file their returns freely and easily online. 
+Greater transparency has been enforced over no-fee tax prep offerings and a 
+provision preventing the IRS from creating its own free filing system has been repealed.</p>
+
+<hr>
+<h3 style="text-align:center">Filing made easy, free, and public</h3>
+<hr>
+
+<p>In 2022, the Inflation Reduction Act mandated the IRS to examine the feasibility of running a public alternative to private tax preparation software. 
+Beginning this year, that alternative is now available in select states. </p>
+
+<p>It&rsquo;s called <a class="textlink" target="_blank" href="https://www.irs.gov/about-irs/strategic-plan/direct-file">
+<nobr>IRS Direct File</nobr></a> - a pilot program that allows eligible taxpayers to complete their federal returns directly with the IRS for free
+using guided software and live support provided by the agency.</p>
+
+<p>Massachusetts is among 12 states whose residents are eligible to participate in the program this tax season. It&rsquo;s 
+also one of four in the pilot that have separate state income taxes. While the program cannot directly file state returns, 
+it will refer users to an e-filing system provided by their state if one exists - such as 
+<a class="textlink" target="_blank" href="https://mtc.dor.state.ma.us/mtc/_/">MassTaxConnect</a>.</p>
+
+<p>Set to launch in phases, the IRS expects the pilot to be open to most residents of Arizona,
+California,
+Florida,
+Massachusetts,
+Nevada,
+New Hampshire,
+New York,
+South Dakota,
+Tennessee,
+Texas,
+Washington state, and
+Wyoming by mid March. 
+Though, only those with relatively simple tax returns will be eligible.</p> 
+
+<p>Similar to already existing Free File options, reportable income is limited to W-2 wages, social security, unemployment, and bank interest less than $1,500.
+Certain tax credits and deductions may be claimed as well. </p>
+
+<p>&ldquo;Starting small to get it right&rdquo; will help the program adjust and improve with each 
+phase as more taxpayers are allowed in, according to the agency. Success with the pilot could lead to a more comprehensive system in the future, one 
+that gig workers reporting 1099-K income and others with more complicated returns may use as well. </p>
+
+<p>That is to the chagrin of private companies still lobbying to keep taxpayers hooked on their paid systems.</p>
+
+<p>The IRS estimated that Americans spent, on average, $240 and 13 hours of their time filing individual tax returns in 2022. 
+Reducing the need for middleman tax prep software through a free public alternative will help taxpayers keep more of their returns in their own pockets.</p>
+
+<p>However, tax prep companies as well as Congressional Republicans argue these savings will be overshadowed by the added costs of funding the IRS to operate Direct File. 
+The program was kickstated with an $80 billion grant from the Inflation Reduction Act and could cost between $64 million and $249 million to run annually depending on its scope, 
+according to the IRS. </p>
+
+<p>But after the initial cost to develop the program, its operating expenses are still well below the $13.9 billion Americans spent last year 
+on private tax prep services, according to research by 
+<a class="textlink" target="_blank" href="https://www.ibisworld.com/industry-statistics/market-size/tax-preparation-services-united-states/">
+IBISWorld.</a> And its going toward a much more streamlined process that 72% of Americans are &ldquo;very interested&rdquo; or &ldquo;somewhat interested&rdquo; 
+in participating in, as seen in the 2022 <a class="textlink" target="_blank" href="https://www.irs.gov/pub/irs-pdf/p5788.pdf#page=7">IRS Taxpayer Experience Survey</a>.</p>
+
+<p>A public tax filing system further opens the possibility for the IRS to pre-fill tax forms with W-2 data and other information 
+already provided to it. Taxpayers would need only review their forms for accuracy and sign off on them to receive their returns, saving them much time and stress as well. 
+
+
+<p>Far easier than any service TurboTax and H&R Block offers, save for maybe their most expensive options of doing your taxes for you, 
+pre-filing tax return data is a service already provided in many developed countries, including Germany, Japan and the U.K.  </p>
+
+<p>IRS Direct File represents an important first step for the US to join in with a simple and cost-free public tax filing system of its own.</p>
+
+<hr>
+<h3 style="text-align:center">More ways to file for free</h3>
+<hr>
+
+<p>While IRS Direct File is in a limited pilot stage, there are still other ways to file for free and keep your full return.</p>
+
+<p>The old fashioned way with pen and paper still works of course. It only costs 68 cents,
+the current price of a first class stamp, to mail a 1040 form to the IRS. More postage may be needed if more forms are filed.</p>
+
+<p>Step-by-step instructions to complete 
+<a class="textlink" target="_blank" href="https://www.irs.gov/pub/irs-pdf/i1040gi.pdf">Form 1040</a> as well as its schedules and other forms can be found on the IRS&rsquo;s website. 
+While doing your own taxes may seem daunting, it&rsquo;s possible for the average taxpayer so long as all their documents are in order. I file my taxes this way.</p>
+
+<p>For those who prefer to complete their returns electronically and with assistance, an already existing program called <a class="textlink" target="_blank" href="https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free">
+IRS Free File</a> can direct taxpayers to &ldquo;trusted partner&rdquo; companies that offer no-cost versions of guided tax filing software to qualified taxpayers. </p>
+
+<p>TurboTax is no longer among those partner companies.</p>
+
+<p>Free File&rsquo;s guided software is available to those whose gross income was less than $79,000 in 2023. For those who made more or simply prefer to do their own taxes, <a class="textlink" target="_blank" href="https://www.irs.gov/e-file-providers/free-file-fillable-forms">
+Free File Fillable Forms</a> may be used instead to complete taxes online without assistance and submit them electronically at no cost. </p>
+
+<p>In Massachusetts, taxpayers may also freely e-file their state returns through 
+<a class="textlink" target="_blank" href="https://mtc.dor.state.ma.us/mtc/_/">MassTaxConnect</a>. 
+Full-time residents who have previously filed a return and are submitting supported schedules are eligible to use this service.</p>
+
+<p>The state no longer offers fillable e-forms for residents to do their own taxes online, 
+but <a class="textlink" target="_blank" 
+href="https://www.mass.gov/lists/2023-massachusetts-personal-income-tax-forms-and-instructions#form-1:-ma-resident-income-tax-return-" 
+title="Mass tax return forms">physical forms</a> 
+can be printed off the state&rsquo;s website or a packet of forms with instructions can be ordered by mail to fill out by hand.</p>
+
+<p>Keep your full tax return - file for free.</p>
+
+<img class="full" src="../../../images/objects/writing/tax-return2.png" alt="A 1040 form and tax return check" title="Tax Return">
+<p class="right"> I have so far not faced the wrath of the IRS by doing my own taxes </p>
+
+</article>
+
+<aside>
+	
+	<nav class="vertical">
+		
+		<div class="sidebar_logo">
+		<a class="noline" href="../../../index.html">
+		<li class="vertical2"> 
+		<img class="full" style="border:2px solid black;" src="../../../images/logos/gbg/GBG_logo.png" 
+		onmouseover="this.src='../../../images/logos/gbg/GBG_logo2.png';" onmouseout="this.src='../../../images/logos/gbg/GBG_logo.png';">
+		</li></a>
+		</div>
+		
+		<ul class="vertical">Blog Posts</ul>
+		
+		<a class="noline" href="../../../blog.html#content"><li class="vertical"> 
+		
+		<b>Latest</b>
+		
+		</li></a>
+		
+		
+		<a class="noline" href="../../../blogs/archive.html#content"><li class="vertical"> 
+		
+		<b>Archive</b>
+		
+		</li></a>
+		
+		
+	<!-- desktop drop-up topics menu -->	
+	<div class="dropup">
+	
+	 
+	   <button class="dropbtn2">
+	   <div style="color:#999900"><b>&#9776;</b></div> 
+	   <div><b>By Topic</b></div>
+	   <div style="color:#999900">&#9650;</b></div> 
+	   </button>
+	  
+	   <div class="dropup-content">
+	   	 <a class="drop2" href="../../../blogs/topics.html#content"> Blog Tuner</a>
+	     <a class="drop2" href="../../../blogs/topics.html#content2">Opinion</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content3">Hobbies</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content4">Life</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content5">Adventures</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content6">News</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content7">More</a>	   </div>
+	</div>
+	
+	<!-- mobile+tablet drop-down topics menu -->
+	
+
+<button  class="accordianSide">
+
+	   <div style="color:#999900;"><b>&#9776;</b></div> 
+	   <div><b>By Topic</b></div>
+	   <div style="color:#999900"><b>&#9660;</b></div> 
+	   
+</button>
+	<div class="accordian_contentSide">
+	   	 <a class="drop2" href="../../../blogs/topics.html#content"> Blog Tuner</a>
+	     <a class="drop2" href="../../../blogs/topics.html#content2">Opinion</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content3">Hobbies</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content4">Life</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content5">Adventures</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content6">News</a>
+		 <a class="drop2" href="../../../blogs/topics.html#content7">More</a>	   </div>
+	  
+	</div>
+
+		
+	
+		
+
+	 <ul class="vertical2"><i>The Greater Boston Graphite </i> <hr class="white" style="margin-bottom:0"></ul>
+
+	  
+	</nav>
+
+</aside>
+
+
+
+</section>
+
+
+<!--FOOTER-->
+
+
+<footer>
+
+
+<div class="footerside">
+
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+
+&nbsp; Contact: <a class="textlink3" href="mailto:EvanLeeGBG@gmail.com">EvanLeeGBG@gmail.com</a>
+	
+</div>
+
+<div class="footerside2">
+	
+<a href="../../../index.html"><img class="minilogo" src="../../../images/logos/gbg/GBG_logo_MS.png" alt="GBG"></a>
+	
+</div>
+
+
+<div class="footermid">
+     <p style="margin-bottom:0"> Copyright &copy <span id="currentYear">2023</span> to Evan Lee
+	 <br>The Greater Boston Graphite </p><br>
+</div>
+
+<div class="footerside" style="text-align:right">
+
+	<a href="https://www.instagram.com/evanjslee/" target="_blank"><img src="../../../images/logos/social/instagram.png" alt="Instagram" title="Instagram" class="minilogo2"></a>
+
+	<a href="https://twitter.com/evanleenews" target="_blank">
+	<img src="../../../images/logos/social/twitter.png" alt="Twitter" title="Twitter/X" class="minilogo2">
+	</a>
+	
+	<a href="https://www.youtube.com/@EvanLeeGBG" target="_blank"><img src="../../../images/logos/social/youtube.jpg" alt="YouTube" title="YouTube" class="minilogo2"></a>
+
+	<a href="https://www.linkedin.com/in/evanjslee98" target="_blank"><img src="../../../images/logos/social/linkedin.png" alt="LinkedIn" title="LinkedIn" class="minilogo2"></a>
+	
+	<img src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+
+
+</div>
+
+<div class="footerside2" style="text-align:right">
+
+	<img  src="../../../images/logos/gbg/alt_pencil.png" alt="pencil" 
+	style="max-width:82px; padding: 0px 0px 0px 0px;">
+	
+</div>
+
+</footer>
+
+
+<!--More JavaScript-->
+<script type="text/javascript" src="../../../javascript/clockscript.js"></script>
+<script type="text/javascript" src="../../../javascript/copyright.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian.js"></script>
+<script type="text/javascript" src="../../../javascript/accordianSide.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian2.js"></script>
+<script type="text/javascript" src="../../../javascript/accordian3.js"></script>
+<script type="text/javascript" src="../../../javascript/hoverDrop.js"></script>
+
+</html>
+
+<!-- A little bit easier to read than a Wix made site right ;) -->
